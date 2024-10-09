@@ -1,0 +1,1814 @@
+{
+  "catalogue": {
+    "name": "Sorgax",
+    "id": "8110-2ed0-8275-a6b7",
+    "authorContact": "skraaj@codedoneright.eu",
+    "authorName": "Skraaj",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "bed4-986d-3f21-8152",
+    "gameSystemRevision": 27,
+    "library": false,
+    "readme": "©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.",
+    "revision": 16,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {"name": "Starter Wars: Podstawka Reptilian", "id": "9d3f-663f-2520-108f", "hidden": false},
+      {"name": "Starter Wars: Podstawka Liagulian", "id": "d5c2-586e-10f1-7351", "hidden": false},
+      {"name": "Starter Wars: Podstawka Ropuchonów", "id": "2179-7322-810d-52c0", "hidden": false},
+      {"name": "Starter Wars: Podstawka Slagorów", "id": "f379-52c6-6eff-108b", "hidden": false}
+    ],
+    "forceEntries": [
+      {
+        "name": "Starter Wars",
+        "id": "9230-2635-b13f-caa3",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Bohater",
+            "id": "64ec-fc0a-c41f-ec26",
+            "hidden": false,
+            "primary": false,
+            "targetId": "982d-e25e-9a7a-d639",
+            "constraints": [
+              {
+                "id": "a5c9-c500-b522-7b62",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "name": "Generał",
+            "id": "f437-3fc1-a6ce-c143",
+            "hidden": false,
+            "primary": false,
+            "targetId": "76f5-58f8-04aa-1914",
+            "constraints": [
+              {
+                "id": "73f7-a496-61fc-ca56",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "436f-e8d1-e019-197a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Czempion",
+            "id": "2be6-aabc-d5b7-da8c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "cc08-ee1e-0c3d-24d0",
+            "constraints": [
+              {
+                "id": "c907-4a61-53cb-4dc7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "5b62-c5e2-7c9d-6a71",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "5b62-c5e2-7c9d-6a71",
+                "type": "set",
+                "value": 3,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "5b62-c5e2-7c9d-6a71",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Grupa Dowódcza",
+            "id": "1980-c9ea-202b-6004",
+            "hidden": false,
+            "primary": false,
+            "targetId": "970f-1486-f74e-91e9",
+            "constraints": [
+              {
+                "id": "6653-b7fd-6588-730d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "772c-a15a-7314-e401",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "6653-b7fd-6588-730d",
+                "type": "set",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "772c-a15a-7314-e401",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mag",
+            "id": "d86b-d64d-0177-ed5c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "807c-d1a0-dd7a-19d6",
+            "constraints": [
+              {
+                "id": "ebe1-6b02-9434-2903",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "modifiers": [
+                  {
+                    "field": "ebe1-6b02-9434-2903",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 499
+                      }
+                    ]
+                  },
+                  {
+                    "field": "ebe1-6b02-9434-2903",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 499
+                      }
+                    ],
+                    "repeats": [
+                      {
+                        "childId": "model",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 500
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "ebe1-6b02-9434-2903",
+                "type": "set",
+                "value": 0,
+                "conditions": [
+                  {
+                    "childId": "8ea3-2427-f146-78c9",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Podstawowe",
+            "id": "07e1-34c7-91da-ade1",
+            "hidden": false,
+            "primary": false,
+            "targetId": "cf53-8f98-e5aa-f320",
+            "constraints": [
+              {
+                "id": "b71c-492f-f47c-33ee",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "b71c-492f-f47c-33ee",
+                "type": "set",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1000
+                  }
+                ]
+              },
+              {
+                "field": "b71c-492f-f47c-33ee",
+                "type": "set",
+                "value": 4,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Elitarne",
+            "id": "c14d-fc47-cc5b-68e3",
+            "hidden": false,
+            "primary": false,
+            "targetId": "61c5-519d-b7db-d153",
+            "constraints": [
+              {
+                "id": "f053-07a8-4a12-2093",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "de0c-bade-a5f0-1be8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "de0c-bade-a5f0-1be8",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "cf53-8f98-e5aa-f320",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "force",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Rzadkie",
+            "id": "ba68-6983-9f37-0ef1",
+            "hidden": false,
+            "primary": false,
+            "targetId": "70ac-247a-953d-1088",
+            "constraints": [
+              {
+                "id": "b7af-55b8-ca78-4b53",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "b7af-55b8-ca78-4b53",
+                "type": "set",
+                "value": 4,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "b7af-55b8-ca78-4b53",
+                "type": "set",
+                "value": 8,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Unikalne",
+            "id": "4a7b-f202-c20e-d764",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e7dc-90ea-f6c0-25b8",
+            "constraints": [
+              {
+                "id": "646f-e48b-0143-bd53",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "646f-e48b-0143-bd53",
+                "type": "set",
+                "value": 3,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "646f-e48b-0143-bd53",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marmydon",
+            "id": "5192-db6e-b232-5eff",
+            "hidden": false,
+            "primary": false,
+            "targetId": "6da5-852d-f369-1d98",
+            "constraints": [
+              {
+                "id": "899e-2685-a22a-9d72",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "modifiers": [
+                  {
+                    "field": "899e-2685-a22a-9d72",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 999
+                      }
+                    ]
+                  },
+                  {
+                    "field": "899e-2685-a22a-9d72",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 999
+                      }
+                    ],
+                    "repeats": [
+                      {
+                        "childId": "model",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1000
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "899e-2685-a22a-9d72",
+                "type": "set",
+                "value": 0,
+                "conditions": [
+                  {
+                    "childId": "8ea3-2427-f146-78c9",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Legendarny bohater",
+            "id": "0ddb-9b12-806e-8ba1",
+            "hidden": false,
+            "primary": false,
+            "targetId": "b1fc-1418-8299-2efb",
+            "constraints": [
+              {
+                "id": "5a8b-7120-4a2e-3e76",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Najemne",
+            "id": "656f-45e3-9429-8573",
+            "hidden": false,
+            "primary": false,
+            "targetId": "d0e7-2ce7-c81e-d0fc",
+            "constraints": [
+              {
+                "id": "0b60-f15d-31bd-026b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "name": "Starter Wars: Podstawka Reptilian",
+            "id": "78c6-a827-b83f-83b3",
+            "hidden": false,
+            "primary": false,
+            "targetId": "9d3f-663f-2520-108f",
+            "constraints": [
+              {
+                "id": "b8b1-2db9-f4d0-6f51",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 12
+              }
+            ]
+          },
+          {
+            "name": "Starter Wars: Podstawka Liagulian",
+            "id": "35df-a271-95a7-933d",
+            "hidden": false,
+            "primary": false,
+            "targetId": "d5c2-586e-10f1-7351",
+            "constraints": [
+              {
+                "id": "268b-d04b-6857-eefc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 12
+              }
+            ]
+          },
+          {
+            "name": "Starter Wars: Podstawka Ropuchonów",
+            "id": "9ac5-39d8-c97c-e16d",
+            "hidden": false,
+            "primary": false,
+            "targetId": "2179-7322-810d-52c0",
+            "constraints": [
+              {
+                "id": "b6dc-d810-92e0-6a1d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "name": "Starter Wars: Podstawka Slagorów",
+            "id": "e0de-0551-97fd-089f",
+            "hidden": false,
+            "primary": false,
+            "targetId": "f379-52c6-6eff-108b",
+            "constraints": [
+              {
+                "id": "b021-ee17-9634-6212",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Abazatragon",
+        "id": "e03e-2982-ebd8-e8b0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Generał", "id": "b81e-1957-9c90-bba8", "hidden": false, "primary": true, "targetId": "76f5-58f8-04aa-1914"},
+          {"name": "Bohater", "id": "d83c-a03d-8094-47b5", "hidden": false, "primary": false, "targetId": "982d-e25e-9a7a-d639"}
+        ],
+        "constraints": [
+          {
+            "id": "8903-05db-28e6-cb10",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 30}],
+        "entryLinks": [
+          {
+            "name": "Artefakty",
+            "id": "3322-f737-757e-8141",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "15b3-5ca4-ddb3-fc7d",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Abazatragon",
+            "id": "57b7-9dcf-ca33-e46b",
+            "hidden": false,
+            "typeId": "50ee-1030-6a91-1b8d",
+            "typeName": "Generał",
+            "characteristics": [{"name": "LD", "$text": "2", "typeId": "cac3-aea3-a917-6b13"}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Zwiastujący Udrękę ",
+            "id": "ca79-ac49-67df-4e36",
+            "description": "Generał Sorgax otrzymuje możliwość wydania jednego dodatkowego darmowego rozkazu w cyklu, jeśli przeciwnik poniósł podczas bitwy określone straty. Sprawdź, ile przeciwnik stracił dotychczas Punktów Krwi i porównaj z tabelą, by dowiedzieć się, jaki musisz uzyskać wynik, aby rozkaz był udany. 6PK 1-, 12PK 2-, 24PK 3-",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Strażnik Podziemi",
+        "id": "9e0c-171d-6240-c4d7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bohater", "id": "53c0-3fb3-225d-1e82", "hidden": false, "primary": false, "targetId": "982d-e25e-9a7a-d639"},
+          {"name": "Mag", "id": "b66e-1a80-e9ed-ca61", "hidden": false, "primary": true, "targetId": "807c-d1a0-dd7a-19d6"}
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 14}],
+        "entryLinks": [
+          {
+            "name": "Przedmioty Magiczne",
+            "id": "b909-92cd-1e9b-a74a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4f06-7714-909f-44c4",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Czary",
+            "id": "02a9-d629-5062-10f2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "fdbd-83ec-d66f-7adc",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Grupa Dowódcza",
+        "id": "5a44-bb1f-e563-7f11",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Grupa Dowódcza", "id": "dcb7-3fa9-8f8b-53d7", "hidden": false, "primary": true, "targetId": "970f-1486-f74e-91e9"},
+          {"name": "Bohater", "id": "3485-02b2-0682-e808", "hidden": false, "primary": false, "targetId": "982d-e25e-9a7a-d639"}
+        ],
+        "constraints": [
+          {
+            "id": "b27d-0c75-2660-87df",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 15}],
+        "entryLinks": [
+          {
+            "name": "Sztandary",
+            "id": "a0df-634e-b989-bffb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "75d2-7540-394c-3480",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Czempion Nocy",
+        "id": "326a-09c6-0705-49ba",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Czempion", "id": "a28e-e690-2749-bad5", "hidden": false, "primary": true, "targetId": "cc08-ee1e-0c3d-24d0"},
+          {"name": "Bohater", "id": "5413-dfa6-0346-27fe", "hidden": false, "primary": false, "targetId": "982d-e25e-9a7a-d639"}
+        ],
+        "constraints": [
+          {
+            "id": "7b7d-14cc-f54c-d837",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 15}],
+        "modifiers": [
+          {
+            "field": "7b7d-14cc-f54c-d837",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::f85b-9abe-e3c6-3699",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          },
+          {
+            "field": "7b7d-14cc-f54c-d837",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::f85b-9abe-e3c6-3699",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atMost",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Czempion Nocy",
+            "id": "37b6-f89d-efd8-a930",
+            "hidden": false,
+            "typeId": "7637-0d34-a79d-477b",
+            "typeName": "Zdolność",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Jeśli wrogi oddział styka się z oddziałem, którego dotyka Czempion Nocy, przeprowadź test k6 przed atakami wroga. Wynik 3 lub mniej oznacza, że wróg ma modyfikator -1 do WS podczas walki",
+                "typeId": "d023-e767-bbca-ad83"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Czempion Śmierci",
+        "id": "8586-b4b9-91f3-e6d2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Czempion", "id": "3d5f-5020-f36d-f2d3", "hidden": false, "primary": true, "targetId": "cc08-ee1e-0c3d-24d0"},
+          {"name": "Bohater", "id": "360d-7fa6-ffab-3141", "hidden": false, "primary": false, "targetId": "982d-e25e-9a7a-d639"}
+        ],
+        "constraints": [
+          {
+            "id": "57fc-9fb6-be7f-0850",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 15}],
+        "modifiers": [
+          {
+            "field": "57fc-9fb6-be7f-0850",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::f85b-9abe-e3c6-3699",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atMost",
+                "value": 1500
+              }
+            ]
+          },
+          {
+            "field": "57fc-9fb6-be7f-0850",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::f85b-9abe-e3c6-3699",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Czempion Śmierci",
+            "id": "e9ce-ce35-3da9-723b",
+            "hidden": false,
+            "typeId": "7637-0d34-a79d-477b",
+            "typeName": "Zdolność",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Jeśli Czempion Śmierci styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj rzut za każdą podstawkę, która zeszła przeciwnikowi. Wynik 2 lub mniej oznacza, że przeciwnik musi zdjąć dodatkową podstawkę",
+                "typeId": "d023-e767-bbca-ad83"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Czempion Gniewu",
+        "id": "65a8-f68d-312b-f839",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Czempion", "id": "afda-819e-b397-39c5", "hidden": false, "primary": true, "targetId": "cc08-ee1e-0c3d-24d0"},
+          {"name": "Bohater", "id": "4554-9594-acd0-5000", "hidden": false, "primary": false, "targetId": "982d-e25e-9a7a-d639"}
+        ],
+        "constraints": [
+          {
+            "id": "ef7d-285b-4803-c649",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 15}],
+        "modifiers": [
+          {
+            "field": "ef7d-285b-4803-c649",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::f85b-9abe-e3c6-3699",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          },
+          {
+            "field": "ef7d-285b-4803-c649",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::f85b-9abe-e3c6-3699",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atMost",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Czempion Gniewu",
+            "id": "2f49-07b1-e085-b207",
+            "hidden": false,
+            "typeId": "7637-0d34-a79d-477b",
+            "typeName": "Zdolność",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wytypuj przyjazną jednostkę w promieniu 20 cm od Czempiona Gniewu i wykonaj test k6 przed jej szarżą. Wynik 4 lub mniej oznacza, że wybrana jednostka, przeprowadzając szarżę, otrzymuje +1 do WS",
+                "typeId": "d023-e767-bbca-ad83"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grobowy Kapłan",
+        "id": "3abc-6160-49f7-8fab",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bohater", "id": "07a3-774a-d0be-9e7c", "hidden": false, "primary": false, "targetId": "982d-e25e-9a7a-d639"},
+          {"name": "Mag", "id": "9098-680c-1622-8fd7", "hidden": false, "primary": true, "targetId": "807c-d1a0-dd7a-19d6"}
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 14}],
+        "entryLinks": [
+          {
+            "name": "Czary (mag do 6 pkt)",
+            "id": "5ea3-453c-8c8d-a009",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "dc2f-dde6-bafe-9059",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Przedmioty Magiczne (mag do 6 pkt)",
+            "id": "38d5-00b1-db18-809e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "ff7a-f326-5a4e-c3cb",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "rules": [
+          {
+            "name": "Grobowy Kapłan",
+            "id": "15e2-e91d-78e3-c9ba",
+            "description": "Każdy oddział w promieniu 10 cm od Grobowego Kapłana może dodać 3 cm do zasięgu szarży",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Reptilianie",
+        "id": "b1fb-a411-1a6d-1ac6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Oddziały Podstawowe", "id": "c98c-0a59-6fad-0e83", "hidden": false, "primary": true, "targetId": "cf53-8f98-e5aa-f320"}],
+        "constraints": [
+          {
+            "id": "20db-f422-1020-a603",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "min",
+            "value": 2
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Reptilianie",
+            "id": "1e75-3faf-d5e4-b158",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Starter Wars: Podstawka Reptilian", "id": "5867-eb21-1a9f-b4f3", "hidden": false, "primary": false, "targetId": "9d3f-663f-2520-108f"}],
+            "constraints": [
+              {
+                "id": "214a-3ad1-8659-eb33",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "1c38-5ba2-71a0-4a0e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 13}],
+            "profiles": [
+              {
+                "name": "Reptilianie",
+                "id": "8819-791e-9457-1fc2",
+                "hidden": false,
+                "typeId": "218f-0655-0268-95ef",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "93fa-4500-7c4e-a44c"},
+                  {"name": "M", "$text": "10", "typeId": "a9c9-ec0c-65ad-1dc0"},
+                  {"name": "WS", "$text": "3", "typeId": "d333-1828-755a-c589"},
+                  {"name": "S", "$text": "4", "typeId": "f957-7f6c-4fcc-ef66"},
+                  {"name": "T", "$text": "3", "typeId": "b6c9-4b7e-33e0-6aca"},
+                  {"name": "A", "$text": "2", "typeId": "395a-f9df-359b-774c"},
+                  {"name": "W", "$text": "2", "typeId": "1aef-9fb8-6d60-bcdb"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Żelazna Dyscyplina",
+                "id": "a183-951c-b318-8611",
+                "description": "Rozkazy wydawane Reptilianom mogą być przerzucone, a 1 oznacza darmowy rozkaz",
+                "hidden": false
+              },
+              {"name": "Wyczuleni", "id": "1bd7-c539-642e-c9b2", "description": "Mogą otrzymywać rozkazy będąc w odległości do 40 cm od Generała", "hidden": false}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Liagulianie",
+        "id": "1366-79b8-c6dc-a430",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Oddziały Elitarne", "id": "41df-8175-ff52-297b", "hidden": false, "primary": true, "targetId": "61c5-519d-b7db-d153"}],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Liagulianie",
+            "id": "285f-8785-3d0a-753a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Starter Wars: Podstawka Liagulian", "id": "67b4-2473-ab7b-8b88", "hidden": false, "primary": false, "targetId": "d5c2-586e-10f1-7351"}],
+            "constraints": [
+              {
+                "id": "452b-e44f-1d33-bec9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "6591-b6c9-031c-85d8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              }
+            ],
+            "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 9}],
+            "infoLinks": [{"name": "Grom Włóczni", "id": "1803-bac9-addb-e44f", "hidden": false, "targetId": "c4e7-b255-b1c7-3642", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Liagulianie",
+                "id": "0057-5f1d-9c7e-bfd5",
+                "hidden": false,
+                "typeId": "218f-0655-0268-95ef",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "7", "typeId": "93fa-4500-7c4e-a44c"},
+                  {"name": "M", "$text": "10", "typeId": "a9c9-ec0c-65ad-1dc0"},
+                  {"name": "WS", "$text": "2", "typeId": "d333-1828-755a-c589"},
+                  {"name": "S", "$text": "3", "typeId": "f957-7f6c-4fcc-ef66"},
+                  {"name": "T", "$text": "2", "typeId": "b6c9-4b7e-33e0-6aca"},
+                  {"name": "A", "$text": "2", "typeId": "395a-f9df-359b-774c"},
+                  {"name": "W", "$text": "2", "typeId": "1aef-9fb8-6d60-bcdb"}
+                ]
+              }
+            ],
+            "rules": [{"name": "Podstępni", "id": "f5a2-0996-a3c1-0b75", "description": "Otrzymują dodatkowy bonus +2 za atakowanie wroga od boku lub tyłu", "hidden": false}]
+          }
+        ]
+      },
+      {
+        "name": "Repsolianie",
+        "id": "4288-dcbe-3cea-04d3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Oddziały Elitarne", "id": "035e-043a-2e49-8ec0", "hidden": false, "primary": true, "targetId": "61c5-519d-b7db-d153"}],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Repsolianie",
+            "id": "5783-8429-5a7c-def8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "6c07-7a16-ea33-7788",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "78a0-090d-0f86-3bd1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              }
+            ],
+            "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 15}],
+            "infoLinks": [{"name": "Bitewna Inspiracja", "id": "622d-5124-73d9-e15f", "hidden": false, "targetId": "6a10-dea2-2b74-bfb5", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Repsolianie",
+                "id": "a315-8411-02e2-a73f",
+                "hidden": false,
+                "typeId": "218f-0655-0268-95ef",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "93fa-4500-7c4e-a44c"},
+                  {"name": "M", "$text": "10", "typeId": "a9c9-ec0c-65ad-1dc0"},
+                  {"name": "WS", "$text": "4", "typeId": "d333-1828-755a-c589"},
+                  {"name": "S", "$text": "4", "typeId": "f957-7f6c-4fcc-ef66"},
+                  {"name": "T", "$text": "3", "typeId": "b6c9-4b7e-33e0-6aca"},
+                  {"name": "A", "$text": "2", "typeId": "395a-f9df-359b-774c"},
+                  {"name": "W", "$text": "2", "typeId": "1aef-9fb8-6d60-bcdb"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Wola Walki ",
+                "id": "f194-67b9-c65e-6006",
+                "description": "Jeśli oddział Repsolian zniszczył oddział wroga, może wykonać ruch do 10 cm zamiast do 5 cm",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ropuchoni",
+        "id": "22fa-2a61-7025-7f46",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Oddziały Rzadkie", "id": "ed55-0cf9-de81-2f96", "hidden": false, "primary": true, "targetId": "70ac-247a-953d-1088"}],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Ropuchoni",
+            "id": "c186-8eb6-97ea-5b32",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Starter Wars: Podstawka Ropuchonów", "id": "17aa-48bb-9617-28bf", "hidden": false, "primary": false, "targetId": "2179-7322-810d-52c0"}],
+            "constraints": [
+              {
+                "id": "06fd-4531-9592-96a8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "e75b-84ae-f590-3b67",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 16}],
+            "infoLinks": [{"name": "Trujące Splunięcie", "id": "50fb-7f1f-7a37-d621", "hidden": false, "targetId": "914b-0df3-b497-6049", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Ropuchoni",
+                "id": "0d3d-34f6-7311-de01",
+                "hidden": false,
+                "typeId": "218f-0655-0268-95ef",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "7", "typeId": "93fa-4500-7c4e-a44c"},
+                  {"name": "M", "$text": "10", "typeId": "a9c9-ec0c-65ad-1dc0"},
+                  {"name": "WS", "$text": "3", "typeId": "d333-1828-755a-c589"},
+                  {"name": "S", "$text": "3", "typeId": "f957-7f6c-4fcc-ef66"},
+                  {"name": "T", "$text": "4", "typeId": "b6c9-4b7e-33e0-6aca"},
+                  {"name": "A", "$text": "2", "typeId": "395a-f9df-359b-774c"},
+                  {"name": "W", "$text": "2", "typeId": "1aef-9fb8-6d60-bcdb"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cierpiętnicy z Voro-dan",
+        "id": "4893-c046-8fc2-3899",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Oddziały Rzadkie", "id": "32e5-c14e-31a3-e3a4", "hidden": false, "primary": true, "targetId": "70ac-247a-953d-1088"}],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Cierpiętnicy z Voro-dan",
+            "id": "6f2f-bf7e-9567-bfb8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "9806-5da0-e0ae-f15e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "efd3-5ad4-21dc-47e9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              }
+            ],
+            "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 20}],
+            "infoLinks": [{"name": "Zniewoleni", "id": "872e-59a5-013e-b6a3", "hidden": false, "targetId": "2745-44fc-dd08-3bad", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Cierpiętnicy z Voro-dan",
+                "id": "2812-a928-d2e0-a175",
+                "hidden": false,
+                "typeId": "218f-0655-0268-95ef",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "93fa-4500-7c4e-a44c"},
+                  {"name": "M", "$text": "10", "typeId": "a9c9-ec0c-65ad-1dc0"},
+                  {"name": "WS", "$text": "3", "typeId": "d333-1828-755a-c589"},
+                  {"name": "S", "$text": "4", "typeId": "f957-7f6c-4fcc-ef66"},
+                  {"name": "T", "$text": "5", "typeId": "b6c9-4b7e-33e0-6aca"},
+                  {"name": "A", "$text": "3", "typeId": "395a-f9df-359b-774c"},
+                  {"name": "W", "$text": "2", "typeId": "1aef-9fb8-6d60-bcdb"}
+                ]
+              }
+            ],
+            "rules": [{"name": "Czujni", "id": "9831-a245-3b5a-4f65", "description": "Przeciwnik nie otrzymuje bonusów za atak od boku lub tyłu", "hidden": false}]
+          }
+        ]
+      },
+      {
+        "name": "Slagory",
+        "id": "dfcb-745d-fb84-e4c4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Oddziały Rzadkie", "id": "1842-ae17-76bf-3353", "hidden": false, "primary": true, "targetId": "70ac-247a-953d-1088"}],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Slagory",
+            "id": "05ac-6cec-7b69-86b4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Starter Wars: Podstawka Slagorów", "id": "0f5f-46af-e6ed-05ef", "hidden": false, "primary": false, "targetId": "f379-52c6-6eff-108b"}],
+            "constraints": [
+              {
+                "id": "4889-ba31-952c-e101",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "ef59-6216-ec4a-86b0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 15}],
+            "infoLinks": [
+              {"name": "Nieustraszony", "id": "d6ab-3e54-468a-6bda", "hidden": false, "targetId": "907e-ec8a-ba87-c704", "type": "rule"},
+              {"name": "Kreatura", "id": "de55-847a-0b03-ca4c", "hidden": false, "targetId": "e31e-0765-1fa4-c61f", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Slagory",
+                "id": "9533-088e-6cee-74e3",
+                "hidden": false,
+                "typeId": "218f-0655-0268-95ef",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "93fa-4500-7c4e-a44c"},
+                  {"name": "M", "$text": "15", "typeId": "a9c9-ec0c-65ad-1dc0"},
+                  {"name": "WS", "$text": "3", "typeId": "d333-1828-755a-c589"},
+                  {"name": "S", "$text": "3", "typeId": "f957-7f6c-4fcc-ef66"},
+                  {"name": "T", "$text": "5", "typeId": "b6c9-4b7e-33e0-6aca"},
+                  {"name": "A", "$text": "2", "typeId": "395a-f9df-359b-774c"},
+                  {"name": "W", "$text": "2", "typeId": "1aef-9fb8-6d60-bcdb"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Gadzi Ruch",
+                "id": "e5be-8ae3-caee-595f",
+                "description": "Slagory mogą wykonać ruch lub szarżę przez jednostki wroga lub swoje, jeśli ich ruch zakończy się poza oddziałem, przez który przechodziły",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desauros z Grobowym Ołtarzem",
+        "id": "3af6-e7a9-f29d-e67a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Oddziały Unikalne", "id": "97bc-6506-b0cf-6df7", "hidden": false, "primary": true, "targetId": "e7dc-90ea-f6c0-25b8"}],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 68}],
+        "infoLinks": [{"name": "Nieustraszony", "id": "af28-595d-9265-a540", "hidden": false, "targetId": "907e-ec8a-ba87-c704", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Desauros z Grobowym Ołtarzem",
+            "id": "2834-6e1d-2ec2-946b",
+            "hidden": false,
+            "typeId": "218f-0655-0268-95ef",
+            "typeName": "Profile",
+            "characteristics": [
+              {"name": "LD", "$text": "4", "typeId": "93fa-4500-7c4e-a44c"},
+              {"name": "M", "$text": "10", "typeId": "a9c9-ec0c-65ad-1dc0"},
+              {"name": "WS", "$text": "3", "typeId": "d333-1828-755a-c589"},
+              {"name": "S", "$text": "6", "typeId": "f957-7f6c-4fcc-ef66"},
+              {"name": "T", "$text": "7", "typeId": "b6c9-4b7e-33e0-6aca"},
+              {"name": "A", "$text": "7", "typeId": "395a-f9df-359b-774c"},
+              {"name": "W", "$text": "7", "typeId": "1aef-9fb8-6d60-bcdb"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Pierwotny Szał ",
+            "id": "4f1e-a6ff-e8ba-4a03",
+            "description": "Podczas szarży Desauros musi wyko nać test k6, żeby sprawdzić, czy wpadnie w szał. Wynik 2 lub mniej oznacza, że Desauros zyskuje +3 Ataki",
+            "hidden": false
+          },
+          {
+            "name": "Grobowy Ołtarz ",
+            "id": "fea6-ffa8-fa18-c52d",
+            "description": "Za każdą ranę zadaną przeciwnikowi w wyniku ataku Desaurosa z Grobowym Ołtarzem, Desauros zyskuje 1 punkt W. Desauros może posiadać max. 12 punktów W",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Forgon",
+        "id": "9e01-5864-1c90-308d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Oddziały Unikalne", "id": "4d58-0cae-71d5-8e98", "hidden": false, "primary": true, "targetId": "e7dc-90ea-f6c0-25b8"}],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 35}],
+        "infoLinks": [{"name": "Nieustraszony", "id": "2632-5eb9-2279-6c01", "hidden": false, "targetId": "907e-ec8a-ba87-c704", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Forgon",
+            "id": "7fd1-4cd9-4ee6-c307",
+            "hidden": false,
+            "typeId": "218f-0655-0268-95ef",
+            "typeName": "Profile",
+            "characteristics": [
+              {"name": "LD", "$text": "6", "typeId": "93fa-4500-7c4e-a44c"},
+              {"name": "M", "$text": "10", "typeId": "a9c9-ec0c-65ad-1dc0"},
+              {"name": "WS", "$text": "2", "typeId": "d333-1828-755a-c589"},
+              {"name": "S", "$text": "5", "typeId": "f957-7f6c-4fcc-ef66"},
+              {"name": "T", "$text": "5", "typeId": "b6c9-4b7e-33e0-6aca"},
+              {"name": "A", "$text": "5", "typeId": "395a-f9df-359b-774c"},
+              {"name": "W", "$text": "5", "typeId": "1aef-9fb8-6d60-bcdb"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Żywa Katapulta",
+            "id": "5793-94a7-da67-beeb",
+            "description": "Raz na cykl Forgon może wykonać splunięcie do niezaangażowanego w walkę wroga na odległość 20 cm. Wykonaj rzut k6. Wynik 3 lub mniej oznacza, że wrogi oddział musi wykonać Test Paniki dla 3 podstawek",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Miażdżyciele na Skalivarach",
+        "id": "f84e-1487-ef60-6af1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Oddziały Unikalne", "id": "30f8-906f-99f8-b66f", "hidden": false, "primary": true, "targetId": "e7dc-90ea-f6c0-25b8"}],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Miażdżyciele na Skalivarach",
+            "id": "2bbc-af29-e790-29b5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "66db-0a0f-b1cc-de1c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "fe8c-4a88-7b22-9130",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              }
+            ],
+            "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 23}],
+            "infoLinks": [{"name": "Bitewna Inspiracja", "id": "1452-ec66-614c-e674", "hidden": false, "targetId": "6a10-dea2-2b74-bfb5", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Miażdżyciele na Skalivarach",
+                "id": "95d0-01d5-ec7e-0e4e",
+                "hidden": false,
+                "typeId": "218f-0655-0268-95ef",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "93fa-4500-7c4e-a44c"},
+                  {"name": "M", "$text": "15", "typeId": "a9c9-ec0c-65ad-1dc0"},
+                  {"name": "WS", "$text": "4", "typeId": "d333-1828-755a-c589"},
+                  {"name": "S", "$text": "4", "typeId": "f957-7f6c-4fcc-ef66"},
+                  {"name": "T", "$text": "4", "typeId": "b6c9-4b7e-33e0-6aca"},
+                  {"name": "A", "$text": "2", "typeId": "395a-f9df-359b-774c"},
+                  {"name": "W", "$text": "3", "typeId": "1aef-9fb8-6d60-bcdb"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Uderzenie Młota",
+                "id": "ba74-a8aa-9e28-7cf6",
+                "description": "Podczas Testu Ranienia za każdą 1 i 2 można wykonać dodatkowy rzut k6 na ranienie. Uzyskane wyniki nie generują kolejnych",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kor'quixos",
+        "id": "fac3-9d98-76a7-9859",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Legendarny bohater", "id": "a32d-8859-b383-e43e", "hidden": false, "primary": true, "targetId": "b1fc-1418-8299-2efb"},
+          {"name": "New CategoryLink", "id": "749a-e898-56b6-9a53", "hidden": false, "primary": false, "targetId": "b1fc-1418-8299-2efb"},
+          {"name": "Mag", "id": "5279-349a-e158-31fb", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 49}],
+        "entryLinks": [
+          {
+            "name": "Czary",
+            "id": "0394-6218-70f7-e685",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "fdbd-83ec-d66f-7adc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Przedmioty Magiczne",
+            "id": "bf23-96b8-fa12-036c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4f06-7714-909f-44c4",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "rules": [
+          {
+            "name": "Kor'quixos",
+            "id": "cb48-1d76-6da7-c369",
+            "description": "Kor'quixos jest Magiem i jest wliczany w limit Magów dostępnych dla armii. Może korzystać z czarów i przedmiotów.\n\nBohater obcuje z potężną magią, która nie tylko wpłynęła na jego umysł, ale spowodowała, że ciało stało się monstrualnych rozmiarów. Dzięki temu wspiera oddział 8 atakami.",
+            "hidden": false
+          },
+          {
+            "name": "Nieubłagany",
+            "id": "537b-9ab1-01fe-c9c9",
+            "description": "Oddział, do którego jest dołączony Kor'quixos, może zostać zmuszony do wykonania forsownego ruchu lub szarży. Jeśli gracz się na to zdecyduje, może zamienić cechę M oddziału na M 15 i wykonać rzut k6. Wynik 4 lub więcej oznacza, że w wyniku wycieńczenia jedna podstawka z oddziału musi zostać usunięta.",
+            "hidden": false
+          },
+          {
+            "name": "Kostur Zagłady",
+            "id": "de94-b68a-4c4f-8926",
+            "description": "Jeśli wróg zetknie się z Kor'quixosem natychmiast otrzymuje k6 obrażeń. Dodatkowo raz podczas bitwy moc kostura może być skumulowana i użyta przeciw wrogom – wykonaj rzut k6 za każdy wrogi oddział w promieniu 15 cm. Wynik 3 lub mniej oznacza, że wrogi oddział traci Kość Akcji.",
+            "hidden": false
+          },
+          {
+            "name": "Korona z Thanox",
+            "id": "6b85-43b3-654d-3e1e",
+            "description": "Raz podczas bitwy Kor'quixos może wybraćdowolny czar, którego nie posiada, i rzucić go bez wykonywania testu. Dodatkowo czar ten nie może zostać zdispelowany.",
+            "hidden": false
+          },
+          {
+            "name": "Cyklopi Pas",
+            "id": "8161-3ddf-1c6a-aaed",
+            "description": "Jeśli oddział, do którego jest dołączony Kor'quixos, miał wydany rozkaz i podczas rzutu gracz uzyskał wynik 1, oddziałmoże raz w cyklu skorzystać z zasady Szał (Podczas szarży oddział podwaja wartość swojej cechy Atak (A)).",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1871 @@
+{
+  "catalogue": {
+    "name": "Vaendral",
+    "id": "f70e-145e-7381-77d9",
+    "authorContact": "skraaj@codedoneright.eu",
+    "authorName": "Skraaj",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "0744-20b6-d715-c575",
+    "gameSystemRevision": 21,
+    "library": false,
+    "readme": "©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.",
+    "revision": 15,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {"name": "Starter Wars: Barbarians base", "id": "2c9e-1e81-b190-2d3f", "hidden": false},
+      {"name": "Starter Wars: Amazons base", "id": "bde7-a8fa-bdc2-e810", "hidden": false},
+      {"name": "Starter Wars: Half-giants base", "id": "35ba-e63e-edbe-94e0", "hidden": false},
+      {"name": "Starter Wars: Voutars base", "id": "ee3e-8f87-5b3b-e692", "hidden": false}
+    ],
+    "forceEntries": [
+      {
+        "name": "Starter Wars",
+        "id": "8b45-2912-6fb0-c98a",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Hero",
+            "id": "1e2b-ffbd-0067-98bc",
+            "hidden": false,
+            "primary": false,
+            "targetId": "90cb-5b94-12bf-c937",
+            "constraints": [
+              {
+                "id": "3e0c-e8d3-d1e9-db2b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "name": "General",
+            "id": "86b2-31b1-8579-d6c5",
+            "hidden": false,
+            "primary": false,
+            "targetId": "fd54-99b9-43d4-55db",
+            "constraints": [
+              {
+                "id": "dd9e-bf9a-1d60-37d0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "ff08-8b35-5ea7-924a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Champion",
+            "id": "c6ff-8cb8-f1ce-33ab",
+            "hidden": false,
+            "primary": false,
+            "targetId": "eaad-591f-8f20-91ea",
+            "constraints": [
+              {
+                "id": "7a52-8504-46ac-11e4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "edf9-cb1a-1a1f-9afc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "edf9-cb1a-1a1f-9afc",
+                "type": "set",
+                "value": 3,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "edf9-cb1a-1a1f-9afc",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Command group",
+            "id": "ccc7-7d90-8e7b-f338",
+            "hidden": false,
+            "primary": false,
+            "targetId": "fb1d-3052-29f4-1b9f",
+            "constraints": [
+              {
+                "id": "e240-b4b7-9454-317d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "94b6-6066-6036-a7b0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "e240-b4b7-9454-317d",
+                "type": "set",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "94b6-6066-6036-a7b0",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mage",
+            "id": "00fc-ac75-8599-aa72",
+            "hidden": false,
+            "primary": false,
+            "targetId": "8fe2-9c3d-fe6a-7ae9",
+            "constraints": [
+              {
+                "id": "3492-2c52-2814-667b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "modifierGroups": [
+              {
+                "modifiers": [
+                  {
+                    "field": "3492-2c52-2814-667b",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "model",
+                        "field": "limit::8c1c-2839-4120-668b",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 499
+                      }
+                    ],
+                    "repeats": [
+                      {
+                        "childId": "model",
+                        "field": "limit::8c1c-2839-4120-668b",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 500
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marmydon",
+            "id": "2144-c20f-5bbe-9439",
+            "hidden": false,
+            "primary": false,
+            "targetId": "78dd-3520-453b-2d1e",
+            "constraints": [
+              {
+                "id": "3c39-92e5-0ce5-9adf",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "3c39-92e5-0ce5-9adf",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 999
+                  }
+                ],
+                "repeats": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "value": 1000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Basic units",
+            "id": "836f-43dc-987c-6c8c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "38a8-b0e1-a7b1-6f5a",
+            "constraints": [
+              {
+                "id": "6cf8-d057-1164-f419",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "6cf8-d057-1164-f419",
+                "type": "set",
+                "value": 4,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1000
+                  }
+                ]
+              },
+              {
+                "field": "6cf8-d057-1164-f419",
+                "type": "set",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Elite units",
+            "id": "2c57-3a79-2634-d4c5",
+            "hidden": false,
+            "primary": false,
+            "targetId": "6518-c7a0-7e65-5999",
+            "constraints": [
+              {
+                "id": "b8fb-06f6-ce77-e250",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "1edb-5ab5-a103-a7ce",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "1edb-5ab5-a103-a7ce",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "38a8-b0e1-a7b1-6f5a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "force",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rare units",
+            "id": "3c32-dd94-b60d-7a5c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "75b7-154c-09bb-c13b",
+            "constraints": [
+              {
+                "id": "174d-724d-b26e-85a0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "174d-724d-b26e-85a0",
+                "type": "set",
+                "value": 8,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "174d-724d-b26e-85a0",
+                "type": "set",
+                "value": 4,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique units",
+            "id": "31d1-dc9d-7545-7068",
+            "hidden": false,
+            "primary": false,
+            "targetId": "25b5-9054-a7c2-90ed",
+            "constraints": [
+              {
+                "id": "858d-9443-78f5-4276",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "858d-9443-78f5-4276",
+                "type": "set",
+                "value": 3,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "858d-9443-78f5-4276",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::8c1c-2839-4120-668b",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Legendary hero",
+            "id": "56fb-09dc-5c03-17a4",
+            "hidden": false,
+            "primary": false,
+            "targetId": "b096-ae60-509f-d93a",
+            "constraints": [
+              {
+                "id": "8408-51ef-f84d-8a07",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Mercenary Units",
+            "id": "0041-8f0b-a724-1b9d",
+            "hidden": false,
+            "primary": false,
+            "targetId": "527d-f4d9-6b3c-20d3",
+            "constraints": [
+              {
+                "id": "72dd-1e13-ba1a-f17d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "name": "Starter Wars: Barbarians base",
+            "id": "584e-d9f1-d84a-8c99",
+            "hidden": false,
+            "primary": false,
+            "targetId": "2c9e-1e81-b190-2d3f",
+            "constraints": [
+              {
+                "id": "89cb-9acc-a6f9-96a5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 12
+              }
+            ]
+          },
+          {
+            "name": "Starter Wars: Amazons base",
+            "id": "1a44-7449-3934-3f99",
+            "hidden": false,
+            "primary": false,
+            "targetId": "bde7-a8fa-bdc2-e810",
+            "constraints": [
+              {
+                "id": "8530-69d7-65e2-2d05",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 12
+              }
+            ]
+          },
+          {
+            "name": "Starter Wars: Half-giants base",
+            "id": "41e5-ae82-d3b6-a391",
+            "hidden": false,
+            "primary": false,
+            "targetId": "35ba-e63e-edbe-94e0",
+            "constraints": [
+              {
+                "id": "de5c-7c9d-c601-eb05",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "name": "Starter Wars: Voutars base",
+            "id": "1bb5-f851-5d9c-9da8",
+            "hidden": false,
+            "primary": false,
+            "targetId": "ee3e-8f87-5b3b-e692",
+            "constraints": [
+              {
+                "id": "f4b2-f602-6f6c-c18e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Amazons",
+        "id": "c7c1-5acf-bb58-752e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Basic units", "id": "5e07-b6d0-13bf-a02d", "hidden": false, "primary": true, "targetId": "38a8-b0e1-a7b1-6f5a"}],
+        "constraints": [
+          {
+            "id": "7a73-cdc4-e746-56e6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "min",
+            "value": 2
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Amazons",
+            "id": "9215-40f0-3253-a26f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Starter Wars: Amazons base", "id": "dd9e-4d85-cef3-af54", "hidden": false, "primary": false, "targetId": "bde7-a8fa-bdc2-e810"}],
+            "constraints": [
+              {
+                "id": "caee-e269-9e78-8496",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "a32c-636c-0f00-7451",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 8}],
+            "infoLinks": [
+              {"name": "Light Shield Defence", "id": "4c62-ff53-4ba5-caff", "hidden": false, "targetId": "3214-2137-81a2-f33b", "type": "rule"},
+              {"name": "Bloodshed", "id": "7ca9-702f-0a87-e8ab", "hidden": false, "targetId": "e92f-67dd-55ca-ba5a", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Amazons",
+                "id": "0f9a-90c8-fb35-2225",
+                "hidden": false,
+                "typeId": "4a2d-4730-d9ad-ca23",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "7", "typeId": "2d74-3840-75ce-fb6a"},
+                  {"name": "M", "$text": "10", "typeId": "bbba-6b29-970f-bb87"},
+                  {"name": "WS", "$text": "3", "typeId": "bd6b-76ed-c7b4-ed41"},
+                  {"name": "S", "$text": "2", "typeId": "0965-1c76-5e55-52f3"},
+                  {"name": "T", "$text": "2", "typeId": "6131-048c-0aa9-a832"},
+                  {"name": "A", "$text": "2", "typeId": "2741-62c1-8198-f19f"},
+                  {"name": "W", "$text": "2", "typeId": "a5bd-81d9-7061-d9fa"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Barbarians",
+        "id": "a8b6-92f5-83e1-2523",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Elite units", "id": "8fb7-793a-9735-1a89", "hidden": false, "primary": true, "targetId": "6518-c7a0-7e65-5999"}],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Barbarians",
+            "id": "2fc1-1ed6-3a4f-e95f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Starter Wars: Barbarians base", "id": "e0c1-80eb-f9f8-dc81", "hidden": false, "primary": false, "targetId": "2c9e-1e81-b190-2d3f"}],
+            "constraints": [
+              {
+                "id": "bf77-4b71-dd9f-2507",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "0177-a8d7-9eaf-246f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 13}],
+            "infoLinks": [{"name": "Fury", "id": "97c2-30b0-4ed2-d2a2", "hidden": false, "targetId": "e653-bff4-978e-1ec3", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Barbarians",
+                "id": "01c2-7a0c-3251-6ae5",
+                "hidden": false,
+                "typeId": "4a2d-4730-d9ad-ca23",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "7", "typeId": "2d74-3840-75ce-fb6a"},
+                  {"name": "M", "$text": "10", "typeId": "bbba-6b29-970f-bb87"},
+                  {"name": "WS", "$text": "3", "typeId": "bd6b-76ed-c7b4-ed41"},
+                  {"name": "S", "$text": "3", "typeId": "0965-1c76-5e55-52f3"},
+                  {"name": "T", "$text": "3", "typeId": "6131-048c-0aa9-a832"},
+                  {"name": "A", "$text": "2", "typeId": "2741-62c1-8198-f19f"},
+                  {"name": "W", "$text": "2", "typeId": "a5bd-81d9-7061-d9fa"}
+                ]
+              }
+            ],
+            "rules": [{"name": "Wild Charge", "id": "3c03-a9ee-6a7f-3a53", "description": "When charging, this unit gets +1 to S", "hidden": false}]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Darkness",
+        "id": "0fbc-edb5-7d3b-b3de",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Hero", "id": "5128-3aa2-d25a-6cd8", "hidden": false, "primary": false, "targetId": "90cb-5b94-12bf-c937"},
+          {"name": "Champion", "id": "ba4b-5709-1037-135d", "hidden": false, "primary": true, "targetId": "eaad-591f-8f20-91ea"}
+        ],
+        "constraints": [
+          {
+            "id": "f24f-8c52-50bd-7323",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 12}],
+        "modifiers": [
+          {
+            "field": "f24f-8c52-50bd-7323",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::8c1c-2839-4120-668b",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atMost",
+                "value": 1500
+              }
+            ]
+          },
+          {
+            "field": "f24f-8c52-50bd-7323",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::8c1c-2839-4120-668b",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Darkness",
+            "id": "b2d3-65ef-55d3-1ba3",
+            "hidden": false,
+            "typeId": "0b4b-1b33-d5fd-5d82",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If the Champion of Darkness is attached to a friendly unit engaged in combat, he can make a d6 test each time an enemy loses its bases in this cycle. On a score of 3 or less, the enemy must immediately take a Panic Test for as many bases as he lost in this cycle",
+                "typeId": "80c5-70a3-dda4-71fe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Earth",
+        "id": "df05-bf65-35f0-2177",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Hero", "id": "96b7-07bb-e0d2-9b9a", "hidden": false, "primary": false, "targetId": "90cb-5b94-12bf-c937"},
+          {"name": "Champion", "id": "a583-864f-e82a-dddf", "hidden": false, "primary": true, "targetId": "eaad-591f-8f20-91ea"}
+        ],
+        "constraints": [
+          {
+            "id": "8f14-2de0-36ff-2831",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 13}],
+        "modifiers": [
+          {
+            "field": "8f14-2de0-36ff-2831",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::8c1c-2839-4120-668b",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atMost",
+                "value": 1500
+              }
+            ]
+          },
+          {
+            "field": "8f14-2de0-36ff-2831",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::8c1c-2839-4120-668b",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Earth",
+            "id": "16b5-f03d-d5fe-5fd8",
+            "hidden": false,
+            "typeId": "0b4b-1b33-d5fd-5d82",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Choose an enemy unit within 30 cm that is not engaged in combat and make a d6 test. A score of 4 or less means the chosen unit can be moved by 10 cm in any direction, but without turning",
+                "typeId": "80c5-70a3-dda4-71fe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Blood",
+        "id": "3bee-cfe1-aeaa-e4ad",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Hero", "id": "ba56-9457-48b4-a6a1", "hidden": false, "primary": false, "targetId": "90cb-5b94-12bf-c937"},
+          {"name": "Champion", "id": "adbc-01bc-ab08-60fa", "hidden": false, "primary": true, "targetId": "eaad-591f-8f20-91ea"}
+        ],
+        "constraints": [
+          {
+            "id": "8211-b824-320e-289d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 14}],
+        "modifiers": [
+          {
+            "field": "8211-b824-320e-289d",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::8c1c-2839-4120-668b",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atMost",
+                "value": 1500
+              }
+            ]
+          },
+          {
+            "field": "8211-b824-320e-289d",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::8c1c-2839-4120-668b",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Blood",
+            "id": "aec6-68fb-67a0-e4b6",
+            "hidden": false,
+            "typeId": "0b4b-1b33-d5fd-5d82",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At any point during the cycle, Champion of Blood may take a d6 test. A score of 3 or less means that all friendly units within 20 cm of the Champion of Blood are granted +2 attacks to the pool if they do not have the Bloodshed rule. If they have it, they are granted a +1 to S bonus instead. These bonuses last until the end of the cycle.",
+                "typeId": "80c5-70a3-dda4-71fe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Priestess of Lust",
+        "id": "52d5-5225-0516-5570",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "a189-4648-64f4-7df6", "hidden": false, "primary": true, "targetId": "8fe2-9c3d-fe6a-7ae9"},
+          {"name": "Hero", "id": "9aaf-ba43-da92-7c0b", "hidden": false, "primary": false, "targetId": "90cb-5b94-12bf-c937"}
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 14}],
+        "entryLinks": [
+          {
+            "name": "Spells (6 point mage)",
+            "id": "e5b3-a49c-3c35-fff8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5749-d46e-d8cf-1720",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Magic items (6 point mage)",
+            "id": "bffd-6f25-4a5f-ad78",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5402-f23e-d2da-b983",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "rules": [
+          {
+            "name": "Priestess of Lust",
+            "id": "2558-5820-88f2-def8",
+            "description": "Any friendly unit within 10 cm of the Priestess of Lust may re-roll a move range, or a failed Cold Blood Test",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Bloody Chieftain",
+        "id": "ab5a-66e0-3106-bc74",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Hero", "id": "cb8f-6e9f-cc93-d197", "hidden": false, "primary": false, "targetId": "90cb-5b94-12bf-c937"},
+          {"name": "General", "id": "f82f-c255-c73a-192a", "hidden": false, "primary": true, "targetId": "fd54-99b9-43d4-55db"}
+        ],
+        "constraints": [
+          {
+            "id": "8d54-46e3-5d02-a8d9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 30}],
+        "entryLinks": [
+          {
+            "name": "Artefacts",
+            "id": "f397-ffe4-4e6e-9fe3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "eec5-6224-0ede-304b",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Bloody Chieftain",
+            "id": "8838-0b63-ff1e-1a4e",
+            "hidden": false,
+            "typeId": "de53-3da7-dbca-a7af",
+            "typeName": "General",
+            "characteristics": [{"name": "LD", "$text": "2", "typeId": "6103-ad18-a530-9636"}]
+          }
+        ],
+        "rules": [{"name": "Born Warriors", "id": "bbe4-ee32-64ce-506b", "description": "Vaendral army may re-roll a 1 or a 6 scored in its Activation Roll", "hidden": false}]
+      },
+      {
+        "name": "White Witches",
+        "id": "1f5c-def6-770e-f940",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Uniqe units", "id": "57c1-f605-4f3e-6b46", "hidden": false, "primary": true, "targetId": "25b5-9054-a7c2-90ed"}],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "White Witches",
+            "id": "56fc-f7d7-4d28-d91c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "0f96-c614-b8b9-41c9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "6125-1283-452a-9268",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 12}],
+            "infoLinks": [
+              {"name": "Fearless", "id": "6600-ddc9-05d9-ab6b", "hidden": false, "targetId": "01c3-8485-b179-7a4d", "type": "rule"},
+              {"name": "Bloodshed", "id": "31a8-67bf-4ed2-3079", "hidden": false, "targetId": "e92f-67dd-55ca-ba5a", "type": "rule"},
+              {"name": "Terrible Damage", "id": "3e62-fda3-6043-913b", "hidden": false, "targetId": "56b0-e43e-6468-94c6", "type": "rule"},
+              {"name": "Light Shield Defence", "id": "45b2-7a39-aadc-b75c", "hidden": false, "targetId": "3214-2137-81a2-f33b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "White Witches",
+                "id": "027e-4d0d-41ae-8a73",
+                "hidden": false,
+                "typeId": "4a2d-4730-d9ad-ca23",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "7", "typeId": "2d74-3840-75ce-fb6a"},
+                  {"name": "M", "$text": "10", "typeId": "bbba-6b29-970f-bb87"},
+                  {"name": "WS", "$text": "3", "typeId": "bd6b-76ed-c7b4-ed41"},
+                  {"name": "S", "$text": "2", "typeId": "0965-1c76-5e55-52f3"},
+                  {"name": "T", "$text": "2", "typeId": "6131-048c-0aa9-a832"},
+                  {"name": "A", "$text": "2", "typeId": "2741-62c1-8198-f19f"},
+                  {"name": "W", "$text": "2", "typeId": "a5bd-81d9-7061-d9fa"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Curse of the Witch",
+                "id": "a830-9abc-4dd4-e2ea",
+                "description": "A Cold Blood Test made by an enemy unit engaged in combat with the White Witches is always considered failed",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Elephanton",
+        "id": "5f6f-873a-b767-cc9e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Uniqe units", "id": "a98b-5ee1-b1cf-5fd3", "hidden": false, "primary": true, "targetId": "25b5-9054-a7c2-90ed"}],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 88}],
+        "infoLinks": [
+          {"name": "Monster", "id": "5d3a-e4a2-5885-0761", "hidden": false, "targetId": "83a1-36fd-47ff-200e", "type": "rule"},
+          {"name": "Fearless", "id": "1b2a-f38d-1b02-ef81", "hidden": false, "targetId": "01c3-8485-b179-7a4d", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Elefanton",
+            "id": "92db-5376-bc01-6985",
+            "hidden": false,
+            "typeId": "4a2d-4730-d9ad-ca23",
+            "typeName": "Profile",
+            "characteristics": [
+              {"name": "LD", "$text": "4", "typeId": "2d74-3840-75ce-fb6a"},
+              {"name": "M", "$text": "10", "typeId": "bbba-6b29-970f-bb87"},
+              {"name": "WS", "$text": "3", "typeId": "bd6b-76ed-c7b4-ed41"},
+              {"name": "S", "$text": "8", "typeId": "0965-1c76-5e55-52f3"},
+              {"name": "T", "$text": "6", "typeId": "6131-048c-0aa9-a832"},
+              {"name": "A", "$text": "6", "typeId": "2741-62c1-8198-f19f"},
+              {"name": "W", "$text": "7", "typeId": "a5bd-81d9-7061-d9fa"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Trample",
+            "id": "bbd7-3743-910a-b707",
+            "description": "For each successful score in the Weapon Skill Test, roll an additional d6 for hitting. Additional successful scores do not generate the new ones",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Command Group",
+        "id": "3a03-49f9-0077-588a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Command group", "id": "d67e-3c09-049f-96f5", "hidden": false, "primary": true, "targetId": "fb1d-3052-29f4-1b9f"},
+          {"name": "New CategoryLink", "id": "7f2f-db6d-fc8a-7f9e", "hidden": false, "primary": false, "targetId": "fb1d-3052-29f4-1b9f"},
+          {"name": "Hero", "id": "7193-3239-7eff-d7a2", "hidden": false, "primary": false, "targetId": "90cb-5b94-12bf-c937"}
+        ],
+        "constraints": [
+          {
+            "id": "7253-293d-3c93-3ff4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 15}],
+        "entryLinks": [
+          {
+            "name": "Magic Banners",
+            "id": "e0f8-9dd2-c00a-ed0b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9963-2735-ea44-c037",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Old Hag",
+        "id": "5ad0-fe29-1af3-863e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "9ae1-a42e-dd22-3efd", "hidden": false, "primary": true, "targetId": "8fe2-9c3d-fe6a-7ae9"},
+          {"name": "Hero", "id": "366a-5b9a-ddc4-52f2", "hidden": false, "primary": false, "targetId": "90cb-5b94-12bf-c937"}
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 14}],
+        "entryLinks": [
+          {
+            "name": "Spells",
+            "id": "4d1d-547e-717e-ae43",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9a23-d0ee-bfef-3b7c",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Magic items",
+            "id": "a9bf-d1d5-7b75-f7d8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "ef01-82ea-1df6-75c8",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Giant",
+        "id": "29a4-f59d-7c48-cb56",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Rare units", "id": "4bc3-f3a6-b767-6f24", "hidden": false, "primary": true, "targetId": "75b7-154c-09bb-c13b"}],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 43}],
+        "infoLinks": [
+          {"name": "Fearless", "id": "3e80-3dc0-d81b-a811", "hidden": false, "targetId": "01c3-8485-b179-7a4d", "type": "rule"},
+          {"name": "Throwing stones", "id": "de29-9983-7f75-944b", "hidden": false, "targetId": "bab7-9e46-b1ec-21c4", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Giant",
+            "id": "3843-69f4-b38b-63f4",
+            "hidden": false,
+            "typeId": "4a2d-4730-d9ad-ca23",
+            "typeName": "Profile",
+            "characteristics": [
+              {"name": "LD", "$text": "6", "typeId": "2d74-3840-75ce-fb6a"},
+              {"name": "M", "$text": "10", "typeId": "bbba-6b29-970f-bb87"},
+              {"name": "WS", "$text": "2", "typeId": "bd6b-76ed-c7b4-ed41"},
+              {"name": "S", "$text": "6", "typeId": "0965-1c76-5e55-52f3"},
+              {"name": "T", "$text": "5", "typeId": "6131-048c-0aa9-a832"},
+              {"name": "A", "$text": "5", "typeId": "2741-62c1-8198-f19f"},
+              {"name": "W", "$text": "6", "typeId": "a5bd-81d9-7061-d9fa"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ravagers on Sungals",
+        "id": "1a50-0f29-0c67-ebdc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Elite units", "id": "0a43-2b7e-e096-8487", "hidden": false, "primary": true, "targetId": "6518-c7a0-7e65-5999"}],
+        "constraints": [
+          {
+            "id": "35a6-3867-7a29-6f74",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 0}],
+        "modifiers": [
+          {
+            "field": "35a6-3867-7a29-6f74",
+            "type": "set",
+            "value": 5,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::8c1c-2839-4120-668b",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Ravagers on Sungals",
+            "id": "46de-8bb6-d80d-d208",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "46a6-311e-b719-000f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "4ee6-9b98-838f-6d8d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 20}],
+            "infoLinks": [
+              {"name": "Terrible Damage", "id": "75eb-6359-d3af-e40c", "hidden": false, "targetId": "56b0-e43e-6468-94c6", "type": "rule"},
+              {"name": "Fury", "id": "e4e0-bf59-1b4e-ac88", "hidden": false, "targetId": "e653-bff4-978e-1ec3", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Ravagers on Sungals",
+                "id": "68f5-2106-6a0e-8e59",
+                "hidden": false,
+                "typeId": "4a2d-4730-d9ad-ca23",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "2d74-3840-75ce-fb6a"},
+                  {"name": "M", "$text": "15", "typeId": "bbba-6b29-970f-bb87"},
+                  {"name": "WS", "$text": "3", "typeId": "bd6b-76ed-c7b4-ed41"},
+                  {"name": "S", "$text": "4", "typeId": "0965-1c76-5e55-52f3"},
+                  {"name": "T", "$text": "5", "typeId": "6131-048c-0aa9-a832"},
+                  {"name": "A", "$text": "2", "typeId": "2741-62c1-8198-f19f"},
+                  {"name": "W", "$text": "3", "typeId": "a5bd-81d9-7061-d9fa"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Half-giants",
+        "id": "b9e4-57f6-6b15-d89c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Rare units", "id": "1da5-07a0-6ebf-2acc", "hidden": false, "primary": true, "targetId": "75b7-154c-09bb-c13b"}],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Half-giants",
+            "id": "4fd0-9530-4e1f-a239",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Starter Wars: Half-giants base", "id": "0f4a-7cbb-d826-cae8", "hidden": false, "primary": false, "targetId": "35ba-e63e-edbe-94e0"}],
+            "constraints": [
+              {
+                "id": "65e6-8aed-d76c-d797",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "3a9f-e98b-8e2e-b4d8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 18}],
+            "infoLinks": [
+              {"name": "Crushing Blow", "id": "55a3-7fa3-721d-5c60", "hidden": false, "targetId": "3182-3e0f-4c43-ffcd", "type": "rule"},
+              {"name": "Cleaving", "id": "88f7-89bc-0f98-f301", "hidden": false, "targetId": "ae6e-4729-6b16-d673", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Half-giants",
+                "id": "a305-b986-883c-a50a",
+                "hidden": false,
+                "typeId": "4a2d-4730-d9ad-ca23",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "7", "typeId": "2d74-3840-75ce-fb6a"},
+                  {"name": "M", "$text": "10", "typeId": "bbba-6b29-970f-bb87"},
+                  {"name": "WS", "$text": "2", "typeId": "bd6b-76ed-c7b4-ed41"},
+                  {"name": "S", "$text": "4", "typeId": "0965-1c76-5e55-52f3"},
+                  {"name": "T", "$text": "4", "typeId": "6131-048c-0aa9-a832"},
+                  {"name": "A", "$text": "3", "typeId": "2741-62c1-8198-f19f"},
+                  {"name": "W", "$text": "2", "typeId": "a5bd-81d9-7061-d9fa"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sozruits",
+        "id": "82bb-4421-3ffc-767f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Elite units", "id": "4a54-5fd1-9331-a678", "hidden": false, "primary": true, "targetId": "6518-c7a0-7e65-5999"}],
+        "constraints": [
+          {
+            "id": "4eb2-176f-a641-db56",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Sozruits",
+            "id": "56e8-6f69-a85a-8f55",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "3048-a51b-760f-6f47",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "b91a-d5f2-2c6f-791e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 11}],
+            "profiles": [
+              {
+                "name": "Sozruits",
+                "id": "a32e-4d55-e449-fb76",
+                "hidden": false,
+                "typeId": "4a2d-4730-d9ad-ca23",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "5", "typeId": "2d74-3840-75ce-fb6a"},
+                  {"name": "M", "$text": "10", "typeId": "bbba-6b29-970f-bb87"},
+                  {"name": "WS", "$text": "3", "typeId": "bd6b-76ed-c7b4-ed41"},
+                  {"name": "S", "$text": "2", "typeId": "0965-1c76-5e55-52f3"},
+                  {"name": "T", "$text": "2", "typeId": "6131-048c-0aa9-a832"},
+                  {"name": "A", "$text": "2", "typeId": "2741-62c1-8198-f19f"},
+                  {"name": "W", "$text": "2", "typeId": "a5bd-81d9-7061-d9fa"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Cult",
+                "id": "7e4a-1590-f83f-7dbe",
+                "description": "The enemy gains 1 Blood Point for destroying two bases instead of one in this unit",
+                "hidden": false
+              },
+              {
+                "name": "Scare",
+                "id": "c022-b814-fc7b-5c35",
+                "description": "The enemy unit that is in base contact with this unit, must take a Panic Test at the end of the cycle for each base lost earlier in the same cycle",
+                "hidden": false
+              },
+              {"name": "The God of Slaughter Blessing", "id": "4e62-de39-4e26-8d2a", "description": "When praying, Sozruits have LD 10", "hidden": false}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Voutars",
+        "id": "73ab-05ea-a3e2-daee",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Uniqe units", "id": "d5bb-e1f4-dcdb-113b", "hidden": false, "primary": true, "targetId": "25b5-9054-a7c2-90ed"}],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Voutars",
+            "id": "658e-bb99-59fc-3b8c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Starter Wars: Voutars base", "id": "4066-66a1-5164-178b", "hidden": false, "primary": false, "targetId": "ee3e-8f87-5b3b-e692"}],
+            "constraints": [
+              {
+                "id": "6252-864a-6b51-a266",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "26d0-1371-5443-fe77",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 16}],
+            "infoLinks": [
+              {"name": "Keen Senses", "id": "6ee9-eef3-cb52-f922", "hidden": false, "targetId": "a34a-7199-b81a-7fb3", "type": "rule"},
+              {"name": "Brutal Trap", "id": "12f1-54d2-389c-e7c3", "hidden": false, "targetId": "dc7c-8af9-efc7-a666", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Voutars",
+                "id": "c9ea-37ac-4386-3893",
+                "hidden": false,
+                "typeId": "4a2d-4730-d9ad-ca23",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "4", "typeId": "2d74-3840-75ce-fb6a"},
+                  {"name": "M", "$text": "10", "typeId": "bbba-6b29-970f-bb87"},
+                  {"name": "WS", "$text": "3", "typeId": "bd6b-76ed-c7b4-ed41"},
+                  {"name": "S", "$text": "4", "typeId": "0965-1c76-5e55-52f3"},
+                  {"name": "T", "$text": "4", "typeId": "6131-048c-0aa9-a832"},
+                  {"name": "A", "$text": "2", "typeId": "2741-62c1-8198-f19f"},
+                  {"name": "W", "$text": "2", "typeId": "a5bd-81d9-7061-d9fa"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Knuroses",
+        "id": "a994-49ec-3bf2-3269",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "28f3-8bb3-ac02-2070", "hidden": false, "primary": true, "targetId": "527d-f4d9-6b3c-20d3"}],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Knuroses",
+            "id": "c1be-e9c3-c6eb-89d2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "e1f4-e5f6-8d8d-71e1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 16
+              },
+              {
+                "id": "1499-d154-fdce-d7f8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 15}],
+            "infoLinks": [
+              {"name": "Envy", "id": "2b0f-884c-0227-85b4", "hidden": false, "targetId": "00dd-c9cb-4ac3-b5e4", "type": "rule"},
+              {"name": "Sneaky", "id": "d68d-33c2-4176-c180", "hidden": false, "targetId": "3361-eaaf-6d39-d8cc", "type": "rule"},
+              {"name": "Reckless", "id": "780c-bd02-7e46-491b", "hidden": false, "targetId": "b349-c085-b8b3-6041", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Knuroses",
+                "id": "9467-bc5d-8051-cf3b",
+                "hidden": false,
+                "typeId": "4a2d-4730-d9ad-ca23",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "LD", "$text": "7", "typeId": "2d74-3840-75ce-fb6a"},
+                  {"name": "M", "$text": "10", "typeId": "bbba-6b29-970f-bb87"},
+                  {"name": "WS", "$text": "3", "typeId": "bd6b-76ed-c7b4-ed41"},
+                  {"name": "S", "$text": "4", "typeId": "0965-1c76-5e55-52f3"},
+                  {"name": "T", "$text": "4", "typeId": "6131-048c-0aa9-a832"},
+                  {"name": "A", "$text": "2", "typeId": "2741-62c1-8198-f19f"},
+                  {"name": "W", "$text": "2", "typeId": "a5bd-81d9-7061-d9fa"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Valeria",
+        "id": "4060-8478-8149-091d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Legendary hero", "id": "9584-ff91-5107-8b3b", "hidden": false, "primary": true, "targetId": "b096-ae60-509f-d93a"}],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 41}],
+        "rules": [
+          {
+            "name": "Valeria",
+            "id": "8e26-99c6-b3b0-2175",
+            "description": "Valeria is always accompanied by Andras and Iluar, who fight along her side in the Vaendral Army. Thanks to it, Valeria supports the unit with 8 attacks",
+            "hidden": false
+          },
+          {
+            "name": "Chosen of the Bathed in Blood",
+            "id": "377f-bb43-feb4-7431",
+            "description": "If the Vaendral army's General has left the battlefield, Valeria immediately takes command. The army can still use the Born Warriors special rule and use Valeria's LD 2. Valeria cannot issue orders",
+            "hidden": false
+          },
+          {
+            "name": "Slayer's Axe",
+            "id": "7116-7999-683a-edf2",
+            "description": "When the unit Valeria is attached to is to make a Wound Test, you may take up to 2 dice from the pool and roll them separately. Each score od 3 or less means the enemy is dealt 3 Wounds",
+            "hidden": false
+          },
+          {
+            "name": "Feisty Savage",
+            "id": "4cbc-1655-8177-f98e",
+            "description": "If an enemy succesfully charges the unit with an Action Die that Valeria is attached to, the unit may immediately remove the Action Die, position itself facing the enemy, and make its attacks before the enemy does",
+            "hidden": false
+          },
+          {
+            "name": "Skull of the Priest Esn",
+            "id": "536c-7d47-cd6b-d0d8",
+            "description": "Valeria and her Priestesses defeated the High Priest Esn Ar Unrazr in battle. She keeps his skull, ground to powder, in a pouch on her belt. The power of the skull powder allows her to attempt to dispel an enemy spell once per battle. A score of 3 or less means a successful dispel",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Pakun",
+        "id": "f0aa-8d2b-dee0-b76e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8eb1-ba08-ae1e-7b22", "hidden": false, "primary": true, "targetId": "b096-ae60-509f-d93a"}],
+        "constraints": [
+          {
+            "id": "980d-a147-e5aa-41f4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "8c1c-2839-4120-668b", "value": 42}],
+        "rules": [
+          {
+            "name": "The Crusher",
+            "id": "3a91-dd1b-a1d8-b299",
+            "description": "This mysterious artifact hammer causes Pakun to support a unit with 6 attacks plus additional attacks equal to a d6 roll. Additionally, the unit Pakun supports changes its Strength (S) to 4 if it has less",
+            "hidden": false
+          },
+          {
+            "name": "Dark Humour",
+            "id": "4067-70f0-a3d9-bc25",
+            "description": "If Pakun is attached to the Half-giants unit, the unit may add or substract 1 from its LD during any test.",
+            "hidden": false
+          },
+          {
+            "name": "Oklar",
+            "id": "ad2c-08b6-477d-71b0",
+            "description": "An enemy unit that attacks a unit that Pakun is attached to must substract 3 dice from the pool.",
+            "hidden": false
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Light Shield Defence",
+        "id": "3214-2137-81a2-f33b",
+        "description": "For each Wound dealt to this unit, roll a d6 for the Light Shield Defence. Each score of 1 means a cancelled Wound",
+        "hidden": false
+      },
+      {"name": "Bloodshed", "id": "e92f-67dd-55ca-ba5a", "description": "This unit may re-roll all failed scores in the Wound Test", "hidden": false},
+      {
+        "name": "Fury",
+        "id": "e653-bff4-978e-1ec3",
+        "description": "When charging, this unit gets +2 additional attacks to the pool for each full rank of the enemy unit or +1 additional attack for each W point of the enemy single model. The bonus from Fury can never exceed 10 attacks.",
+        "hidden": false
+      }
+    ]
+  }
+}
