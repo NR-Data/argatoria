@@ -1,0 +1,2816 @@
+{
+  "gameSystem": {
+    "name": "Argatoria (PL)",
+    "id": "bed4-986d-3f21-8152",
+    "authorContact": "skraaj@codedoneright.eu",
+    "authorName": "Skraaj",
+    "battleScribeVersion": 2.03,
+    "readme": "Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023\n\nFAQ i errata dostępne tutaj – https://www.spellcrow.com/downloads-faqs-pm-49.html\n\nArmie Gaeldor oraz Sheol-Morg również są armiami testowymi, ich skład może się zmienić.\n\n©2021 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.",
+    "revision": 30,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {
+        "name": "Generał",
+        "id": "76f5-58f8-04aa-1914",
+        "hidden": false,
+        "publicationId": "5aa0-3e2a-18ff-c868",
+        "rules": [
+          {
+            "name": "Generał",
+            "id": "ca8c-7a3a-086d-d663",
+            "description": "Jeśli Generał zetknął się swoją podstawką z przyjaznym oddziałem, taki oddział otrzymuje 6 dodatkowych ataków podczas wykonywania ataków na wroga\n\nGenerał pozwala przyjaznym oddziałom w promieniu 10 cm wykonać przerzut Testu Zimnej Krwi\n\nWydawanie rozkazów:\nW dowolnym momencie podczas akcji bohaterów Generał może wydać rozkaz przyjaznemu oddziałowi. Wytypowany oddział musi znajdować się w promieniu 30 cm od Generała, ale nie musi być widoczny. Wynik 4 lub mniej oznacza udany rozkaz. Oddział, któremu Generał wydał rozkaz, może natychmiast przeprowadzić dowolną akcję, tak jakby właśnie został aktywowany.\nGenerał dysponuje trzema rozkazami na całą bitwę i może wydać tylko jeden rozkaz na cykl",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Grupa Dowódcza",
+        "id": "970f-1486-f74e-91e9",
+        "hidden": false,
+        "rules": [
+          {
+            "name": "Grupa Dowódcza",
+            "id": "ebd4-bf54-8ab8-27b8",
+            "description": "Dołączona do oddziału wspiera go podczas walki 1 atakiem\n\nJeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddziału, ten oddział może korzystać ze specjalnych zasad:\n– Po deklaracji szarży, oddział zamiast dorzutu do szarży, jaki mu przysługuje, może (nawet pomimo utrudnień) wykonać dorzut 3k6 i wybrać dwa najlepsze wyniki\n– Oddział ma prawo wykonać specjalny ruch w bok lub do tyłu do 5 cm + k6 zamiast swojego normalnego ruchu lub szarży\n– Oddział może wykonać przerzut nieudanych Testów Paniki",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Czempion",
+        "id": "cc08-ee1e-0c3d-24d0",
+        "hidden": false,
+        "rules": [
+          {
+            "name": "Czempion",
+            "id": "9ed7-d942-c8d2-7277",
+            "description": "Jeśli Czempion zetknął się swoją podstawką z przyjaznym oddziałem, taki oddział otrzymuje 4 dodatkowe ataki podczas wykonywania ataków na wroga",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Mag",
+        "id": "807c-d1a0-dd7a-19d6",
+        "hidden": false,
+        "rules": [
+          {
+            "name": "Mag",
+            "id": "8c78-4164-3894-a41a",
+            "description": "Magowie wspierają oddziały 1 dodatkowym atakiem. Każdy Mag daje armii dodatkową modlitwę w cyklu.",
+            "hidden": false
+          }
+        ]
+      },
+      {"name": "Oddziały Podstawowe", "id": "cf53-8f98-e5aa-f320", "hidden": false},
+      {"name": "Oddziały Elitarne", "id": "61c5-519d-b7db-d153", "hidden": false},
+      {"name": "Oddziały Rzadkie", "id": "70ac-247a-953d-1088", "hidden": false},
+      {"name": "Oddziały Unikalne", "id": "e7dc-90ea-f6c0-25b8", "hidden": false},
+      {"name": "Bohater", "id": "982d-e25e-9a7a-d639", "hidden": false},
+      {"name": "Marmydon", "id": "6da5-852d-f369-1d98", "hidden": false},
+      {"name": "Legendarny bohater", "id": "b1fc-1418-8299-2efb", "hidden": false},
+      {"name": "Oddziały Najemne", "id": "d0e7-2ce7-c81e-d0fc", "hidden": false}
+    ],
+    "costTypes": [{"name": "Punkty", "id": "f85b-9abe-e3c6-3699", "defaultCostLimit": -1, "hidden": false}],
+    "forceEntries": [
+      {
+        "name": "Argatoria",
+        "id": "8ea3-2427-f146-78c9",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Bohater",
+            "id": "3485-7ae8-40c1-e6f9",
+            "hidden": false,
+            "primary": false,
+            "targetId": "982d-e25e-9a7a-d639",
+            "constraints": [
+              {
+                "id": "3696-d1f1-2854-2ccd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "name": "Generał",
+            "id": "e7af-47eb-9e7b-78f2",
+            "hidden": false,
+            "primary": false,
+            "targetId": "76f5-58f8-04aa-1914",
+            "constraints": [
+              {
+                "id": "37fe-513b-78a2-a7a3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "3683-0d5d-534d-8e6d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Czempion",
+            "id": "3f4a-8d25-c5e4-ddcb",
+            "hidden": false,
+            "primary": false,
+            "targetId": "cc08-ee1e-0c3d-24d0",
+            "constraints": [
+              {
+                "id": "981f-98f2-edb8-ef16",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "6b4d-bdff-1032-81e7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "6b4d-bdff-1032-81e7",
+                "type": "set",
+                "value": 3,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "6b4d-bdff-1032-81e7",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Grupa Dowódcza",
+            "id": "619e-52d4-1202-1dd8",
+            "hidden": false,
+            "primary": false,
+            "targetId": "970f-1486-f74e-91e9",
+            "constraints": [
+              {
+                "id": "35bb-b377-e7b2-bb40",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "5422-89e8-b98f-ef78",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "35bb-b377-e7b2-bb40",
+                "type": "set",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "5422-89e8-b98f-ef78",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mag",
+            "id": "74d9-fa8f-e293-d5ff",
+            "hidden": false,
+            "primary": false,
+            "targetId": "807c-d1a0-dd7a-19d6",
+            "constraints": [
+              {
+                "id": "d4cd-ebc1-4d6c-a38d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "modifiers": [
+                  {
+                    "field": "d4cd-ebc1-4d6c-a38d",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 499
+                      }
+                    ]
+                  },
+                  {
+                    "field": "d4cd-ebc1-4d6c-a38d",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 499
+                      }
+                    ],
+                    "repeats": [
+                      {
+                        "childId": "model",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 500
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "d4cd-ebc1-4d6c-a38d",
+                "type": "set",
+                "value": 0,
+                "conditions": [
+                  {
+                    "childId": "8ea3-2427-f146-78c9",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Podstawowe",
+            "id": "3e4c-1000-928c-c468",
+            "hidden": false,
+            "primary": false,
+            "targetId": "cf53-8f98-e5aa-f320",
+            "constraints": [
+              {
+                "id": "6774-165e-4da8-d84e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "6774-165e-4da8-d84e",
+                "type": "set",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1000
+                  }
+                ]
+              },
+              {
+                "field": "6774-165e-4da8-d84e",
+                "type": "set",
+                "value": 4,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Elitarne",
+            "id": "b86b-7b1e-89e5-e428",
+            "hidden": false,
+            "primary": false,
+            "targetId": "61c5-519d-b7db-d153",
+            "constraints": [
+              {
+                "id": "9fe7-58d8-1383-a067",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "9d46-7335-ea96-6ec8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "9d46-7335-ea96-6ec8",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "cf53-8f98-e5aa-f320",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "force",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Rzadkie",
+            "id": "44c7-e10e-f367-e83a",
+            "hidden": false,
+            "primary": false,
+            "targetId": "70ac-247a-953d-1088",
+            "constraints": [
+              {
+                "id": "5e8f-eba7-b631-e430",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "5e8f-eba7-b631-e430",
+                "type": "set",
+                "value": 4,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "5e8f-eba7-b631-e430",
+                "type": "set",
+                "value": 8,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Unikalne",
+            "id": "4751-59f7-f585-14af",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e7dc-90ea-f6c0-25b8",
+            "constraints": [
+              {
+                "id": "60bb-0725-5d7b-6994",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "60bb-0725-5d7b-6994",
+                "type": "set",
+                "value": 3,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atMost",
+                    "value": 1500
+                  }
+                ]
+              },
+              {
+                "field": "60bb-0725-5d7b-6994",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 1500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marmydon",
+            "id": "f425-d026-f2c9-21bd",
+            "hidden": false,
+            "primary": false,
+            "targetId": "6da5-852d-f369-1d98",
+            "constraints": [
+              {
+                "id": "3321-0f57-487e-6658",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "modifiers": [
+                  {
+                    "field": "3321-0f57-487e-6658",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 999
+                      }
+                    ]
+                  },
+                  {
+                    "field": "3321-0f57-487e-6658",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 999
+                      }
+                    ],
+                    "repeats": [
+                      {
+                        "childId": "model",
+                        "field": "limit::f85b-9abe-e3c6-3699",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1000
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "3321-0f57-487e-6658",
+                "type": "set",
+                "value": 0,
+                "conditions": [
+                  {
+                    "childId": "8ea3-2427-f146-78c9",
+                    "field": "limit::f85b-9abe-e3c6-3699",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Legendarny bohater",
+            "id": "97c7-aa18-7fa0-9516",
+            "hidden": false,
+            "primary": false,
+            "targetId": "b1fc-1418-8299-2efb",
+            "constraints": [
+              {
+                "id": "caa5-5a07-7558-299a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Oddziały Najemne",
+            "id": "5ec8-738c-62ca-e977",
+            "hidden": false,
+            "primary": false,
+            "targetId": "d0e7-2ce7-c81e-d0fc",
+            "constraints": [
+              {
+                "id": "8bab-115c-b20e-3b6a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Profile",
+        "id": "218f-0655-0268-95ef",
+        "characteristicTypes": [
+          {"name": "LD", "id": "93fa-4500-7c4e-a44c"},
+          {"name": "M", "id": "a9c9-ec0c-65ad-1dc0"},
+          {"name": "WS", "id": "d333-1828-755a-c589"},
+          {"name": "S", "id": "f957-7f6c-4fcc-ef66"},
+          {"name": "T", "id": "b6c9-4b7e-33e0-6aca"},
+          {"name": "A", "id": "395a-f9df-359b-774c"},
+          {"name": "W", "id": "1aef-9fb8-6d60-bcdb"}
+        ]
+      },
+      {
+        "name": "Czar",
+        "id": "a968-261e-9dd4-8c71",
+        "characteristicTypes": [{"name": "Opis", "id": "24a5-5e20-a1e3-adde"}, {"name": "Test", "id": "73d8-877b-79f6-209e"}]
+      },
+      {"name": "Zdolność", "id": "7637-0d34-a79d-477b", "characteristicTypes": [{"name": "Opis", "id": "d023-e767-bbca-ad83"}]},
+      {"name": "Przedmiot Magiczny", "id": "8d62-f2ce-fb98-567c", "characteristicTypes": [{"name": "Opis", "id": "60c5-6b6f-40ee-708a"}]},
+      {"name": "Artefakt", "id": "5219-ca27-c297-2a6c", "characteristicTypes": [{"name": "Opis", "id": "cc6a-4f04-9c63-1b5d"}]},
+      {"name": "Generał", "id": "50ee-1030-6a91-1b8d", "characteristicTypes": [{"name": "LD", "id": "cac3-aea3-a917-6b13"}]}
+    ],
+    "publications": [
+      {
+        "name": "Argatoria Rulebook",
+        "id": "5aa0-3e2a-18ff-c868",
+        "publicationDate": 2021,
+        "publisher": "Argatoria Wargame Rulebook",
+        "publisherUrl": "https://www.spellcrow.com/argatoria-wargame-rulebook-pl-p-1018.html",
+        "shortName": "Rulebook"
+      },
+      {
+        "name": "Purole Warlock nr 2",
+        "id": "3ffb-f035-c2bb-f33b",
+        "publicationDate": "Luty 2023",
+        "publisher": "Purole Warlock nr 2",
+        "publisherUrl": "https://www.spellcrow.com/purple-warlock-numer-2-figurkowy-magazyn-hobbystyczny-pdf-p-1064.html",
+        "shortName": "PW"
+      }
+    ],
+    "rules": [
+      {
+        "name": "Maruderzy",
+        "id": "992e-2ea6-fee8-41a6",
+        "description": "Każdy oddział, który wystawiłeś na pole bitwy, składający się z maksymalnej liczby podstawek (16 sztuk) pozwala na wystawienie darmowego dodatkowego oddziału zwanego Maruderami. Oddział ten zawsze liczy 4 podstawki, jest tego samego rodzaju co 16 podstawek, które pozwoliły go wystawić, i jest wystawiany bez wliczania do kosztu armii. Nie obowiązuje go również żaden limit wystawianych jednostek. Oddział nie może być powiększany ani łączony z innymi oddziałami Maruderów. Za pokonanie Maruderów wróg normalnie zdobywa Punkty Krwi",
+        "hidden": false
+      },
+      {
+        "name": "Modlitwy",
+        "id": "1c4f-3749-aad7-36d6",
+        "description": "Wykonaj rzut 2k6. Wynik równy lub niższy niż LD oddziału oznacza, że modlitwa się udała. Gracz może wybrać jedną modlitwę z listy i zastosować ją do oddziału, którym odprawiał modły. Wyodrębniamy modlitwy o:\nFurię: Jeśli oddział wykona udaną szarżę, otrzymuje bonus +3 ataki do puli.\nOdwagę: Oddział nie musi do końca trwania tego cyklu wykonywać Testu Zimnej Krwi.\nSiłę: Oddział może podczas walki, w którą był już wcześniej zaangażowany, wykonać przerzut nieudanych ranień.\nSzczęście: Oddział może wykonać przerzut nieudanych wyników podczas Testu Walki Standardowej.\nNieszczęście u Wroga: Oddział może wytypować wrogi oddział, który się z nim styka. Podczas Testu Walki Standardowej przeprowadzanej przez wroga, wróg musi wykonać przerzut wszystkich udanych trafień.\nGniew Natury: Jeśli oddział wykona udaną szarżę, rzuć k6. Po uzyskaniu wyniku:\n1-2 Wrogi zaszarżowany oddział musi natychmiast wykonać Test Paniki za 3 podstawki.\n3-4 Wrogi zaszarżowany oddział musi natychmiast wykonać Test Paniki za 2 podstawki.\n5-6 Wrogi zaszarżowany oddział musi natychmiast wykonać Test Paniki za 1 podstawkę.\nZwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo przemnożyć wynik uzyskany na jednej z kości przez 2.",
+        "hidden": false
+      }
+    ],
+    "sharedRules": [
+      {"name": "Nieustraszony", "id": "907e-ec8a-ba87-c704", "description": "Zawsze zdaje Test Zimnej Krwi oraz Test Paniki", "hidden": false},
+      {"name": "Grom Włóczni", "id": "c4e7-b255-b1c7-3642", "description": "Oddział zawsze atakuje również drugim szeregiem", "hidden": false},
+      {"name": "Kreatura", "id": "e31e-0765-1fa4-c61f", "description": "Oddział nie może wykonywać modlitw", "hidden": false},
+      {
+        "name": "Zniewoleni",
+        "id": "2745-44fc-dd08-3bad",
+        "description": "Przeciwnik zdobywa Punkty Krwi za podstawki dopiero po zniszczeniu całego oddziału",
+        "hidden": false
+      },
+      {"name": "Monstrum", "id": "1446-e9eb-60e8-b494", "description": "Wróg wykonuje Test Paniki na 2+ zamiast na 4+", "hidden": false},
+      {
+        "name": "Nieczułość",
+        "id": "5c21-fd42-df0f-4653",
+        "description": "Test Paniki wykonywany przez ten oddział jest nieudany tylko po uzyskaniu wyniku 6",
+        "hidden": false
+      },
+      {
+        "name": "Wyostrzone Zmysły",
+        "id": "b8ea-004d-8202-77a6",
+        "description": "Oddział może wykonać dowolny obrót przed wykonaniem ruchu lub szarży",
+        "hidden": false
+      },
+      {"name": "Brutalna Pułapka", "id": "ae08-76ed-ff77-59e4", "description": "Oddział podwaja bonus za atakowanie wroga od boku lub tyłu", "hidden": false},
+      {
+        "name": "Miażdżący Cios",
+        "id": "8c60-8ad3-d241-afd1",
+        "description": "Każdy udany rzut w teście WS wykonany przez ten oddział jest traktowany jak Podwójny Cios",
+        "hidden": false
+      },
+      {
+        "name": "Zaciekłość",
+        "id": "f593-c25f-aa8a-bbc8",
+        "description": "Podczas Testu Ranienia za każdą 1 można wykonać dodatkowe dwa testy k6 na ranienie. Dodatkowe Testy Ranienia i uzyskane 1 nie generują kolejnych.",
+        "hidden": false
+      },
+      {"name": "Straszliwe Obrażenia", "id": "05b0-8373-2d27-5168", "description": "Podczas Testu Ranienia każda wyrzucona 1 oznacza dodatkową ranę", "hidden": false},
+      {
+        "name": "Strach",
+        "id": "b756-0f19-9c03-7378",
+        "description": "Po wykonaniu udanej szarży oddziałem z tązasadą wróg musi wykonać Test Paniki dla 1 podstawki. Jeśli oddział jest hordą, wróg musi wykonać Test Paniki dla 2 podstawek",
+        "hidden": false
+      },
+      {
+        "name": "Dzika Szybkość",
+        "id": "ec17-b919-3559-1160",
+        "description": "Oddział zawsze posiada specjalną dodatkową 1k6 podczas ruchu i szarż, bez względu na sytuację",
+        "hidden": false
+      },
+      {"name": "Wierni", "id": "e040-833c-caec-4b65", "description": "Podczas modlitw otrzymują bonus +1 do LD", "hidden": false},
+      {
+        "name": "Bitewna Inspiracja",
+        "id": "6a10-dea2-2b74-bfb5",
+        "description": "Bohater dołączony do tego oddziału daje +2 dodatkowe ataki do puli",
+        "hidden": false
+      },
+      {
+        "name": "Zaciekły Szturm",
+        "id": "2a2c-4cda-7024-1fa9",
+        "description": "Podczas szarży oddział otrzymuje +2 dodatkowe ataki za każdy pełen szereg",
+        "hidden": false
+      },
+      {
+        "name": "Rozpłatanie",
+        "id": "32f7-0a99-bfc7-33c7",
+        "description": "Przed ciosami Pół-gigantów nie chronią żadne pancerze ani inne rodzaje ochrony.",
+        "hidden": false
+      },
+      {
+        "name": "Miotanie kamieniami",
+        "id": "7a33-c76a-61cb-5124",
+        "description": "Jeśli przyjazny oddział w promieniu 20 cm od Giganta został zaszarżowany przez wrogi oddział, Gigant może natychmiast rzucić w szarżującego wroga kamieniami. Wykonaj rzut k6. Wynik 4 lub mniej oznacza, że Gigantowi udało się dorzucić kamieniami do wroga. Teraz należy wykonać kolejny rzut k6, a uzyskany wynik to liczba ataków, które wrogi oddział musi odjąć ze swojej puli. Gigant może użyć tej zdolności raz na cykl.",
+        "hidden": false
+      },
+      {
+        "name": "Trujące Splunięcie",
+        "id": "914b-0df3-b497-6049",
+        "description": "Po rozstrzygnięciu ataków Ropuchonów wybierz wrogi oddział, który się z nimi styka. Wykonaj rzut k6 za każdą podstawkę w oddziale Ropuchonów. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2.",
+        "hidden": false
+      },
+      {
+        "name": "Podstępni",
+        "id": "3322-7df0-fbc2-5676",
+        "description": "Oddział otrzymuje dodatkowy bonus +2 za atakowanie wroga od boku lub od tyłu",
+        "hidden": false
+      },
+      {
+        "name": "Zawiść",
+        "id": "14fd-1cdb-b6b8-a12a",
+        "description": "Wykonując Test Ranienia wroga, którego koszt za jedną podstawkę jest większy niż koszt podstawki Knurosa, oddział Knurosów otrzymuje 3 dodatkowe kości do Testu Ranienia",
+        "hidden": false
+      },
+      {
+        "name": "Samowola",
+        "id": "0bfb-a78c-b78c-e167",
+        "description": "Oddział nigdy nie może mieć wydawanych rozkazów. W zamian w turze bohaterów musisz wytypowaćjeden niezaangażowany w walkę oddział Knurosów, który ma wrogi oddział w zasięgu do 15 cm. Wykonaj rzut k6. Wynik 2 lub mniej oznacza, że oddział Knurosów otrzymuje Kość Akcji i musi natychmiast przeprowadzić szarżę na wskazany wrogi oddział. Zasada może być użyta tylko raz na cykl i tylko przez jeden oddział Knurosów w armii",
+        "hidden": false
+      },
+      {
+        "name": "Wnyki",
+        "id": "eb8f-9383-963e-9ea3",
+        "description": "Jeśli wróg wykonałudaną szarżę na Skaalów, wykonaj test k6 za użycie wnyków. Wynik 4 lub mniej oznacza, że wróg otrzymuje k6 ran bez możliwości wykonania testu na ochronę lub pancerz. Jeśli oddział jest hordą, może wykonać przerzut testu k6 za użycie wnyków.",
+        "hidden": false
+      },
+      {
+        "name": "Tropienie",
+        "id": "786a-b8b6-82a8-b79c",
+        "description": "Jeśli wróg posiada na stole po rozstawieniu całej armii oddziałz zasadą Kreatura lub model pojedynczy, Skaalowie mogą zostać przestawieni tak, by być w odległości 30 cm od tego oddziału lub modelu pojedynczego oraz minimum 30 cm od innych oddziałów wroga (nawet w strefie rozstawienia wroga).",
+        "hidden": false
+      },
+      {"name": "Czujni", "id": "630c-ba9e-74f9-42a0", "description": "Przeciwnik nie otrzymuje bonusów za atak od boku lub tyłu.", "hidden": false}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Kula Ognia",
+        "id": "3418-7f68-c221-585a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "ea0e-d5e5-6613-a8ec",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 7}],
+        "profiles": [
+          {
+            "name": "Kula Ognia",
+            "id": "623e-f5ab-c2ee-7f74",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz dowolny wrogi oddział (nie model pojedynczy) w promieniu 20 cm, który jest niezaangażowany  w walkę. Rzuć k6 – wynik 3 lub mniej oznacza udany czar. Dwie podstawki z tego oddziału muszą wykonać  Test Paniki",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "3-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zamieć",
+        "id": "190b-3b4d-98ea-d965",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "4431-629c-6bd3-4c4c",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 6}],
+        "profiles": [
+          {
+            "name": "Zamieć",
+            "id": "564e-b263-cb44-dac9",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz dowolny wrogi oddział w promieniu 30 cm, który nie jest zaangażowany w walkę. Rzuć k6 – wynik 4 lub mniej oznacza udany czar. Wrogi oddział może zostać dowolnie przesunięty o 5 cm w przód lub w tył",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "4-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Groza",
+        "id": "47ea-13ca-009f-9450",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "cfe9-5e15-c1c2-dceb",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 2}],
+        "profiles": [
+          {
+            "name": "Groza",
+            "id": "8bd7-c3d7-863f-91c9",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz dowolny wrogi oddział w promieniu 30 cm. Rzuć k6 - wynik 4 lub mniej oznacza udany czar. Wrogi oddział na początku kolejnego cyklu musi wykonać Test Zimnej Krwi. Nieudany test oznacza, że traci Kość Akcji",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "4-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wola Walki",
+        "id": "d4ef-8a40-819e-908a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "5e9a-9614-002c-9225",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 8}],
+        "profiles": [
+          {
+            "name": "Wola Walki",
+            "id": "c143-3b32-a7f5-bea8",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz dowolny przyjazny oddział w promieniu 20 cm, niezaangażowany w walkę. Rzuć k6 – wynik 3 lub mniej oznacza udany czar. Oddział może dowolnie się obrócić i wykonać ruch do 15 cm + k6",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "3-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Szepty Bogów",
+        "id": "082d-d4b1-0856-cc91",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "0a26-b5f9-5255-3949",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 3}],
+        "profiles": [
+          {
+            "name": "Szepty Bogów",
+            "id": "c5aa-aade-1358-d4f1",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz Generała w promieniu 30 cm. Rzuć k6 – wynik 4 lub mniej oznacza udany czar. Wybierz modyfikator +2 lub -2. Wybrany Generał otrzyma go podczas kolejnej Fazy Inicjatywy",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "4-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Talizman z Ragloq",
+        "id": "b0f1-deba-1970-ee6c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "314b-e0f8-9e64-ed84",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "6b1a-9821-da78-835e",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 2}],
+        "profiles": [
+          {
+            "name": "Talizman z Ragloq",
+            "id": "b155-0802-23d9-15d6",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [{"name": "Opis", "$text": "Podczas Rzutu za Aktywację pozwala wykonać przerzut jednego wyniku na kości", "typeId": "60c5-6b6f-40ee-708a"}]
+          }
+        ]
+      },
+      {
+        "name": "Eliksir",
+        "id": "14db-68f2-f77b-5f4a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "7296-0e0c-84eb-d78f",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "3dd2-8a51-0660-2a26",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 1}],
+        "profiles": [
+          {
+            "name": "Eliksir",
+            "id": "5c4e-4469-f41b-64bc",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [{"name": "Opis", "$text": "Gracz może wykonać przerzut Testu Inicjatywy z modyfikatorem +2", "typeId": "60c5-6b6f-40ee-708a"}]
+          }
+        ]
+      },
+      {
+        "name": "Stary Pergamin",
+        "id": "2e16-24be-494f-559f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "fa66-5bdd-d639-b163",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "b063-0956-0f83-692b",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 2}],
+        "profiles": [
+          {
+            "name": "Stary Pergamin",
+            "id": "47fd-5359-6a39-5a65",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [{"name": "Opis", "$text": "Mag może rzucić drugi czar w cyklu, ale nie może się on powtórzyć", "typeId": "60c5-6b6f-40ee-708a"}]
+          }
+        ]
+      },
+      {
+        "name": "Księga Zmarłych",
+        "id": "c6bf-2715-d887-a175",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "3b38-88d2-9703-0eac",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "3250-e4d0-1c47-1172",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 8}],
+        "profiles": [
+          {
+            "name": "Księga Zmarłych",
+            "id": "a1dd-e969-59e5-0985",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Każdy wrogi oddział w promieniu 20 cm od Maga musi mieć wykonany test k6. Wynik 2 lub mniej oznacza, że wrogi oddział otrzymuje 2 rany",
+                "typeId": "60c5-6b6f-40ee-708a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dispel",
+        "id": "c1f6-4960-c04f-7df6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "4397-3bca-eae7-3c20",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "4389-9d0f-9ea7-7810",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 1}],
+        "profiles": [
+          {
+            "name": "Dispel",
+            "id": "d16b-a9ee-5ffe-479b",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Jeśli wrogi Mag użył czaru lub przedmiotu innego niż Dispel, może być wykonany test k6. Wynik 5 lub mniej oznacza rozproszenie magii. Wynik 1 oznacza, że Dispel nie stracił mocy i będzie mógł być ponownie użyty",
+                "typeId": "60c5-6b6f-40ee-708a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pierścień Mocy",
+        "id": "8bf1-0782-2f28-6ebd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "6e2c-226d-3a1a-bc5f",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "c086-efa1-063e-4879",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 2}],
+        "profiles": [
+          {
+            "name": "Pierścień Mocy",
+            "id": "ac08-d3f8-49fa-41c1",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [{"name": "Opis", "$text": "Mag może podczas aktywacji wykonać teleportację do 40 cm", "typeId": "60c5-6b6f-40ee-708a"}]
+          }
+        ]
+      },
+      {
+        "name": "Kostur",
+        "id": "049b-0974-02f7-3360",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "f652-8d6c-8c02-a54e",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "6f8f-cae8-7eca-88eb",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 3}],
+        "profiles": [
+          {
+            "name": "Kostur",
+            "id": "1f26-bcc1-cf24-1497",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Dowolny wybrany oddział w promieniu 20 cm od Maga musi wykonać przerzut wszystkich nieudanych lub udanych trafień w walce",
+                "typeId": "60c5-6b6f-40ee-708a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Diadem Rozpaczy",
+        "id": "9c68-5ff6-a74d-2775",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "aa86-d93b-3d9a-5675",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "ad33-b23d-78ee-68bf",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 4}],
+        "profiles": [
+          {
+            "name": "Diadem Rozpaczy",
+            "id": "2a4e-5595-3d8b-7e60",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Diadem może być wykorzystany do wsparcia oddziału w promieniu 20 cm od Maga. Każdy wynik 1 na ranieniu oznacza zadanie 2 ran",
+                "typeId": "60c5-6b6f-40ee-708a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(PW2) Zamroczenie",
+        "id": "d5bf-506a-7ee7-8b49",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "147f-c777-82b6-fd42",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 2}],
+        "profiles": [
+          {
+            "name": "Zamroczenie",
+            "id": "39ce-e098-b022-2230",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz dowolny oddział lub model pojedynczy w promieniu 30 cm. Rzuć k6 – wynik 2 lub mniej oznacza udany czar. W kolejnym cyklu oddział lub model pojedynczy może wykonywać ruch lub szarżę tylko na odległość k6 lub 2k6 cm bez dodawania cechy M. Jeśli szarża oddziału była nieudana, pozostaje on w miejscu, ale może być obrócony przez przeciwnika do 90 stopni.",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "2-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(PW2) Zemsta",
+        "id": "8d72-1193-f5ae-9a36",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "a8cc-fdb1-7a5e-e760",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 6}],
+        "profiles": [
+          {
+            "name": "Zemsta",
+            "id": "aeb4-9f98-dfb8-de76",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz dowolny zaangażowany w walkę oddział lub model pojedynczy w promieniu 30 cm. Rzuć k6 – wynik 4 lub mniej oznacza udany czar. Wybrany oddział może natychmiast za każdą 1 straconą ranę w tym cyklu wykonać 1 atak",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "4-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(PW2) Kajdany Bólu",
+        "id": "28c1-e605-902c-77a4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "f876-82f3-1c43-ec6f",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 9}],
+        "profiles": [
+          {
+            "name": "Kajdany Bólu",
+            "id": "76fb-23f4-a856-77f5",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz dowolny wrogi model pojedynczy w promieniu 30 cm. Rzuć k6 – wynik 3 lub mniej oznacza udany czar. Model musi natychmiast wykonać test k6 za każdy posiadany punkt W. Wynik 5 lub 6 oznacza, że traci 1 punkt W",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "3-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ostrze Pogardy",
+        "id": "a9c4-c4c8-80cc-ce6d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "acab-fb7b-39f2-62b5",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "4491-b6a8-a898-319c",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 2}],
+        "profiles": [
+          {
+            "name": "Ostrze Pogardy",
+            "id": "88f2-4524-f330-26a1",
+            "hidden": false,
+            "typeId": "5219-ca27-c297-2a6c",
+            "typeName": "Artefakt",
+            "characteristics": [{"name": "Opis", "$text": "Generał wspiera oddział 7 atakami zamiast 6", "typeId": "cc6a-4f04-9c63-1b5d"}]
+          }
+        ]
+      },
+      {
+        "name": "Mityczny Hełm Przeznaczenia",
+        "id": "226a-1687-b623-bcba",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "ef3c-9868-ee19-9efe",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "cd4a-8087-ea02-7ee9",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 1}],
+        "profiles": [
+          {
+            "name": "Mityczny Hełm Przeznaczenia",
+            "id": "389f-16f5-bbb9-b830",
+            "hidden": false,
+            "typeId": "5219-ca27-c297-2a6c",
+            "typeName": "Artefakt",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Generał po zetknięciu z wrogim oddziałem ginie tylko przy wyniku 1 i pozwala dołączyć się do oddziału \nw 30 cm",
+                "typeId": "cc6a-4f04-9c63-1b5d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Róg Haburisa",
+        "id": "ce5a-651e-59a9-6090",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "d878-afa0-39a4-5fc8",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "2d80-5687-39ab-0290",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 5}],
+        "profiles": [
+          {
+            "name": "Róg Haburisa",
+            "id": "53f2-68de-7167-34e2",
+            "hidden": false,
+            "typeId": "5219-ca27-c297-2a6c",
+            "typeName": "Artefakt",
+            "characteristics": [{"name": "Opis", "$text": "Zasięg wydawania rozkazów przez Generała jest powiększony o 10 cm", "typeId": "cc6a-4f04-9c63-1b5d"}]
+          }
+        ]
+      },
+      {
+        "name": "Zatrute Ostrze Katakhanes",
+        "id": "dac0-ae25-c04b-58ed",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "5c17-e049-b7ce-e305",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "8d26-2a24-1372-42a3",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 4}],
+        "profiles": [
+          {
+            "name": "Zatrute Ostrze Katakhanes",
+            "id": "78eb-2e0c-01ba-4817",
+            "hidden": false,
+            "typeId": "5219-ca27-c297-2a6c",
+            "typeName": "Artefakt",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Jeśli Generał jest dołączony do oddziału i podczas walki podstawka wrogiego oddziału została zraniona, jest ona zdejmowana jako zniszczona. Podczas walki z modelami pojedynczymi pozwala wykonać do 6 przerzutów podczas Testów Ranienia",
+                "typeId": "cc6a-4f04-9c63-1b5d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bastard Świętego Gardona",
+        "id": "1b44-df13-7e1e-b39d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "04ef-95ec-8bd9-05c3",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "f871-d2d2-a14a-5537",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 3}],
+        "profiles": [
+          {
+            "name": "Bastard Świętego Gardona",
+            "id": "afd9-3d83-2e90-d00c",
+            "hidden": false,
+            "typeId": "5219-ca27-c297-2a6c",
+            "typeName": "Artefakt",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Generał dołączony do oddziału pozwala podczas Testów WS wykonać przerzut wszystkich wyników 6, jeśli wróg posiada zasadę Nieustraszony lub do wrogiego oddziału jest dołączony Generał lub Czempion",
+                "typeId": "cc6a-4f04-9c63-1b5d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sztandar Chwały",
+        "id": "2835-5e5f-7e6a-7956",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "3662-441d-32f8-725c",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "c2d3-f237-e673-332b",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 10}],
+        "profiles": [
+          {
+            "name": "Sztandar Chwały",
+            "id": "0289-908c-578e-dd87",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Armia zawsze wygrywa remisy w Teście Inicjatywy. Jeśli przeciwnik również posiada tę zasadę, remisy muszą być przerzucane",
+                "typeId": "60c5-6b6f-40ee-708a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sztandar Uporu",
+        "id": "3daa-3a83-6e50-fa4e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "2917-8a04-af1e-ade3",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "68ee-cb3b-eae5-f30e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 4}],
+        "profiles": [
+          {
+            "name": "Sztandar Uporu",
+            "id": "6f99-99c4-0550-2c4b",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Oddział z dołączoną Grupą Dowódczą nigdy nie może stracić bonusów do szarży, walki lub niezależnych, gdy szarżuje na hordę lub oddział pozbawiający bonusów",
+                "typeId": "60c5-6b6f-40ee-708a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sztandar Bitewny",
+        "id": "a9fa-1ad9-a3b9-72e7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "80a6-f9c9-8159-21be",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "12c3-7702-3a3e-aba7",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 3}],
+        "profiles": [
+          {
+            "name": "Sztandar Bitewny",
+            "id": "288e-ae08-adf5-d617",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [{"name": "Opis", "$text": "Zasięg zdolności Grupy Dowódczej to 10 cm", "typeId": "60c5-6b6f-40ee-708a"}]
+          }
+        ]
+      },
+      {
+        "name": "Błogosławiony Sztandar",
+        "id": "8136-3281-2e36-ddcb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "59bb-8db4-894c-c254",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "21fa-f29b-6009-169c",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 8}],
+        "profiles": [
+          {
+            "name": "Błogosławiony Sztandar",
+            "id": "790d-d0ee-f240-8c06",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [{"name": "Opis", "$text": "Armia dysponuje 1 modlitwą na cykl więcej", "typeId": "60c5-6b6f-40ee-708a"}]
+          }
+        ]
+      },
+      {
+        "name": "Sztandar Odwagi",
+        "id": "a70b-3fd9-e3ea-58b9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "4cfa-3b57-c654-3f56",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "6cb1-9c2a-9781-ea03",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 1}],
+        "profiles": [
+          {
+            "name": "Sztandar Odwagi",
+            "id": "03fd-1f51-90fd-1826",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [{"name": "Opis", "$text": "Oddział z dołączoną Grupą Dowódczą posiada zasadę Nieustraszony", "typeId": "60c5-6b6f-40ee-708a"}]
+          }
+        ]
+      },
+      {
+        "name": "Sztandar Rozwagi",
+        "id": "044e-829c-85e4-d1c9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "57eb-e4ff-e6f0-8175",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "1b44-f611-921d-99cc",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 2}],
+        "profiles": [
+          {
+            "name": "Sztandar Rozwagi",
+            "id": "b3cd-7965-a13a-7433",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Po nieudanej szarży oddział z dołączoną Grupą Dowódczą nie wykonuje ruchu w kierunku wroga i nie może zostać obrócony",
+                "typeId": "60c5-6b6f-40ee-708a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sztandar Zniszczenia",
+        "id": "2b6c-3c72-319c-9ae3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "981d-394c-ba18-bdb6",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "cf6e-94f0-13be-02b2",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 3}],
+        "profiles": [
+          {
+            "name": "Sztandar Zniszczenia",
+            "id": "9032-c2c2-42e1-ca6f",
+            "hidden": false,
+            "typeId": "8d62-f2ce-fb98-567c",
+            "typeName": "Przedmiot Magiczny",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Podczas walki oddział z dołączoną Grupą Dowódczą nie pozwala wrogowi wykonywać testów pancerza lub ochrony. Dodatkowo otrzymuje 4 ataki za atakowanie wroga od boku lub tyłu do już posiadanych bonusów",
+                "typeId": "60c5-6b6f-40ee-708a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(PW2) Piorun",
+        "id": "f7ee-80e1-4daa-2830",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "20b4-a05c-c57a-2306",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 7}],
+        "profiles": [
+          {
+            "name": "Piorun",
+            "id": "931c-d2ac-0797-5883",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz dowolny niezaangażowany w walkę wrogi oddział lub model pojedynczy na polu bitwy. Rzuć k6 – wynik 2 lub mniej oznacza udany czar. Wybrany oddział otrzymuje trzy rany. Jeśli jednostka ma dowolny rodzaj ochrony, pancerza lub jest na większej podstawce niż 20 mm, otrzymuje 4 rany. Przed Piorunem nie chronią żadne pancerze",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "2-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(PW2) Podmuch Śmierci",
+        "id": "0e49-3d06-d610-36c4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "b117-2ba7-f170-f371",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Punkty", "typeId": "f85b-9abe-e3c6-3699", "value": 4}],
+        "profiles": [
+          {
+            "name": "Podmuch Śmierci",
+            "id": "dcb8-23fc-41eb-20bf",
+            "hidden": false,
+            "typeId": "a968-261e-9dd4-8c71",
+            "typeName": "Czar",
+            "characteristics": [
+              {
+                "name": "Opis",
+                "$text": "Wybierz do trzech dowolnych oddziałów wroga (ale nie modeli pojedynczych) posiadających rany w promieniu 40 cm. Wykonaj rzut k6. Wynik 4 lub mniej oznacza, że wytypowane oddziały muszą zdjąć podstawkę wraz z kostką oznaczającą rany",
+                "typeId": "24a5-5e20-a1e3-adde"
+              },
+              {"name": "Test", "$text": "4-", "typeId": "73d8-877b-79f6-209e"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "(PW2) Sztandary",
+        "id": "75d2-7540-394c-3480",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "categoryLinks": [{"name": "Grupa Dowódcza", "id": "dd2d-f537-9dfc-c94b", "hidden": false, "primary": false, "targetId": "970f-1486-f74e-91e9"}],
+        "constraints": [
+          {
+            "id": "08bd-3bca-f98c-96d5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Błogosławiony Sztandar",
+            "id": "1d8d-4acb-ae5f-edec",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "8136-3281-2e36-ddcb",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Grupa Dowódcza", "id": "6ee8-321a-3d37-4164", "hidden": false, "primary": false, "targetId": "970f-1486-f74e-91e9"}]
+          },
+          {
+            "name": "Sztandar Rozwagi",
+            "id": "b54b-f767-8d83-ca99",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "044e-829c-85e4-d1c9",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Sztandar Odwagi",
+            "id": "4922-73a8-b88d-8c53",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a70b-3fd9-e3ea-58b9",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Sztandar Chwały",
+            "id": "1e96-a9b2-6c90-ed0a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2835-5e5f-7e6a-7956",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Sztandar Bitewny",
+            "id": "24a5-3213-b49b-8b97",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a9fa-1ad9-a3b9-72e7",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Sztandar Zniszczenia",
+            "id": "bcfe-1165-e3f6-d3f6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2b6c-3c72-319c-9ae3",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Sztandar Uporu",
+            "id": "b55d-3c83-dcc0-788c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3daa-3a83-6e50-fa4e",
+            "type": "selectionEntry"
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::f85b-9abe-e3c6-3699",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 999
+              }
+            ]
+          },
+          {
+            "field": "08bd-3bca-f98c-96d5",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "limit::f85b-9abe-e3c6-3699",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 999
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(PW2) Artefakty",
+        "id": "15b3-5ca4-ddb3-fc7d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [{"name": "Generał", "id": "3702-95b6-6aa4-c2fe", "hidden": false, "primary": false, "targetId": "76f5-58f8-04aa-1914"}],
+        "constraints": [
+          {
+            "id": "35a5-2e0c-82ca-8e1a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Bastard Świętego Gardona",
+            "id": "1bb0-3f28-3785-b2e9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "1b44-df13-7e1e-b39d",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Mityczny Hełm Przeznaczenia",
+            "id": "9e4f-b91b-43a2-2b27",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "226a-1687-b623-bcba",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Róg Haburisa",
+            "id": "7a16-ce32-3781-4145",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "ce5a-651e-59a9-6090",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Zatrute Ostrze Katakhanes",
+            "id": "0ca1-e3bd-07d0-6975",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "dac0-ae25-c04b-58ed",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Ostrze Pogardy",
+            "id": "5eae-3916-a0c5-8229",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a9c4-c4c8-80cc-ce6d",
+            "type": "selectionEntry"
+          }
+        ]
+      },
+      {
+        "name": "Czary",
+        "id": "fdbd-83ec-d66f-7adc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [{"name": "Mag", "id": "98df-08a6-2251-f1a2", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}],
+        "constraints": [
+          {
+            "id": "d789-5d2e-b25a-1e61",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Kula Ognia",
+            "id": "9a60-d427-88af-13ed",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3418-7f68-c221-585a",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "11cb-adbf-4d55-d244", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Zamieć",
+            "id": "a108-4691-0c96-de1e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "190b-3b4d-98ea-d965",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "30a9-13e1-1500-5579", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Kajdany Bólu",
+            "id": "c3c4-f82b-150d-ed47",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "28c1-e605-902c-77a4",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "4ad7-f461-04d6-2d10", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Wola Walki",
+            "id": "1f7d-6141-6c76-e377",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d4ef-8a40-819e-908a",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "82e7-7cb7-e158-ea10", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Zemsta",
+            "id": "8d7c-7246-baaa-6b55",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "8d72-1193-f5ae-9a36",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "7cc2-c959-037e-3331", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Piorun",
+            "id": "4cfd-80e5-659e-6b1f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f7ee-80e1-4daa-2830",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "065e-9e39-e8ea-3b8a", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Podmuch Śmierci",
+            "id": "2265-194b-5c28-4a0a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0e49-3d06-d610-36c4",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "d9e1-caab-c094-0620", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Zamroczenie",
+            "id": "6537-815c-6ede-1493",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d5bf-506a-7ee7-8b49",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "7a1d-db39-69b4-d2ea", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Groza",
+            "id": "0738-6a2f-70d9-4565",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "47ea-13ca-009f-9450",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "8c88-3f73-4cd6-f240", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Szepty Bogów",
+            "id": "c0e8-9058-2c6d-e205",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "082d-d4b1-0856-cc91",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "85f1-f4c5-e74e-9972", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          }
+        ]
+      },
+      {
+        "name": "Przedmioty Magiczne",
+        "id": "4f06-7714-909f-44c4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [{"name": "Mag", "id": "8579-f2b2-531a-8cef", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}],
+        "constraints": [
+          {
+            "id": "098f-606d-28a7-204f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Talizman z Ragloq",
+            "id": "8333-cc57-cda1-98f5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b0f1-deba-1970-ee6c",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "6d16-34f3-a9c9-76b0", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Eliksir",
+            "id": "b8ce-a4d6-867c-931d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "14db-68f2-f77b-5f4a",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "36a2-84c4-fdb1-f09d", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Stary Pergamin",
+            "id": "b887-cd25-fc1f-8c4b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2e16-24be-494f-559f",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "1874-105b-ef14-ce94", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Księga Zmarłych",
+            "id": "76ff-82e3-ce58-eb23",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c6bf-2715-d887-a175",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "88eb-f020-5765-268d", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Pierścień Mocy",
+            "id": "2ff7-647f-8a7f-d292",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "8bf1-0782-2f28-6ebd",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "29a8-06fd-fb9a-6187", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Dispel",
+            "id": "d9d0-f574-8eea-b7c8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c1f6-4960-c04f-7df6",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "a6b3-7abe-2538-343f", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Kostur",
+            "id": "ce07-1ba3-d5a5-3045",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "049b-0974-02f7-3360",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "5cd7-6a67-02cd-b0a4", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Diadem Rozpaczy",
+            "id": "1d2e-7051-af3e-feac",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c68-5ff6-a74d-2775",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "f2be-9ba7-62a9-0650", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          }
+        ]
+      },
+      {
+        "name": "Czary (mag do 6 pkt)",
+        "id": "dc2f-dde6-bafe-9059",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [{"name": "Mag", "id": "103a-5f9c-2455-30c4", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}],
+        "constraints": [
+          {
+            "id": "13f5-75cf-16c7-cfb6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Zamieć",
+            "id": "07b5-d3fe-80d0-93f4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "190b-3b4d-98ea-d965",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "69a7-adb6-539e-2eb4", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Zemsta",
+            "id": "03d3-113c-ac6c-3b4c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "8d72-1193-f5ae-9a36",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "be57-60d2-6769-0bac", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Podmuch Śmierci",
+            "id": "7df9-6041-719a-c311",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0e49-3d06-d610-36c4",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "5d17-a12a-0e51-b635", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Zamroczenie",
+            "id": "b1c6-4d35-f789-ae89",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d5bf-506a-7ee7-8b49",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "6436-abf5-de98-0b47", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Groza",
+            "id": "e07b-9154-5f51-b1ec",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "47ea-13ca-009f-9450",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "192e-5232-c4ba-e474", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Szepty Bogów",
+            "id": "80e4-b1f0-3b95-cdc0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "082d-d4b1-0856-cc91",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "7114-57c2-33ea-02fc", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          }
+        ]
+      },
+      {
+        "name": "Przedmioty Magiczne (mag do 6 pkt)",
+        "id": "ff7a-f326-5a4e-c3cb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [{"name": "Mag", "id": "beb9-53f0-a24b-0f4e", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}],
+        "constraints": [
+          {
+            "id": "90f3-a65c-922b-9a1b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Talizman z Ragloq",
+            "id": "9888-7c01-66a2-43fa",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b0f1-deba-1970-ee6c",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "7058-d6ca-cbb9-2b29", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Eliksir",
+            "id": "2ae1-66ba-33d6-26fa",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "14db-68f2-f77b-5f4a",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "4f6e-64fd-2a15-8c23", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Stary Pergamin",
+            "id": "89ec-f21f-1641-b925",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2e16-24be-494f-559f",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "0fa3-91d0-83ea-9e9a", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Pierścień Mocy",
+            "id": "3d02-ce34-ab61-35a9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "8bf1-0782-2f28-6ebd",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "0b7b-849b-1f58-27b3", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Dispel",
+            "id": "0ccb-ab2f-c4ce-66ce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c1f6-4960-c04f-7df6",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "cfe1-5445-c012-ed23", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Kostur",
+            "id": "3527-f5c1-f5e3-d763",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "049b-0974-02f7-3360",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "9b81-99e5-bea7-b03d", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          },
+          {
+            "name": "Diadem Rozpaczy",
+            "id": "297b-9a23-14e0-e2e9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c68-5ff6-a74d-2775",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "Mag", "id": "dfd9-bb8e-d956-d911", "hidden": false, "primary": false, "targetId": "807c-d1a0-dd7a-19d6"}]
+          }
+        ]
+      }
+    ]
+  }
+}
