@@ -1,0 +1,1113 @@
+{
+  "catalogue": {
+    "name": "Items",
+    "id": "9fd1-abc6-119d-b5a5",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": true,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "profileTypes": [
+      {
+        "name": "Item",
+        "id": "88d9-934a-85e6-e7a3",
+        "hidden": false,
+        "kind": "weapon",
+        "characteristicTypes": [{"name": "Description", "id": "d8cb-c37d-4eab-001d", "kind": "longText"}]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Battle Staff",
+        "id": "4ae1-1384-f031-6034",
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "b791-8af0-68a1-307d",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 4}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Battle Staff",
+            "id": "f3aa-3c0a-eb4a-d51d",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Once per battle, during an Activation Roll, it allows a player to re-roll one die result. Additionally, a Mage with the Battle Staff attached to a unit always grants +3 attacks instead of +1.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Shoes",
+        "id": "94a1-56e3-5d5c-7c49",
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "8d0b-2bf5-c44c-a284",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 1}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Enchanted Shoes",
+            "id": "7954-7c3e-c2c0-03d6",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Move range of the Mage wearing the Enchanted Shoes equals 30 cm instead of 20 cm. Reusable item.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Breastplate from Al-dukbar",
+        "id": "811e-2a82-59be-ac60",
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "995b-9615-20e4-a107", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Breastplate from Al-dukbar",
+            "id": "1fa4-ea65-f88c-adc4",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If the Mage is to be eliminated from the battle by a foe, he may roll a D6. A score of 5 or less means that the breastplate saved the Mage from death. The Mage must then attach to a friendly unit within 30 cm.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ring of Spells",
+        "id": "92d2-b58a-b353-d545",
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "544d-e415-37b9-cd4e", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 1}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Ring of Spells",
+            "id": "7e34-7e07-2f3f-c0b1",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "The Mage can use the Ring of Spells to cast any one spell from the ones he did not buy.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Snow Amulet",
+        "id": "0d1d-2ef2-b1cc-4edd",
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "0975-53b1-3209-f296", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 4}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Snow Amulet",
+            "id": "a6e5-d9f9-dfff-f4e0",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {"name": "Description", "$text": "Roll a D6. Move and charge ranges of the enemy units are decreased by the obtained number.", "typeId": "d8cb-c37d-4eab-001d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Corpse Brew",
+        "id": "3a61-35fe-ca94-f468",
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "8c08-b69f-9d69-27d8", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 5}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Corpse Brew",
+            "id": "ce81-116f-4edc-9652",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The Mage who got touched by the enemy unit may immediately roll 6D6. Each score of 4 or less means that the enemy unit is dealt 1 Wound with no saves permitted. The Mage is allowed to touch the enemy unit on purpose during his move, however, if the unit survives, it can still take a test for the Mage’s death.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scroll of Dice Shattering",
+        "id": "bfaa-fce6-7f89-8fed",
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "ea6a-6268-8f9f-b1a8", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Scroll of Dice Shattering",
+            "id": "3af3-54d3-86d4-21ee",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "During an enemy Champion’s ability test, the Mage can shatter the result obtained by the Champion. The shattered die counts as a failed test.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spellbook",
+        "id": "0b60-bf63-2ae4-b1e9",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "6845-08f7-e8b2-ba43", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 3}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Spellbook",
+            "id": "7752-2c1f-d45f-7a06",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "Before the battle, it allows the Mage to buy a third spell.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Claw from Valhelia",
+        "id": "94af-b734-da84-d523",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "22b8-e0dd-059e-d24f", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "22b8-e0dd-059e-d24f",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4f13-69c6-c113-95b8",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "34fc-0aaa-8ed7-84c3",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2139-b90b-706b-1410",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Claw from Valhelia",
+            "id": "6c00-0406-917d-6c73",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Target unit (but not single model) with Creature can be assigned one prayer until the end of the cycle, after taking the successful Prayer Test (LD=8). Item cannot be used by the Sheol-morg army.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Long Staff",
+        "id": "3ecf-4bbd-5616-783d",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "91d9-a5bc-1b88-525a", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 5}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Long Staff",
+            "id": "3adf-8dd7-3363-5722",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "The ranges of all spells cast by the Mage are 10 cm greater. Reusable item.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Chalice of Woe",
+        "id": "a6ed-08ef-e067-b577",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "02af-ac90-3559-b1bd", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 7}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Chalice of Woe",
+            "id": "fc69-864f-9a57-a974",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If the opponent won the Initiative Test, you may use this item. Remove an Action Die from target enemy unit.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Magical Familiar",
+        "id": "3d4f-ee66-ca9d-c04b",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "5426-f615-d95c-8257", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 7}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Magical Familiar",
+            "id": "1da4-82c2-547a-b70c",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Before the battle, the Mage can buy up to three magic items instead of two thanks to the Magical Familiar. The Magical Familiar does not count to the limit of magic items.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vengeful Crystal",
+        "id": "c652-4110-64a3-09aa",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "11ce-dba3-5de1-897f", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 6}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Vengeful Crystal",
+            "id": "2d5c-53fc-d8a0-b3f4",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Roll a D6 before target enemy unit’s attacks. The enemy unit will have to remove all results obtained in the WS Test and the Wound Test that show the same number as your result. If your result is 5 or 6, the item is treated as not used and can be used (even in this cycle) during another fight of any unit.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scroll of Daze",
+        "id": "d976-1edb-c293-b4a0",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "2fbd-0970-5d8f-0c91", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 6}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Scroll of Daze",
+            "id": "e77a-1535-1282-6a74",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "Target enemy unit with WS 3 or greater gets -1 to WS.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Ring of Destruction",
+        "id": "ba71-d0b5-fb71-f5ab",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "6246-a841-5287-5acb", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 3}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Ring of Destruction",
+            "id": "584d-9b97-4ebb-fcfe",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "Target unit gets +1 to S.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Pouchling (Zapazooh)",
+        "id": "d241-a294-ac86-3651",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "5ccf-e30d-2219-bc39", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 1}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Pouchling (Zapazooh)",
+            "id": "7d0d-80a6-4fc0-eace",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "Modify the result in the Magic Test performed by the owner by 2.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Crown of Damnation",
+        "id": "8db1-a8fe-9655-b3b6",
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "5745-68ca-6ac2-4c9c", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Crown of Damnation",
+            "id": "046a-eadf-3fea-f6ad",
+            "hidden": false,
+            "page": 67,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If the Mage is attached to a charging unit, he may use the Crown of Damnation before the unit attacks. The charged enemy unit (but not single model) must immediately take Panic Tests for 4 bases. If the enemy unit (but not single model) has Fearless or Immunity, it cannot use these abilities until the end of the cycle, and its Cold Blood Tests are treated as failed.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Talisman from Ragloq",
+        "id": "d4e6-8e8d-0196-d981",
+        "hidden": false,
+        "import": true,
+        "page": 68,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "f989-a800-7f11-f918", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Talisman from Ragloq",
+            "id": "6542-c165-37b9-feb4",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "During one of your Activation Rolls, you can re-roll one die.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Elixir",
+        "id": "a850-cc94-487e-c821",
+        "hidden": false,
+        "import": true,
+        "page": 68,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "521b-4e64-3b04-5e2b", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 1}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Elixir",
+            "id": "7fea-4804-e8e7-fce2",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "The player can re-roll one Initiative Test with a +2 modifier.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Old Scroll",
+        "id": "6704-98d8-b3c8-5550",
+        "hidden": false,
+        "import": true,
+        "page": 68,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "685e-569a-938d-a2bb", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Old Scroll",
+            "id": "1813-7603-c259-8bb7",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {"name": "Description", "$text": "The Mage may cast another spell in the cycle, but it cannot be the same as the first spell.", "typeId": "d8cb-c37d-4eab-001d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Book of the Dead",
+        "id": "cb04-30fe-a76f-4756",
+        "hidden": false,
+        "import": true,
+        "page": 68,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "5433-8797-c8e3-38dd", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 8}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Book of the Dead",
+            "id": "a0f4-7e28-5d8b-d15e",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Every enemy unit within 20 cm of the Mage must take a D6 test. A score of 2 or less means the enemy unit is dealt 2 Wounds with no saves permitted.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dispel",
+        "id": "99a5-13fa-e6fd-b82f",
+        "hidden": false,
+        "import": true,
+        "page": 68,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "6835-eaa2-9314-8164", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 1}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Dispel",
+            "id": "9f5f-0f4e-10ad-a79b",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If an enemy Mage used a spell or an item other than Dispel, you may roll a D6. A score of 5 or less means that the spell or item was dispelled and did not work. A score of 1 means that the Dispel did not lose its power and the Mage will be able to use it again.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ring of Power",
+        "id": "ac23-4a31-5141-7f48",
+        "hidden": false,
+        "import": true,
+        "page": 68,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "64d7-0d7e-677c-e182", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Ring of Power",
+            "id": "a9b3-32ea-5d1a-887f",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "The Mage can teleport up to 40 cm during its activation.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Staff",
+        "id": "ca84-33cb-484b-254e",
+        "hidden": false,
+        "import": true,
+        "page": 68,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "2623-9bc0-8386-98c7", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 3}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Staff",
+            "id": "9718-d480-752c-55ad",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Target unit within 20 cm of the Mage must re-roll all failed or successful hits in the Weapon Skill Test.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Diadem of Despair",
+        "id": "11b2-60c6-6930-5f15",
+        "hidden": false,
+        "import": true,
+        "page": 68,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "4c66-12bf-2f76-6c55", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 4}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Diadem of Despair",
+            "id": "1491-4451-684e-26e1",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Use this item to support target unit within 20 cm of the Mage. Each score of 1 in the Wound Test performed by the chosen unit deals additional 1 Wound.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blade of Contempt",
+        "id": "a113-1cfd-3711-1b12",
+        "hidden": false,
+        "import": true,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "29e8-c047-e3fc-b49a", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Blade of Contempt",
+            "id": "79aa-c5d5-e45a-94b3",
+            "hidden": false,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "When attached to a unit, the General supports it with 7 attacks instead of 6.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Black Signet from Ugruk-hor",
+        "id": "e299-3ea9-03de-87fe",
+        "hidden": false,
+        "import": true,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "fc96-d931-fa9e-d890", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 7}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Black Signet from Ugruk-hor",
+            "id": "ca9e-57c1-1f55-ab9c",
+            "hidden": false,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "The General’s pool of orders is increased by 1.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Mythical Helm of Destiny",
+        "id": "215e-d740-90e0-4771",
+        "hidden": false,
+        "import": true,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "5803-51a8-bd93-adb1", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 1}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Mythical Helm of Destiny",
+            "id": "2aa7-a377-0d3b-b2cd",
+            "hidden": false,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When touched by an enemy unit, the General dies only on a roll of 1. If the General survives, he must attach to a friendly unit within 30 cm.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Horn of Haburis",
+        "id": "ca99-bbb3-1be7-31a1",
+        "hidden": false,
+        "import": true,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "a6eb-0fa4-fd6f-d61a", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 5}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Horn of Haburis",
+            "id": "d5d6-50f1-a8e0-1a93",
+            "hidden": false,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "The General’s range of issuing orders is increased by 10 cm.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Axe of Doom",
+        "id": "ba56-988b-af7a-11df",
+        "hidden": false,
+        "import": true,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "7e93-dbcb-9efe-7312", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 4}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Axe of Doom",
+            "id": "34cc-3968-1a66-a2fa",
+            "hidden": false,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When attached to a unit, the General allows it to re-roll 3 failed results in the Weapon Skill Test.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Poisoned Blade of Katakhanes ",
+        "id": "4130-3de1-06c3-dbcb",
+        "hidden": false,
+        "import": true,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "ba83-95d8-7209-ed47", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 4}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Poisoned Blade of Katakhanes ",
+            "id": "82fd-cd78-18e1-124f",
+            "hidden": false,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If an enemy unit (but not a single model) was dealt a Wound by a unit to which the General with this artefact is attached, the wounded enemy base is removed. When attacking a single model, the unit supported by the General with this artefact may re-roll up to 6 results in the Wound Test.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bracer of Torment",
+        "id": "d90b-6588-ef75-5c65",
+        "hidden": false,
+        "import": true,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "0164-ff9e-368b-b8c9", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 1}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Bracer of Torment",
+            "id": "f540-e562-a0b4-8d06",
+            "hidden": false,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "An enemy unit attacking a unit to which the General with this artefact is attached loses 2 dice from the pool of attacks, or 4 dice if it has Fearless.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hammer of Thalion",
+        "id": "7bdb-5140-f442-6252",
+        "hidden": false,
+        "import": true,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "41af-59c3-9701-3caf", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 3}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Hammer of Thalion",
+            "id": "0a64-5fc7-d6e4-ef2e",
+            "hidden": false,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When attached to a unit, the General allows it to re-roll 4 failed results in the Wound Test.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bastard Blade of Saint Gardon",
+        "id": "c766-5ce2-a594-431f",
+        "hidden": false,
+        "import": true,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "7608-a2f5-5aa0-c661", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Bastard Blade of Saint Gardon",
+            "id": "126e-eb67-178e-470c",
+            "hidden": false,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When attached to a unit, the General allows it to re-roll all 6s in the Weapon Skill Test made against the enemy unit that has Fearless or has a General or a Champion attached.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Magic items",
+        "id": "6af6-0fae-4634-bdf6",
+        "hidden": false,
+        "page": 66,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "constraints": [{"id": "3d1f-d305-6241-b1ed", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+        "entryLinks": [
+          {"name": "Chalice of Woe", "id": "e76e-8f6e-3622-f85d", "hidden": false, "import": true, "targetId": "a6ed-08ef-e067-b577", "type": "selectionEntry"},
+          {"name": "Magical Familiar", "id": "3173-5088-ad33-f45a", "hidden": false, "import": true, "targetId": "3d4f-ee66-ca9d-c04b", "type": "selectionEntry"},
+          {"name": "Book of the Dead", "id": "bf42-a037-7e8e-59a8", "hidden": false, "import": true, "targetId": "cb04-30fe-a76f-4756", "type": "selectionEntry"},
+          {
+            "name": "Magic Items <= 6pts",
+            "id": "d281-48a5-e9f1-21d2",
+            "flatten": true,
+            "hidden": false,
+            "import": true,
+            "targetId": "e75a-cbeb-298b-78ea",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "3d1f-d305-6241-b1ed",
+            "type": "set",
+            "value": 4,
+            "conditions": [{"childId": "3173-5088-ad33-f45a", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Magic Items <= 6pts",
+        "id": "e75a-cbeb-298b-78ea",
+        "hidden": false,
+        "constraints": [{"id": "38c8-6f54-98b9-f2fe", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}],
+        "entryLinks": [
+          {"name": "Battle Staff", "id": "e86a-15c6-8056-b1b6", "hidden": false, "import": true, "targetId": "4ae1-1384-f031-6034", "type": "selectionEntry"},
+          {"name": "Enchanted Shoes", "id": "ee6a-ccbd-354f-dea7", "hidden": false, "import": true, "targetId": "94a1-56e3-5d5c-7c49", "type": "selectionEntry"},
+          {
+            "name": "Breastplate from Al-dukbar",
+            "id": "4437-d90c-811e-7740",
+            "hidden": false,
+            "import": true,
+            "targetId": "811e-2a82-59be-ac60",
+            "type": "selectionEntry"
+          },
+          {"name": "Ring of Spells", "id": "fe3d-5235-c8ef-9b57", "hidden": false, "import": true, "targetId": "92d2-b58a-b353-d545", "type": "selectionEntry"},
+          {"name": "Snow Amulet", "id": "cfe5-087b-838b-abf9", "hidden": false, "import": true, "targetId": "0d1d-2ef2-b1cc-4edd", "type": "selectionEntry"},
+          {"name": "Corpse Brew", "id": "f291-b128-2554-6637", "hidden": false, "import": true, "targetId": "3a61-35fe-ca94-f468", "type": "selectionEntry"},
+          {"name": "Scroll of Dice Shattering", "id": "d230-1d58-3f58-fecc", "hidden": false, "import": true, "targetId": "bfaa-fce6-7f89-8fed", "type": "selectionEntry"},
+          {"name": "Spellbook", "id": "cc2d-e893-6008-2226", "hidden": false, "import": true, "targetId": "0b60-bf63-2ae4-b1e9", "type": "selectionEntry"},
+          {"name": "Claw from Valhelia", "id": "55cf-e99d-9cc9-3b67", "hidden": false, "import": true, "targetId": "94af-b734-da84-d523", "type": "selectionEntry"},
+          {"name": "Long Staff", "id": "d06f-7d6b-edc3-e0d0", "hidden": false, "import": true, "targetId": "3ecf-4bbd-5616-783d", "type": "selectionEntry"},
+          {"name": "Vengeful Crystal", "id": "8c56-8eb6-7005-5c51", "hidden": false, "import": true, "targetId": "c652-4110-64a3-09aa", "type": "selectionEntry"},
+          {"name": "Scroll of Daze", "id": "20c0-a959-4883-36dc", "hidden": false, "import": true, "targetId": "d976-1edb-c293-b4a0", "type": "selectionEntry"},
+          {"name": "Ring of Destruction", "id": "8be4-1827-cfaa-7098", "hidden": false, "import": true, "targetId": "ba71-d0b5-fb71-f5ab", "type": "selectionEntry"},
+          {"name": "Pouchling (Zapazooh)", "id": "8e73-79bc-3979-7927", "hidden": false, "import": true, "targetId": "d241-a294-ac86-3651", "type": "selectionEntry"},
+          {"name": "Crown of Damnation", "id": "34a1-a84a-d198-22e4", "hidden": false, "import": true, "targetId": "8db1-a8fe-9655-b3b6", "type": "selectionEntry"},
+          {"name": "Talisman from Ragloq", "id": "8cf0-d167-afe1-473b", "hidden": false, "import": true, "targetId": "d4e6-8e8d-0196-d981", "type": "selectionEntry"},
+          {"name": "Elixir", "id": "e64f-c1b8-c6c1-d7a1", "hidden": false, "import": true, "targetId": "a850-cc94-487e-c821", "type": "selectionEntry"},
+          {"name": "Old Scroll", "id": "4d5b-3318-e212-a017", "hidden": false, "import": true, "targetId": "6704-98d8-b3c8-5550", "type": "selectionEntry"},
+          {"name": "Dispel", "id": "7947-d5e7-5b67-56eb", "hidden": false, "import": true, "targetId": "99a5-13fa-e6fd-b82f", "type": "selectionEntry"},
+          {"name": "Ring of Power", "id": "01b1-1a0a-ba61-c607", "hidden": false, "import": true, "targetId": "ac23-4a31-5141-7f48", "type": "selectionEntry"},
+          {"name": "Staff", "id": "8b74-3059-9ea8-f114", "hidden": false, "import": true, "targetId": "ca84-33cb-484b-254e", "type": "selectionEntry"},
+          {"name": "Diadem of Despair", "id": "7ef7-67e7-4172-1da7", "hidden": false, "import": true, "targetId": "11b2-60c6-6930-5f15", "type": "selectionEntry"}
+        ],
+        "modifiers": [
+          {
+            "field": "38c8-6f54-98b9-f2fe",
+            "type": "set",
+            "value": 4,
+            "conditions": [{"childId": "3173-5088-ad33-f45a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Artefacts",
+        "id": "6502-887c-b695-528f",
+        "hidden": false,
+        "page": 69,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "constraints": [{"id": "5c67-bcd4-cbb5-7128", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "entryLinks": [
+          {"name": "Blade of Contempt", "id": "1217-4d23-25cf-8375", "hidden": false, "import": true, "targetId": "a113-1cfd-3711-1b12", "type": "selectionEntry"},
+          {
+            "name": "Black Signet from Ugruk-hor",
+            "id": "49a4-d2d5-7916-7f22",
+            "hidden": false,
+            "import": true,
+            "targetId": "e299-3ea9-03de-87fe",
+            "type": "selectionEntry"
+          },
+          {"name": "Mythical Helm of Destiny", "id": "12c4-53e9-90e3-f63e", "hidden": false, "import": true, "targetId": "215e-d740-90e0-4771", "type": "selectionEntry"},
+          {"name": "Horn of Haburis", "id": "5b52-e1eb-b571-bddc", "hidden": false, "import": true, "targetId": "ca99-bbb3-1be7-31a1", "type": "selectionEntry"},
+          {"name": "Axe of Doom", "id": "7528-ea71-00a9-02db", "hidden": false, "import": true, "targetId": "ba56-988b-af7a-11df", "type": "selectionEntry"},
+          {
+            "name": "Poisoned Blade of Katakhanes ",
+            "id": "dc8e-640c-5931-532c",
+            "hidden": false,
+            "import": true,
+            "targetId": "4130-3de1-06c3-dbcb",
+            "type": "selectionEntry"
+          },
+          {"name": "Bracer of Torment", "id": "ed4f-4ce7-cebc-0c75", "hidden": false, "import": true, "targetId": "d90b-6588-ef75-5c65", "type": "selectionEntry"},
+          {"name": "Hammer of Thalion", "id": "afec-c714-97ff-6dcb", "hidden": false, "import": true, "targetId": "7bdb-5140-f442-6252", "type": "selectionEntry"},
+          {
+            "name": "Bastard Blade of Saint Gardon",
+            "id": "42fc-f363-94ef-fba1",
+            "hidden": false,
+            "import": true,
+            "targetId": "c766-5ce2-a594-431f",
+            "type": "selectionEntry"
+          }
+        ]
+      }
+    ]
+  }
+}
