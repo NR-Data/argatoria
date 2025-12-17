@@ -1,0 +1,288 @@
+{
+  "catalogue": {
+    "name": "Banner of God Nathel Units",
+    "id": "9a20-8d65-b4d3-37ed",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": true,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Units", "id": "ec29-49d0-7d66-c110", "targetId": "5b32-fb65-846e-642a", "type": "catalogue"}],
+    "categoryEntries": [
+      {
+        "name": "The Deceived",
+        "id": "3dea-37b3-34a2-f076",
+        "description": "You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) from any army other than Sheol-morg. These are beings who succumbed to the deceptive whispers of Nathel and joined his great procession.",
+        "hidden": false,
+        "page": 77,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "constraints": [
+          {
+            "id": "8939-2558-12e5-6abf",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "8939-2558-12e5-6abf",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "8d0d-5b53-b71e-440d", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "name": "The Chosen",
+        "id": "de3b-1757-9031-530f",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "e7f7-b1d9-0294-f3f2",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "92f9-64c4-3028-c36f", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "7089-e041-3a8b-00af"}]
+      },
+      {
+        "name": "The Sanctified",
+        "id": "27ae-a5a4-0972-5731",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "db11-a71b-9151-799e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "94ee-4e43-9bf3-b8f1", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "The Primaeval",
+        "id": "6bef-4b84-4c75-3bc0",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "a661-332e-508f-ef32",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "a111-d133-612b-6b57", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Repsolians",
+        "id": "c81e-2882-8c28-6c5c",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "aa4f-19ab-9706-edd7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "da4f-9937-cb67-f5b0", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Tormentors",
+        "id": "d4a8-d475-0e24-1e11",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "dde3-7654-7a6d-69f9",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "efe1-546b-5f29-6992", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "7089-e041-3a8b-00af"}]
+      },
+      {
+        "name": "Scourges",
+        "id": "2944-a792-2258-c0d0",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "7bc2-912a-468a-3ce5",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "0972-ea9a-f6ae-83bc", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Blood Priestesses",
+        "id": "a809-7740-ed44-caa7",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "b024-7c1b-eaff-2322",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "edc6-f054-8690-c06f", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "7089-e041-3a8b-00af"}]
+      },
+      {
+        "name": "The Firstborn",
+        "id": "7b97-1b47-0d1c-a085",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "e863-6f9a-ca79-140e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "2fad-6a17-65e4-4ce3", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Ravagers on Sungals",
+        "id": "828c-c322-8771-3e48",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "e323-a27a-db72-11a6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "e5c9-b441-3dc9-e741", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Sozruits",
+        "id": "d6bd-ad8d-9de9-c286",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "bd46-4ca6-e612-9cdf",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "be7c-26a5-611d-f53c", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Brothers of Fire",
+        "id": "7ffd-32eb-f995-09dd",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "693a-b963-b131-20d9",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "be5d-19d6-1680-1bd0", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "7089-e041-3a8b-00af"}]
+      },
+      {
+        "name": "Wolf Maidens",
+        "id": "7362-d52a-46fb-44de",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "cf85-0d24-247e-d5d8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "b624-148c-a952-e33c", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Riders on Gridons",
+        "id": "28f1-9949-a98b-df0f",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "947a-e485-d745-5564",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "44d3-5d5e-2ad0-8180", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Wolf Brothers",
+        "id": "77be-7628-6bfc-7176",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "2d53-6201-c148-dea8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "ead7-3126-eee1-e2b2", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Beast Hunters",
+        "id": "04a2-e247-e94f-5448",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "991b-cd2b-4e73-0231",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "42d5-ff51-758c-69ca", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "7089-e041-3a8b-00af"}]
+      },
+      {
+        "name": "Oduns",
+        "id": "5597-8f75-b846-1092",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "73f9-b91d-cca2-5c48",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "7422-de72-9758-a96e", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Amazons on Spiders",
+        "id": "bc52-3da6-7a02-6360",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "2da4-abe4-4334-3374",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "5d87-5778-6f0d-ff7a", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Voraks",
+        "id": "b6a4-aaa8-d8ac-e109",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "b330-741a-7df8-a4d3",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "3659-c175-44f8-e264", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Fangs of Sael",
+        "id": "88b6-a52e-127b-aac5",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "4dcd-5a7a-9601-7fc1",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "3f00-4ee5-6be5-f710", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "7089-e041-3a8b-00af"}]
+      },
+      {
+        "name": "Rogues",
+        "id": "3ba8-2f6d-7ab2-7e78",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "0303-8420-e379-1937",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "a53b-77b2-bc72-9ef5", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Zadukats",
+        "id": "bafb-551a-fd4f-e848",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "3a85-eb99-4ce9-37f1",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "abec-503b-e55f-325a", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      },
+      {
+        "name": "Riders of Daaran",
+        "id": "ef8f-b3e9-7ba9-9ae8",
+        "defaultAmount": 0,
+        "hidden": false,
+        "import": true,
+        "targetId": "65c8-9d28-23ae-63cf",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Deceived", "id": "85ed-ba52-38d0-aa5e", "hidden": false, "primary": true, "targetId": "3dea-37b3-34a2-f076"}],
+        "modifiers": [{"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"}]
+      }
+    ]
+  }
+}
