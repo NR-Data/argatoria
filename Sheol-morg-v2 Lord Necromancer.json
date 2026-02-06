@@ -1,0 +1,959 @@
+{
+  "catalogue": {
+    "name": "Sheol-morg: Lord Necromancer",
+    "id": "7dd5-8b91-c02b-c423",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Sheol-morg: common", "id": "cd87-4959-c30c-afdc", "importRootEntries": true, "targetId": "3c37-26cb-3246-fc2d", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Command Group",
+        "id": "fc27-d30e-59a2-17f1",
+        "hidden": false,
+        "import": true,
+        "targetId": "8628-e889-806c-329b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "e624-9f08-dabf-d303", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Champion of Gehenna",
+        "id": "8acb-c46f-3eb7-88cb",
+        "hidden": false,
+        "import": true,
+        "targetId": "76d6-c179-393e-0aa4",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "5036-0148-d732-8913", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Champion of Hordes",
+        "id": "c3ef-e259-18a4-e3ae",
+        "hidden": false,
+        "import": true,
+        "targetId": "7c9f-c971-5469-4b74",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "6bfa-019b-a30f-2542", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Champion of the Dark Gods",
+        "id": "d16c-bccd-cc0b-0d1a",
+        "hidden": false,
+        "import": true,
+        "targetId": "bd52-5ff4-5096-b19d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "bcb5-f5f1-c07b-e1db", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Curser",
+        "id": "efe8-3e4e-9f09-b1cb",
+        "hidden": false,
+        "import": true,
+        "targetId": "f4f8-e737-12f1-f494",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "de27-6152-bc3c-5020", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Warlock",
+        "id": "924e-d22c-2162-25d1",
+        "hidden": false,
+        "import": true,
+        "targetId": "8eea-e7f4-fc9c-e914",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "d017-9630-3ab7-02dc", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Truhlaks",
+        "id": "de77-963b-3fe5-1fdd",
+        "defaultAmount": 2,
+        "hidden": false,
+        "import": true,
+        "targetId": "fe8b-bebf-15f2-666e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Basic Unit", "id": "73ea-b672-fd76-2c30", "hidden": false, "primary": true, "targetId": "7089-e041-3a8b-00af"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "bac1-0ccd-acbc-7ee8", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}
+        ]
+      },
+      {
+        "name": "Dark Fauns",
+        "id": "60da-bf53-cef7-612a",
+        "hidden": false,
+        "import": true,
+        "targetId": "63e4-84cd-44d4-f39e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "b44c-c48c-7c43-0aea", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Horned Warriors",
+        "id": "909e-b277-ff11-f267",
+        "hidden": false,
+        "import": true,
+        "targetId": "7e68-13bb-f148-1d2e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Elite Unit", "id": "6433-31df-af53-1c56", "hidden": false, "primary": true, "targetId": "e020-218e-a38a-c7c5"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "eab0-d73a-1a51-9e07", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}
+        ]
+      },
+      {
+        "name": "Ritual Guardians",
+        "id": "01a7-e192-8555-531a",
+        "hidden": false,
+        "import": true,
+        "targetId": "526a-dcd7-0acd-4e5b",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Elite Unit", "id": "639e-f050-dfff-858f", "hidden": false, "primary": true, "targetId": "e020-218e-a38a-c7c5"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "65a7-ea71-6ff9-1f90", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}
+        ]
+      },
+      {
+        "name": "Truhlaks on Fallen Ogars",
+        "id": "dd1f-763e-f6a8-e015",
+        "hidden": false,
+        "import": true,
+        "targetId": "ca96-718c-b8de-69eb",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Sheol-morg Lord Necromancer", "id": "718c-f38d-4d54-7558", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"},
+          {"name": "Elite Unit", "id": "2c17-638f-8896-d166", "hidden": false, "primary": true, "targetId": "e020-218e-a38a-c7c5"}
+        ],
+        "modifiers": [{"field": "category", "type": "remove", "value": "4813-f768-c66b-e833"}]
+      },
+      {
+        "name": "Minotaur",
+        "id": "1bd3-16a7-e7f2-a4bc",
+        "hidden": false,
+        "import": true,
+        "targetId": "8b88-0927-59f1-6dd8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "6511-89b7-2986-9397", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Black Knights on Horgars",
+        "id": "3b60-f259-9777-3eea",
+        "hidden": false,
+        "import": true,
+        "targetId": "b94e-c308-d93f-1376",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "0daa-7745-e55b-3a80", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Hybrids",
+        "id": "cbe2-3013-3be5-75d9",
+        "hidden": false,
+        "import": true,
+        "targetId": "4909-f0f4-7f17-cefe",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "0003-7411-2c6a-43ea", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      },
+      {
+        "name": "Hydra",
+        "id": "7d6d-395a-a5a9-49b7",
+        "hidden": false,
+        "import": true,
+        "targetId": "dc4c-ac3a-bbe6-2cec",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "1d54-720d-38a0-40f4", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Lord Necromancer",
+        "id": "a570-9cca-f7a8-6152",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "General", "id": "5772-5669-b79a-292c", "hidden": false, "primary": true, "targetId": "e196-2339-4bc0-2d4f"},
+          {"name": "Hero", "id": "452e-43ac-c3cf-1955", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "6aa7-381f-f91f-ff99", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 30}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [{"name": "Artefacts", "id": "a69a-3cc0-64ce-c6ce", "hidden": false, "import": true, "targetId": "6502-887c-b695-528f", "type": "selectionEntryGroup"}],
+        "profiles": [
+          {
+            "name": "Lord Necromancer",
+            "id": "ff5e-7380-bc66-44e3",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "a4ee-546b-71a6-4250",
+            "typeName": "General",
+            "characteristics": [{"name": "LD", "$text": "1", "typeId": "3e75-c7bc-9bab-8c5e"}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Your Souls Belong To Us!",
+            "id": "22fd-fffc-3a65-7f97",
+            "description": "If Lord Necromancer’s opponent rolls a 1 or 2 in an Initiative Test, he loses the test regardless of other rules, magic in any form, modifiers, or re-roll opportunities. In addition, if the opponent’s army has lost 5 Blood Points or more, you may roll a D6 once per cycle when activating Lord Necromancer. On a score of 2 or less, you may place a unit of The Damned* (4 bases) within 20 cm of Lord Necromancer, without an Action Die and facing any direction. In the subsequent cycles, the unit receives an Action Die and can be activated normally. It does not count towards lost Blood Points when destroyed.",
+            "hidden": false,
+            "page": 95,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      },
+      {
+        "name": "Rotgant",
+        "id": "de09-8507-427a-6e16",
+        "hidden": false,
+        "import": true,
+        "page": 134,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Appendix", "id": "ed44-1d95-35c1-0cb5", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"},
+          {"name": "Rare Unit", "id": "85a8-9dd4-5847-b28f", "hidden": false, "primary": true, "targetId": "4813-f768-c66b-e833"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "1798-9357-43fb-81a6", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}
+        ],
+        "constraints": [{"id": "bc70-d5fa-31a6-b855", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 47}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [{"name": "Fearless", "id": "1236-b76c-de6a-32dd", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "bc70-d5fa-31a6-b855",
+            "type": "increment",
+            "value": 1,
+            "repeats": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "repeats": 1,
+                "roundUp": false,
+                "scope": "roster",
+                "shared": true,
+                "value": 1000
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Rotgant",
+            "id": "ed47-b5e4-3c46-2a42",
+            "hidden": false,
+            "page": 134,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "2de0-9d39-bac9-d765",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "LD", "$text": "5", "typeId": "cf8f-1c29-2b6f-3031"},
+              {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+              {"name": "WS", "$text": "2", "typeId": "716f-8261-c374-f462"},
+              {"name": "S", "$text": "5", "typeId": "65de-0c6b-9559-e9d4"},
+              {"name": "T", "$text": "6", "typeId": "c9bb-0a5f-7e53-c580"},
+              {"name": "A", "$text": "5", "typeId": "44b7-9a60-223f-8bd3"},
+              {"name": "W", "$text": "5", "typeId": "c862-16aa-6d51-e80c"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Sower of Graves",
+            "id": "baf4-b747-7b9c-8ad7",
+            "description": "When charging, Rotgant may roll a D6. The result determines the number of additional attacks it gains. However, on a roll of 6, Rotgant does not make any attacks. Instead, it stumbles and crashes directly into the enemy. Roll 2D6 – both the enemy and the Rotgant suffer that many Wounds. No saves are permitted against the Wounds caused by the Rotgant’s fall.",
+            "hidden": false,
+            "page": 134,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Mage Hunter",
+            "id": "0d4b-0fb7-ea00-d7ce",
+            "description": "When Rotgant comes into contact with an enemy Mage, it eliminates them from play on a roll of 4 or less, instead of the usual 2 or less.",
+            "hidden": false,
+            "page": 134,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Captured Artefacts",
+            "id": "0b45-e3a6-2512-9b43",
+            "description": "Once per battle, Rotgant can use a magic item, but must roll a D6 to see which item he has grabbed. Roll a D6.\n1-2 Scroll of Daze. Target enemy unit with WS 3 or greater gets -1 to WS.\n3-4 Ring of Destruction. Target unit gets +1 to S.\n6 Sack of Stuff. Unfortunately, upon examining the contents, Rotgant loses interest in the artefacts it has acquired. If Rotgant has an Action Die, it loses it.",
+            "hidden": false,
+            "page": 134,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      },
+      {
+        "name": "Ghosts",
+        "id": "5dba-a1a4-3341-d7e8",
+        "hidden": false,
+        "import": true,
+        "page": 135,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Basic Unit", "id": "0591-980a-b70d-37c5", "hidden": false, "primary": true, "targetId": "7089-e041-3a8b-00af"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "6539-0fc8-af73-a31c", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"},
+          {"name": "Appendix", "id": "5318-c445-f6df-3cb3", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"}
+        ],
+        "constraints": [{"id": "3afd-54d2-07c3-42e9", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "infoLinks": [
+          {"name": "Keen Senses", "id": "6ffb-64c6-56f1-c67e", "hidden": false, "targetId": "ae50-0637-ba9f-0363", "type": "rule"},
+          {"name": "Fearless", "id": "5180-67a9-2252-66e8", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Creature", "id": "ab84-99cc-314a-1ebe", "hidden": false, "targetId": "a55b-3121-3d83-4ad8", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "3afd-54d2-07c3-42e9",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "aba5-b126-738c-1854", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Aura of Destruction",
+            "id": "8d6b-fdcc-f5aa-d97a",
+            "description": "The Ghosts’ aura grants their weapons extraordinary properties. Ghosts do not make Wound Tests. Instead, each successful hit in the Weapon Skill Test automatically inflicts 1 Wound, and any roll of 1 on the Weapon Skill Test inflicts 2 Wounds. No saves are permitted against these attacks.",
+            "hidden": false,
+            "page": 135,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Ethereal",
+            "id": "62e9-7271-488d-16a8",
+            "description": "An enemy unit may only perform a Wound Test against Ghosts if it either has a Mage attached or has successfully performed a prayer before making its attack.",
+            "hidden": false,
+            "page": 135,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Ghosts",
+            "id": "8752-9801-1f03-2fdf",
+            "hidden": false,
+            "import": true,
+            "page": 135,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "6398-b37b-f0ed-44cd-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 16},
+              {"id": "6398-b37b-f0ed-44cd-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Ghosts",
+                "id": "b4f6-873e-0e7b-cc33",
+                "hidden": false,
+                "page": 135,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "0", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "2", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "0", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "0", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Ghosts",
+        "id": "aba5-b126-738c-1854",
+        "hidden": false,
+        "import": true,
+        "page": 138,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "098d-c604-9629-9fa3", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "f4bf-1a48-9547-8eee", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"},
+          {"name": "Appendix", "id": "1077-50a1-9c93-c5f1", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"},
+          {"name": "Hero", "id": "a4a7-bc01-e74b-dfc3", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "constraints": [{"id": "6346-c896-241a-4acb", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 12}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [{"name": "Skeletons Champions", "id": "df74-20a3-b6cd-5af0", "hidden": false, "targetId": "5b98-0b5e-f927-ea6b", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "6346-c896-241a-4acb",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Ghosts",
+            "id": "3b7c-6ca8-0444-8a91",
+            "hidden": false,
+            "page": 138,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Choose target friendly unit of Truhlaks or Ghosts within 20 cm of Champion of Ghosts and roll a D6. A score of 4 or 3 means that the chosen unit gains +1 to S. A score of 2 or less means that the chosen unit gains +1 to S and +1 to WS.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Catacombs",
+        "id": "942b-b6ad-9a79-4afd",
+        "hidden": false,
+        "import": true,
+        "page": 138,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "af44-e2de-d850-322f", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "093c-1e6b-6a2e-b5c5", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"},
+          {"name": "Appendix", "id": "0264-5d5d-77ee-7dba", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"},
+          {"name": "Hero", "id": "1b92-9519-78dc-5e26", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "constraints": [{"id": "7b58-7e93-4d2e-aea9", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [{"name": "Skeletons Champions", "id": "4616-fc9e-5f49-0403", "hidden": false, "targetId": "5b98-0b5e-f927-ea6b", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "7b58-7e93-4d2e-aea9",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Catacombs",
+            "id": "585e-c7a6-a05f-3924",
+            "hidden": false,
+            "page": 138,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Choose target enemy unit within 30 cm of Champion of Catacombs and roll a D6. A score of 3 or less means the chosen unit must re-roll its highest result when rolling for the charge distance. Additionally, if any enemy unit within 15 cm takes a Prayer Test, it must roll 3 dice and choose the 2 highest results.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Graves",
+        "id": "ae3b-0496-2aa0-9391",
+        "hidden": false,
+        "import": true,
+        "page": 138,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Champion", "id": "009d-b72b-ce0d-f7b8", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "5f1f-85df-9c60-a895", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"},
+          {"name": "Appendix", "id": "8ccd-9c5b-ddc4-30e2", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"},
+          {"name": "Hero", "id": "123e-104d-affe-210f", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "constraints": [{"id": "29f1-3416-bcce-7091", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 11}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [{"name": "Skeletons Champions", "id": "26b1-e4b2-9f88-5995", "hidden": false, "targetId": "5b98-0b5e-f927-ea6b", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "29f1-3416-bcce-7091",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Graves",
+            "id": "5ec3-0552-b957-ec5b",
+            "hidden": false,
+            "page": 138,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Choose one unit of Truhlaks or Gnils within 20 cm of Champion of Graves and roll a D6. A score of 4 or less means that the chosen unit may re-roll one D6 when rolling for the charge distance.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skeletons Command Group",
+        "id": "9d53-3d3e-e016-a3b1",
+        "hidden": false,
+        "import": true,
+        "page": 139,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Command Group", "id": "4c4c-b5c6-e399-dcb8", "hidden": false, "primary": true, "targetId": "ebd4-eb4c-38d6-ee11"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "7797-531b-1969-5f46", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"},
+          {"name": "Appendix", "id": "2d39-369c-1c33-3faa", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"},
+          {"name": "Hero", "id": "d3c9-ce56-8e28-d8e9", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [{"name": "Magic Banners", "id": "ef99-f650-d935-b03a", "hidden": false, "import": true, "targetId": "a82d-5866-f907-b48a", "type": "selectionEntryGroup"}],
+        "rules": [
+          {
+            "name": "Skeletons Command Group",
+            "id": "3204-37be-4bbd-8533",
+            "description": "The specific magical aura of the Skeletons Command Groups prevents them from attaching to any units, as doing so would disrupt their ability to effectively support the army. If an enemy unit comes into contact with such a Command Group and fails to eliminate it, the Command Group must be repositioned up to 15 cm away, to any location on the battlefield.\n\n\nAll friendly units within 5 cm of a Skeletons Command Group may use the following rules:\n- After declaring a charge, the unit can (even despite the difficulties or obstacles) roll 3D6 for the charge instead of the roll that it could normally make, and choose the two highest dice rolls to make the charge.\n- The unit can make a special sideways or backwards move up to 10 cm + D6 instead of its standard move or charge.\n- After each lost combat, the unit of Truhlaks is allowed to re-roll a D6 roll for the additional Wounds it receives (Corpse Horde).",
+            "hidden": false,
+            "page": 139,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      },
+      {
+        "name": "The Damned",
+        "id": "6ca0-82a1-f947-cef1",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 139,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [{"name": "Sheol-morg Lord Necromancer", "id": "ba46-ae6d-b238-6d90", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"}],
+        "infoLinks": [
+          {"name": "Fearless", "id": "ccf8-1584-d1d7-0e9c", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Creature", "id": "49c7-2bfe-21ec-0b28", "hidden": false, "targetId": "a55b-3121-3d83-4ad8", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Evil Feeds Evil",
+            "id": "5da0-aaee-b713-8d06",
+            "description": "If Lord Necromancer attempts to summon a unit of the Damned, and there is already such a unit on the battlefield under his command, he may choose to reinforce the existing unit instead of creating a new one. When doing so, he may roll the summoning test on a 4 or less (instead of 2 or less) to summon 4 bases of the Damned. If the result is a 1, 8 bases are summoned instead of 4. A unit of the Damned may never exceed 16 bases in total.",
+            "hidden": false,
+            "page": 139,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "The Damned",
+            "id": "246a-8bcd-67a4-04ea",
+            "defaultAmount": 4,
+            "hidden": false,
+            "import": true,
+            "page": 139,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "9409-4669-405a-4a5b-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "9409-4669-405a-4a5b-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "The Damned",
+                "id": "8f50-cc6c-f521-9b8d",
+                "hidden": false,
+                "page": 139,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "3", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "2", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "2", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "2", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "1", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gnils",
+        "id": "9eb0-90eb-3463-3012",
+        "hidden": false,
+        "import": true,
+        "page": 136,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Elite Unit", "id": "9f01-9be7-47f0-95e3", "hidden": false, "primary": true, "targetId": "e020-218e-a38a-c7c5"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "d5af-5b45-07c5-8e07", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"},
+          {"name": "Appendix", "id": "2dbd-7b33-40ec-1b4d", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"}
+        ],
+        "infoLinks": [
+          {"name": "Fearless", "id": "b8db-5e19-1806-eb16", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Creature", "id": "c0a7-d99e-1305-5f34", "hidden": false, "targetId": "a55b-3121-3d83-4ad8", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "ae3b-0496-2aa0-9391",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Rot",
+            "id": "9510-9061-e50a-1be7",
+            "description": "The enemy unit (but not single model) with WS better than 2 gains -1 to WS when attacking Gnils.",
+            "hidden": false,
+            "page": 136,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Bloodthirst",
+            "id": "4cf2-caeb-16de-f56a",
+            "description": "The unit has +1 to A when charging an enemy unit or +2 to A when charging an enemy unit that has a Horde rule.",
+            "hidden": false,
+            "page": 136,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gnils",
+            "id": "d4f7-27c8-d44a-aade",
+            "hidden": false,
+            "import": true,
+            "page": 136,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "7986-5658-ddd8-c8b1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "3a13-bae8-a414-883b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 12}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Gnils",
+                "id": "d133-772b-4231-fd5c",
+                "hidden": false,
+                "page": 136,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "4", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "3", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "2", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Gnils",
+            "id": "64d1-d0b8-37f1-4827",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "4ee4-c5f7-8303-54be", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "7c4d-52a5-bec3-1462-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "7c4d-52a5-bec3-1462-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Gnils", "id": "dc8b-7a08-cfd2-e5c3", "hidden": false, "targetId": "d133-772b-4231-fd5c", "type": "profile"},
+              {"name": "Marauders", "id": "61dd-c321-dcf0-f823", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "d4f7-27c8-d44a-aade", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "7c4d-52a5-bec3-1462-min", "type": "set", "value": 4},
+                  {"field": "7c4d-52a5-bec3-1462-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mementors",
+        "id": "4982-ad1c-8c46-303d",
+        "hidden": false,
+        "import": true,
+        "page": 137,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Rare Unit", "id": "7edc-e930-8eb9-8e56", "hidden": false, "primary": true, "targetId": "4813-f768-c66b-e833"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "4194-36be-deeb-c81f", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"},
+          {"name": "Appendix", "id": "a225-5d1a-f04d-b61a", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"}
+        ],
+        "infoLinks": [
+          {"name": "Fear", "id": "8847-eb9b-a787-73af", "hidden": false, "targetId": "d7d0-c3d0-bdd1-6cae", "type": "rule"},
+          {"name": "Fearless", "id": "dc60-bdc1-d305-6054", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Creature", "id": "bcff-a45e-afb9-a8c8", "hidden": false, "targetId": "a55b-3121-3d83-4ad8", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "942b-b6ad-9a79-4afd", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "lessThan", "value": 1}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "The Eternal Generals",
+            "id": "bb5b-4106-dcd5-6044",
+            "description": "If there is at least one unit of Mementors fielded in the army, the pool of General’s orders in the army is increased by 1.",
+            "hidden": false,
+            "page": 137,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Memento Ultionis",
+            "id": "20e3-c2e0-a6b3-27f6",
+            "description": "Mementors add D6 attacks to the pool when fighting an enemy unit that has a Champion attached, or 2D6 attacks if it’s a General or a Legendary Hero.",
+            "hidden": false,
+            "page": 137,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Self-reliant",
+            "id": "8ba9-67ee-5101-5668",
+            "description": "No heroes can attach to this unit.",
+            "hidden": false,
+            "page": 137,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Mementors",
+            "id": "66f6-3979-0e13-232e",
+            "hidden": false,
+            "import": true,
+            "page": 137,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "c1cb-a751-eb0e-db04", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "41e6-fd06-d7b4-075d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 19}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Mementors",
+                "id": "4efe-1106-1dd0-5bc6",
+                "hidden": false,
+                "page": 137,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "4", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "4", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "2", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "3", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Mementors",
+            "id": "8486-56d8-a56c-d5fd",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "3562-18ba-f8b5-ea78", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "5e78-aff1-e3af-f092-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "5e78-aff1-e3af-f092-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Mementors", "id": "8e40-5b9c-dca1-0b3e", "hidden": false, "targetId": "4efe-1106-1dd0-5bc6", "type": "profile"},
+              {"name": "Marauders", "id": "cadb-d7a9-b353-1993", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "66f6-3979-0e13-232e", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "5e78-aff1-e3af-f092-min", "type": "set", "value": 4},
+                  {"field": "5e78-aff1-e3af-f092-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gnat",
+        "id": "1a3d-e124-d9c7-c63c",
+        "hidden": false,
+        "import": true,
+        "page": 141,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Legendary Hero", "id": "4e17-d20b-451a-106e", "hidden": false, "primary": true, "targetId": "b8ea-5e96-acf3-4bca"},
+          {"name": "Sheol-morg Lord Necromancer", "id": "dbcc-6670-d9b3-5f71", "hidden": false, "primary": false, "targetId": "34fc-0aaa-8ed7-84c3"},
+          {"name": "Hero", "id": "662b-8137-f6c4-7d64", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Appendix", "id": "92ed-24c7-060e-b770", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"}
+        ],
+        "constraints": [{"id": "a466-3cb0-7c60-322b", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 57}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "profiles": [
+          {
+            "name": "Azargal – The Axe of the Dead",
+            "id": "ed11-76cd-7d93-d4f7",
+            "hidden": false,
+            "page": 141,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When attached to a friendly unit, Gnat grants it +6 attacks. Furthermore, if an enemy unit is dealt a Wound during combat with the unit Gnat is attached to and is subsequently marked with a Wound, it suffers 2 further Wounds.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Horned Helm",
+            "id": "08ab-25e6-e071-bdd3",
+            "hidden": false,
+            "page": 141,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If the unit Gnat is attached to has Fear, the enemy unit (but not single model) must always take Panic Tests for 3 bases instead of 1 or 2. In addition, once per cycle, target friendly unit of Truhlaks within 30 cm of Gnat gets the opportunity to roll a D6 after removing its Action Die. The effects last until the end of the cycle.\n1 The unit can increase its Mobility (M) by 5 and roll again for the table. Effects are cumulative.\n2-4 The unit can increase its Strength (S) by 2\n5 The unit can turn with no limits\n6 No effect",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Grave Shield",
+            "id": "20d2-4e1f-0a55-3222",
+            "hidden": false,
+            "page": 141,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "If the unit Gnat is attached to has no save, it gains save on 1s and 2s.", "typeId": "d8cb-c37d-4eab-001d"}]
+          },
+          {
+            "name": "Servant of Death",
+            "id": "cd47-cf9b-de7a-6abe",
+            "hidden": false,
+            "page": 141,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If Gnat is killed, remove his model and place a Death Counter in his place. At the start of each cycle, roll a D6. On a score of 3 or less, you may place the Gnat model, along with an Action Die, within 10 cm of the Death Counter, then remove the counter.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Gnat",
+            "id": "900b-38a1-0b1a-e89c",
+            "hidden": false,
+            "page": 141,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [{"name": "Description", "$text": "Gnat is allowed to attach to Truhlaks.", "typeId": "0061-13d8-7fda-179e"}]
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Skeletons Champions",
+        "id": "5b98-0b5e-f927-ea6b",
+        "description": "The specific magical aura of the Skeletons Champions prevents them from attaching to any units, as doing so would disrupt their ability to effectively support the army. If an enemy unit comes into contact with such a Champion and fails to eliminate it, the Champion must be repositioned up to 15 cm away, to any location on the battlefield.",
+        "hidden": false,
+        "page": 138,
+        "publicationId": "30f0-6ecb-d1bf-eb3e"
+      }
+    ]
+  }
+}
