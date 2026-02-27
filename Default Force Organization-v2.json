@@ -1,0 +1,63 @@
+{
+  "catalogue": {
+    "name": "Default Force Organization",
+    "id": "9521-bb0a-af4b-497a",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": true,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "forceEntries": [
+      {
+        "name": "Open",
+        "id": "455a-a4de-f7ca-3561",
+        "hidden": false,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "categoryLinks": [
+          {"name": "General", "id": "72db-743b-80e3-fe83", "hidden": false, "page": 64, "publicationId": "30f0-6ecb-d1bf-eb3e", "targetId": "e196-2339-4bc0-2d4f"},
+          {"name": "Command Group", "id": "19be-0fee-1844-d902", "hidden": false, "targetId": "ebd4-eb4c-38d6-ee11"},
+          {"name": "Hero", "id": "800e-5868-2b2d-0f12", "hidden": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Champion", "id": "6d1d-949a-3ce1-7413", "hidden": false, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Mage", "id": "dcd5-84d5-fe54-4879", "hidden": false, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Legendary Hero", "id": "e502-44ac-d439-16d7", "hidden": false, "targetId": "b8ea-5e96-acf3-4bca"},
+          {"name": "Basic Unit", "id": "017c-36f6-6227-3156", "hidden": false, "targetId": "7089-e041-3a8b-00af"},
+          {"name": "Elite Unit", "id": "20d7-e725-5c2b-38a6", "hidden": false, "targetId": "e020-218e-a38a-c7c5"},
+          {"name": "Rare Unit", "id": "53aa-6a20-c282-189c", "hidden": false, "targetId": "4813-f768-c66b-e833"},
+          {"name": "Unique Unit", "id": "39e5-dda1-7ccf-f34a", "hidden": false, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Mercenary Unit", "id": "9b66-aee7-d478-c5bf", "hidden": false, "targetId": "4eea-ffdb-6cfc-9aa0"},
+          {
+            "name": "Options",
+            "id": "c1a1-a733-ce36-69d6",
+            "hidden": false,
+            "targetId": "cbbe-9aca-6aa9-f029",
+            "constraints": [
+              {
+                "id": "9684-aa97-72b5-4180-min",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "9684-aa97-72b5-4180-max",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {"name": "Unique Unit Without Limits", "id": "7c4c-0b7a-a210-f4b0", "hidden": false, "targetId": "10d2-30d7-d100-62ec"}
+        ]
+      }
+    ]
+  }
+}

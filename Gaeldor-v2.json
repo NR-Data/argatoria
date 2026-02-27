@@ -1,0 +1,871 @@
+{
+  "catalogue": {
+    "name": "Gaeldor",
+    "id": "9874-f2e6-7b34-f70a",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 6,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [
+      {"name": "Banners", "id": "3414-27e1-c3e9-da68", "targetId": "e6d3-3757-73e4-6ec4", "type": "catalogue"},
+      {"name": "Items", "id": "4127-2843-2dfe-bf56", "targetId": "9fd1-abc6-119d-b5a5", "type": "catalogue"},
+      {"name": "Spells", "id": "c70f-b750-90b9-8667", "targetId": "9324-73b3-9935-4102", "type": "catalogue"},
+      {"name": "Half-Giants", "id": "b21e-98b0-4f80-1a65", "importRootEntries": true, "targetId": "001e-221b-d752-9e75", "type": "catalogue"},
+      {"name": "Units", "id": "d08c-9278-d17f-1bcd", "targetId": "5b32-fb65-846e-642a", "type": "catalogue"},
+      {"name": "Default Force Organization", "id": "2485-ddb4-0ed0-a929", "targetId": "9521-bb0a-af4b-497a", "type": "catalogue"}
+    ],
+    "entryLinks": [
+      {
+        "name": "Beast Hunters",
+        "id": "a363-f36a-afad-68f9",
+        "hidden": false,
+        "import": true,
+        "targetId": "991b-cd2b-4e73-0231",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Gaeldor", "id": "10d8-87d7-a0e0-9eb0", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}]
+      },
+      {
+        "name": "Oduns",
+        "id": "93f5-0819-4b7b-aaeb",
+        "hidden": false,
+        "import": true,
+        "targetId": "73f9-b91d-cca2-5c48",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Gaeldor", "id": "8131-d209-6cfe-9f08", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}]
+      },
+      {
+        "name": "Amazons on Spiders",
+        "id": "abdf-d3ef-6afb-c9f3",
+        "hidden": false,
+        "import": true,
+        "targetId": "2da4-abe4-4334-3374",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Gaeldor", "id": "55d8-20e2-39e7-41c4", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}]
+      },
+      {
+        "name": "Voraks",
+        "id": "7a53-7313-ac56-49d9",
+        "hidden": false,
+        "import": true,
+        "targetId": "b330-741a-7df8-a4d3",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Gaeldor", "id": "9969-026c-2b49-e6c8", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}]
+      },
+      {
+        "name": "Half-Giants",
+        "id": "736e-7b28-d10a-9b58",
+        "hidden": false,
+        "import": true,
+        "page": 92,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "targetId": "de9f-fbf5-cf27-3781",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Gaeldor", "id": "54c9-3f82-48ff-122a", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}],
+        "modifiers": [
+          {"field": "name", "type": "set", "value": "Iron Oaks"},
+          {"affects": "self.entries.27ca-a135-f9fd-2fd3", "field": "name", "type": "set", "value": "Marauders: Iron Oaks"}
+        ]
+      },
+      {
+        "name": "Slagors",
+        "id": "3959-35cb-1e6d-4d27",
+        "hidden": false,
+        "import": true,
+        "page": 92,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "targetId": "4752-506a-07a2-4520",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Gaeldor", "id": "199b-c538-7dea-4671", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}],
+        "modifiers": [
+          {"field": "name", "type": "set", "value": "Forest Serpents"},
+          {"affects": "self.entries.0b27-af87-9978-7274", "field": "name", "type": "set", "value": "Marauders: Forest Serpents"}
+        ]
+      },
+      {
+        "name": "Skaals",
+        "id": "ce05-2575-0fcd-8c7f",
+        "hidden": false,
+        "import": true,
+        "targetId": "ae7d-c1e4-eacf-d277",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Gaeldor", "id": "a35b-2722-d990-12ed", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}]
+      },
+      {
+        "name": "Oduns",
+        "id": "e32c-e326-63da-1942",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "targetId": "73f9-b91d-cca2-5c48",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Gaeldor", "id": "23ac-977d-9809-443b", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"},
+          {"name": "Banner of the Ancient Forest: Old Ones", "id": "66a5-0782-3e65-c368", "hidden": false, "primary": false, "targetId": "ad34-8c86-370d-3884"}
+        ],
+        "modifiers": [
+          {"field": "name", "type": "set", "value": "Old Ones"},
+          {"affects": "entries.dc62-ce21-59c0-6a90", "field": "78f2-651d-2f2e-98bf", "type": "set", "value": 19},
+          {"affects": "self.entries.0f74-6a6f-1730-f642", "field": "name", "type": "set", "value": "Marauders: Old Ones"}
+        ],
+        "profiles": [
+          {
+            "name": "Old Ones",
+            "id": "c5c0-dbbd-c73b-ff93",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Old Ones possess the same characteristics and abilities as Oduns, but they can also cast a Language of Beasts spell during their activation, following the general rules and conditions – see Magic spells.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Gaeldaukar",
+        "id": "9b38-dd20-21ab-eeef",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "General", "id": "7eb5-9f67-4b55-d0aa", "hidden": false, "primary": true, "targetId": "e196-2339-4bc0-2d4f"},
+          {"name": "Hero", "id": "d6db-dc2c-74dc-9b9c", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Gaeldor", "id": "c5c9-a510-9ccb-c2c7", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 30}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [{"name": "Artefacts", "id": "f4a5-6d65-839c-168d", "hidden": false, "import": true, "targetId": "6502-887c-b695-528f", "type": "selectionEntryGroup"}],
+        "profiles": [
+          {
+            "name": "Gaeldaukar",
+            "id": "1486-439a-0d27-da44",
+            "hidden": false,
+            "page": 93,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "a4ee-546b-71a6-4250",
+            "typeName": "General",
+            "characteristics": [{"name": "LD", "$text": "2", "typeId": "3e75-c7bc-9bab-8c5e"}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Wrath of the Forest",
+            "id": "9140-3ac6-3b81-07ff",
+            "description": "Basic and Elite Units in the Gaeldor army may change any 1 rolled when moving or charging to a score of 3.",
+            "hidden": false,
+            "page": 92,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      },
+      {
+        "name": "Command Group",
+        "id": "9c21-c5b9-8673-b5b6",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Command Group", "id": "35f4-d270-365a-e3f7", "hidden": false, "primary": true, "targetId": "ebd4-eb4c-38d6-ee11"},
+          {"name": "Hero", "id": "d125-37f5-33c5-d53b", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Gaeldor", "id": "462d-9c46-e697-eaab", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [{"name": "Magic Banners", "id": "b173-69bd-a159-d0af", "hidden": false, "import": true, "targetId": "a82d-5866-f907-b48a", "type": "selectionEntryGroup"}]
+      },
+      {
+        "name": "Champion of Forest",
+        "id": "5536-b035-4216-99cd",
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "c750-fc21-3ab1-0889", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "5a47-acdc-f0cc-f1b7", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Gaeldor", "id": "3da8-f837-ad78-dfe4", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "constraints": [{"id": "6482-6fa5-c6da-e853", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 12}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "6482-6fa5-c6da-e853",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Forest",
+            "id": "97a0-4209-4483-7c2b",
+            "hidden": false,
+            "page": 93,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Before the battle, Champion of Forest allows the army to re-roll when rolling for terrain. When Champion of Forest is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means the unit gets +1 to S in this cycle.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "New Entry",
+            "id": "83b7-1c00-a1f1-67f9",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "profiles": [
+              {
+                "name": "Champion of Forest ",
+                "id": "834b-5a46-7e9e-4b51",
+                "hidden": false,
+                "typeId": "88d9-934a-85e6-e7a3",
+                "typeName": "Item",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "Before the battle, Champion of Forest allows the army to re-roll when rolling for terrain. When Champion of Forest is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means the unit gets +1 to S in this cycle.",
+                    "typeId": "d8cb-c37d-4eab-001d"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Beasts",
+        "id": "f417-aad9-1678-b4a9",
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "eed9-9848-1423-376c", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "e768-4c43-4906-dd76", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Gaeldor", "id": "03d7-206b-541b-b66d", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "constraints": [{"id": "26a5-e057-9de7-44a8", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 13}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "26a5-e057-9de7-44a8",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Beasts",
+            "id": "d8a7-2efa-d107-6ef7",
+            "hidden": false,
+            "page": 93,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Roll a D6 if General failed to issue an order to Amazons on Spiders, Forest Serpents, or Wild Creatures. A score of 4 or less means that General may re-roll the failed score. Champion of Beasts attached to the listed units grants them further +2 attacks to the pool.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Hunt",
+        "id": "b344-a04b-8da7-2953",
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "29b8-33a0-a0e2-0d1e", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "fbce-abef-767c-bb42", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Gaeldor", "id": "8977-2695-758c-ec03", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "constraints": [{"id": "6541-0d6b-c8d5-fd0e", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "6541-0d6b-c8d5-fd0e",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Hunt",
+            "id": "5787-3ffa-52bb-8954",
+            "hidden": false,
+            "page": 93,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When Champion of Hunt is attached to a friendly unit engaged in combat, he may roll a D6 whenever the friendly unit attacks. A score of 2 or less means every score of 6 in the Weapon Skill Test counts as a successful hit.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Druid",
+        "id": "e79e-9ec1-fa62-6983",
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "2c94-37cf-09ed-2069", "hidden": false, "primary": true, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Hero", "id": "ead3-af11-ac66-50ea", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Gaeldor", "id": "142d-487b-bb24-81ca", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Spells <= 6pts",
+            "id": "9403-b279-af2a-d964",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "626f-4e1b-4c07-bb02",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Magic Items <= 6pts",
+            "id": "7d5b-4d0b-3c0d-e156",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "e75a-cbeb-298b-78ea",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Druid",
+            "id": "ff8a-3058-6b7e-1b42",
+            "hidden": false,
+            "page": 93,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Each friendly unit of Oduns and each Trefloq within 10 cm of Druid can re-roll failed scores during the saving throws (Woodiness).",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beast Master",
+        "id": "2fa9-57b9-246a-8796",
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "ab74-3ff5-7c27-1807", "hidden": false, "primary": true, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Hero", "id": "596b-4753-36be-205f", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Gaeldor", "id": "9082-9f6f-ab1d-e4f2", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Spells",
+            "id": "c7a1-cee5-0847-4269",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "ff1a-1e2a-e88c-753c",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Magic items",
+            "id": "21f0-b36b-136a-9a51",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "6af6-0fae-4634-bdf6",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Trefloq",
+        "id": "5bdd-3041-231b-f730",
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Rare Unit", "id": "66ed-17a7-c8f3-8225", "hidden": false, "primary": true, "targetId": "4813-f768-c66b-e833"},
+          {"name": "Gaeldor", "id": "506d-60bf-fb24-f050", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 56}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [
+          {"name": "Toxic Spores", "id": "75d2-57c3-1873-44d6", "hidden": false, "targetId": "a123-cd29-9377-2d93", "type": "rule"},
+          {"name": "Fearless", "id": "2309-82ee-f7df-e74b", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Woodiness (Save)", "id": "ac1f-a2ba-de97-fb3c", "hidden": false, "targetId": "dd28-cab4-c506-32d8", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Trefloq",
+            "id": "bda7-8663-eddd-75b9",
+            "hidden": false,
+            "page": 93,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "2de0-9d39-bac9-d765",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+              {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+              {"name": "WS", "$text": "2", "typeId": "716f-8261-c374-f462"},
+              {"name": "S", "$text": "6", "typeId": "65de-0c6b-9559-e9d4"},
+              {"name": "T", "$text": "8", "typeId": "c9bb-0a5f-7e53-c580"},
+              {"name": "A", "$text": "5", "typeId": "44b7-9a60-223f-8bd3"},
+              {"name": "W", "$text": "7", "typeId": "c862-16aa-6d51-e80c"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Species",
+            "id": "13eb-354e-8f01-926c",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "constraints": [
+              {"id": "fdf1-3ec9-1fa3-d117-min", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "fdf1-3ec9-1fa3-d117-max", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "modifiers": [
+              {
+                "field": "fdf1-3ec9-1fa3-d117-min",
+                "type": "set",
+                "value": 1,
+                "conditions": [{"childId": "c19f-7ba0-ad85-3cea", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "fdf1-3ec9-1fa3-d117-max",
+                "type": "set",
+                "value": 1,
+                "conditions": [{"childId": "c19f-7ba0-ad85-3cea", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Oak Trefloq",
+                "id": "0d34-5d10-a1f3-0f7e",
+                "hidden": false,
+                "import": true,
+                "page": 75,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "type": "upgrade",
+                "rules": [
+                  {
+                    "name": "Oak Trefloq",
+                    "id": "4387-3188-1e99-1d35",
+                    "description": "Oak Trefloq gains Trample (For each successful score in the Weapon Skill Test, roll an additional D6 for hitting. Additional successful scores do not generate the new ones).",
+                    "hidden": false,
+                    "page": 75,
+                    "publicationId": "30f0-6ecb-d1bf-eb3e"
+                  }
+                ]
+              },
+              {
+                "name": "Elm Trefloq",
+                "id": "aaf1-4f1a-55ec-b692",
+                "hidden": false,
+                "import": true,
+                "page": 75,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "type": "upgrade",
+                "rules": [
+                  {
+                    "name": "Elm Trefloq",
+                    "id": "5dfa-c2a4-67ff-0375",
+                    "description": "Elm Trefloq gains Wild Speed (This unit always rolls an additional D6 when moving or charging, regardless of the situation).",
+                    "hidden": false,
+                    "page": 75,
+                    "publicationId": "30f0-6ecb-d1bf-eb3e"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wild Creatures",
+        "id": "2620-bb32-e15b-6102",
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Unique Unit", "id": "b21a-89a6-b219-98bb", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Gaeldor", "id": "7ea3-90fd-f71f-3dce", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "constraints": [{"id": "428b-0a07-b9a6-fff4", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1}],
+        "infoLinks": [
+          {"name": "Under the spell", "id": "a139-79c7-e0f7-d377", "hidden": false, "targetId": "d3b7-ec8e-3a58-6135", "type": "rule"},
+          {"name": "Frenzy", "id": "150a-cb60-cec3-4d3c", "hidden": false, "targetId": "7fdc-a240-9260-7197", "type": "rule"},
+          {"name": "Creature", "id": "cf92-701d-ca4d-aa8d", "hidden": false, "targetId": "a55b-3121-3d83-4ad8", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "428b-0a07-b9a6-fff4",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "2fa9-57b9-246a-8796",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Wild Creatures",
+            "id": "e450-92c7-a025-4446",
+            "hidden": false,
+            "import": true,
+            "page": 93,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "9fc5-bdae-519e-4cbb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "7b61-e9cb-09e8-c186", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 18}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Wild Creatures",
+                "id": "9f1f-b604-9057-3d78",
+                "hidden": false,
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "5", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "15", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "4", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "4", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "3", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Wild Creatures",
+            "id": "74ec-dd4d-9168-e18e",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "3b3b-b660-1d64-1ea4", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "e1fd-cf7b-b00a-02f2-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "e1fd-cf7b-b00a-02f2-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Wild Creatures", "id": "9226-a81c-96fe-ed5a", "hidden": false, "targetId": "9f1f-b604-9057-3d78", "type": "profile"},
+              {"name": "Marauders", "id": "a5d7-5dfc-4638-9b42", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "e450-92c7-a025-4446", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "e1fd-cf7b-b00a-02f2-min", "type": "set", "value": 4},
+                  {"field": "e1fd-cf7b-b00a-02f2-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Marmydon",
+        "id": "afb5-9988-c435-5ed5",
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Unique Unit", "id": "5bf1-7a1d-95b9-67c2", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Gaeldor", "id": "3046-f93b-c279-1ac2", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "constraints": [{"id": "a765-15cd-4f59-b4a9", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 248}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [
+          {"name": "Roar", "id": "03f8-c580-3570-9d11", "hidden": false, "targetId": "3216-86cd-ab54-b879", "type": "rule"},
+          {"name": "Crushing Blow", "id": "9b29-7ea1-49df-2edc", "hidden": false, "targetId": "586e-08ad-266e-845b", "type": "rule"},
+          {"name": "Thick Hide (Save) ", "id": "03d7-5bec-4419-0013", "hidden": false, "targetId": "ead4-7df8-2681-3a01", "type": "rule"},
+          {"name": "Fearless", "id": "04c9-2bd9-ca6d-92ad", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Fall of the Leviathan", "id": "e132-5db2-a476-c43d", "hidden": false, "targetId": "c504-9bf4-7d57-dfd3", "type": "rule"},
+          {"name": "Monster", "id": "7aaf-51fe-2a54-562b", "hidden": false, "targetId": "69b5-89b0-410a-8e8b", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "a765-15cd-4f59-b4a9",
+            "type": "increment",
+            "value": 1,
+            "repeats": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "repeats": 1,
+                "roundUp": false,
+                "scope": "roster",
+                "shared": true,
+                "value": 1000
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Marmydon",
+            "id": "adb2-cfba-cbc1-98cf",
+            "hidden": false,
+            "page": 93,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "2de0-9d39-bac9-d765",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "LD", "$text": "4", "typeId": "cf8f-1c29-2b6f-3031"},
+              {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+              {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+              {"name": "S", "$text": "12", "typeId": "65de-0c6b-9559-e9d4"},
+              {"name": "T", "$text": "9", "typeId": "c9bb-0a5f-7e53-c580"},
+              {"name": "A", "$text": "6", "typeId": "44b7-9a60-223f-8bd3"},
+              {"name": "W", "$text": "24", "typeId": "c862-16aa-6d51-e80c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forest Dragon",
+        "id": "3f61-0b0b-2652-7af0",
+        "hidden": false,
+        "import": true,
+        "page": 93,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Unique Unit", "id": "2208-c4f0-9792-0c74", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Gaeldor", "id": "3971-51ed-7a3c-c0a3", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 96}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [
+          {"name": "King of the Wild", "id": "d8b2-4e17-f474-d4e4", "hidden": false, "targetId": "fe7f-8ef0-0fec-324a", "type": "rule"},
+          {"name": "Winged Creature", "id": "0816-3867-109a-486c", "hidden": false, "targetId": "51b1-c291-9208-e4f3", "type": "rule"},
+          {"name": "Fearless", "id": "d4d3-b3d3-72e7-a24a", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Forest Dragon",
+            "id": "c6c7-ba01-95ba-4438",
+            "hidden": false,
+            "page": 93,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "2de0-9d39-bac9-d765",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "LD", "$text": "4", "typeId": "cf8f-1c29-2b6f-3031"},
+              {"name": "M", "$text": "15", "typeId": "879f-49c0-b3a8-c586"},
+              {"name": "WS", "$text": "4", "typeId": "716f-8261-c374-f462"},
+              {"name": "S", "$text": "7", "typeId": "65de-0c6b-9559-e9d4"},
+              {"name": "T", "$text": "6", "typeId": "c9bb-0a5f-7e53-c580"},
+              {"name": "A", "$text": "8", "typeId": "44b7-9a60-223f-8bd3"},
+              {"name": "W", "$text": "8", "typeId": "c862-16aa-6d51-e80c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mar’hauk",
+        "id": "5025-79fc-bc26-1474",
+        "hidden": false,
+        "import": true,
+        "page": 149,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Legendary Hero", "id": "9d7b-6709-c4f5-1ad9", "hidden": false, "primary": true, "targetId": "b8ea-5e96-acf3-4bca"},
+          {"name": "Hero", "id": "122e-71c6-f605-c8ca", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Gaeldor", "id": "6566-d36d-478f-081d", "hidden": false, "primary": false, "targetId": "8e47-50e0-8500-9a3e"},
+          {"name": "Appendix", "id": "083d-219c-aa5c-ddb9", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"}
+        ],
+        "constraints": [{"id": "8938-f6ca-6443-da0b", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 43}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "profiles": [
+          {
+            "name": "Mar’hauk",
+            "id": "ffb3-d033-5450-79cf",
+            "hidden": false,
+            "page": 149,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Mar’hauk mounts a powerful creature called Vitur. Thanks to Vitur, Mar’hauk grants the unit he is attached to +8 attacks.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          },
+          {
+            "name": "Ern’s Helm",
+            "id": "6244-9260-0ab5-e4e1",
+            "hidden": false,
+            "page": 149,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When attached to a friendly unit that has no save, Mar’hauk allows it to benefit from the power of his helm. After being dealt Wounds by an enemy unit, a friendly unit may roll a D6 for each of up to 5 Wounds it has suffered. Each score of 2 or less means a cancelled Wound.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Eagle Talon",
+            "id": "274a-ab2c-87c7-e8da",
+            "hidden": false,
+            "page": 149,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "A friendly unit that Mar’hauk is attached to may re-roll 4 dice in the Wound Test + 1 die for each terrain on the battlefield.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Oaken Shield",
+            "id": "b1d2-93e7-78c1-dd6b",
+            "hidden": false,
+            "page": 149,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If an enemy unit comes into contact with Mar’hauk, it does not roll for the hero’s death. Instead, Mar’hauk may be immediately placed anywhere up to 20 cm of the enemy unit. The shield can only be used once per battle.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Vitur",
+            "id": "9223-9944-1ef1-0a47",
+            "hidden": false,
+            "page": 149,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The unit that Mar’hauk on Vitur is attached to has Fear (After a successful charge with this unit, the enemy unit (but not single model) must take a Panic Test for 1 base. If this unit is a Horde, the enemy must take a Panic Test for 2 bases instead).",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

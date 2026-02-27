@@ -1,0 +1,778 @@
+{
+  "catalogue": {
+    "name": "Arox",
+    "id": "97e8-608f-9a83-af5b",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 4,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [
+      {"name": "Banners", "id": "cea9-328b-d348-c575", "targetId": "e6d3-3757-73e4-6ec4", "type": "catalogue"},
+      {"name": "Items", "id": "18ee-f445-b8c3-e2e6", "targetId": "9fd1-abc6-119d-b5a5", "type": "catalogue"},
+      {"name": "Spells", "id": "9673-1bda-f0ab-7e56", "targetId": "9324-73b3-9935-4102", "type": "catalogue"},
+      {"name": "Units", "id": "f848-99c0-d234-108e", "targetId": "5b32-fb65-846e-642a", "type": "catalogue"},
+      {"name": "Default Force Organization", "id": "f82b-cbeb-1c22-b9b9", "targetId": "9521-bb0a-af4b-497a", "type": "catalogue"}
+    ],
+    "entryLinks": [
+      {
+        "name": "The Chosen",
+        "id": "4d74-2782-6365-1a18",
+        "hidden": false,
+        "import": true,
+        "targetId": "e7f7-b1d9-0294-f3f2",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Arox", "id": "a6c8-0e38-7c8a-94ac", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}]
+      },
+      {
+        "name": "The Primaeval",
+        "id": "da74-72d4-9d5e-1ffa",
+        "hidden": false,
+        "import": true,
+        "targetId": "a661-332e-508f-ef32",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Arox", "id": "0bad-bffb-08f0-295d", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}]
+      },
+      {
+        "name": "Repsolians",
+        "id": "56d0-c1fc-7263-f960",
+        "hidden": false,
+        "import": true,
+        "targetId": "aa4f-19ab-9706-edd7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Arox", "id": "0944-370a-2289-92ad", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}]
+      },
+      {
+        "name": "The Sanctified",
+        "id": "edec-d56e-b7d9-3ebb",
+        "hidden": false,
+        "import": true,
+        "targetId": "db11-a71b-9151-799e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Arox", "id": "ff57-1dee-dad8-ee86", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}]
+      },
+      {
+        "name": "Forgon",
+        "id": "ee41-b1b6-f3b4-2a87",
+        "hidden": false,
+        "import": true,
+        "targetId": "c004-08aa-ff87-37a5",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Arox", "id": "0ba4-ec0a-f24d-6191", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}]
+      },
+      {
+        "name": "Ropuchons",
+        "id": "0047-3813-af5c-ce81",
+        "hidden": false,
+        "import": true,
+        "targetId": "a17c-7081-3cb0-4d4c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Arox", "id": "de3d-f2cc-4d3e-1ae1", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}]
+      },
+      {
+        "name": "Zadukats",
+        "id": "a307-f72c-ebd6-3733",
+        "hidden": false,
+        "import": true,
+        "targetId": "3a85-eb99-4ce9-37f1",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Mercenary Unit", "id": "0887-d94d-9197-4444", "hidden": false, "primary": true, "targetId": "4eea-ffdb-6cfc-9aa0"},
+          {"name": "Arox", "id": "8903-a191-cb01-c221", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"},
+          {"name": "Appendix", "id": "3cdc-17fd-a19f-5c22", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"}
+        ],
+        "modifiers": [
+          {"field": "name", "type": "set", "value": "Bristles"},
+          {"field": "category", "type": "remove", "value": "e020-218e-a38a-c7c5"},
+          {"affects": "self.entries.ff71-520c-0555-d24a", "field": "name", "type": "set", "value": "Marauders: Bristles"}
+        ]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Sox’Augatir",
+        "id": "6800-f216-bdb6-d8ff",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "General", "id": "d1de-aba0-fc65-73be", "hidden": false, "primary": true, "targetId": "e196-2339-4bc0-2d4f"},
+          {"name": "Hero", "id": "b3a7-2ac7-024e-9926", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Arox", "id": "9a14-6631-4dfb-e36a", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 30}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Artefacts",
+            "id": "4742-689a-9ed9-fdf4",
+            "hidden": false,
+            "import": true,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "targetId": "6502-887c-b695-528f",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Sox’Augatir",
+            "id": "410b-8835-7d88-d161",
+            "hidden": false,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "a4ee-546b-71a6-4250",
+            "typeName": "General",
+            "characteristics": [{"name": "LD", "$text": "3", "typeId": "3e75-c7bc-9bab-8c5e"}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Hot Blood",
+            "id": "17c9-e009-e135-0a1f",
+            "description": "The Arox army may re-roll an Initiative Test.",
+            "hidden": false,
+            "page": 84,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      },
+      {
+        "name": "Command Group",
+        "id": "d78a-d715-e983-44ff",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Command Group", "id": "e732-f6f9-dca3-a181", "hidden": false, "primary": true, "targetId": "ebd4-eb4c-38d6-ee11"},
+          {"name": "Hero", "id": "8821-cd79-fd7f-1cc4", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Arox", "id": "f9e0-9caf-a54c-64af", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Magic Banners",
+            "id": "6a61-accf-2d1e-984e",
+            "hidden": false,
+            "import": true,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "targetId": "a82d-5866-f907-b48a",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Champion of Sun",
+        "id": "a2fc-2b3c-c4bb-1523",
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "271d-f650-1ce8-e038", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "2795-7147-3f7b-8407", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Arox", "id": "8d48-fbac-0d72-b70a", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "constraints": [{"id": "201d-c9fb-3291-412c", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 11}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "201d-c9fb-3291-412c",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Sun",
+            "id": "c8de-ea3e-28b0-0933",
+            "hidden": false,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When Champion of Sun is attached to a friendly unit engaged in combat, you may roll a D6. A score of 2 or less means that the enemy unit must re-roll all scores of 1 both in its Weapon Skill Test and Wound Test until the end of the cycle.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Nature",
+        "id": "dffd-7966-a8e3-88fb",
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "b641-4e87-579b-c8f6", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "e7c4-a8ad-b353-acb8", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Arox", "id": "b730-f677-c703-cb8d", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "constraints": [{"id": "2f6f-2014-f322-278a", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 10}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "2f6f-2014-f322-278a",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Nature",
+            "id": "ed45-2987-eea4-481e",
+            "hidden": false,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When activating any unit within 10 cm of Champion of Nature, you may roll a D6. A score of 4 or less means that the unit may turn with no limits and add 3 cm to its move or charge range.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Gods",
+        "id": "3c00-bf33-6125-bd05",
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "08e1-d9cb-63c2-0536", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "863f-d6ca-9a7b-2b11", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Arox", "id": "8cbc-ee64-5dda-274c", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "constraints": [{"id": "3fc8-73c8-c903-69c0", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "3fc8-73c8-c903-69c0",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Gods",
+            "id": "aef7-670f-1687-f7e3",
+            "hidden": false,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When Champion of Gods is attached to a friendly unit engaged in combat, you may roll a D6 before the fight. A score of 3 or less means that the unit can re-roll all failed scores during the Weapon Skill Test or the Wound Test.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mystic of the Reborn",
+        "id": "28b1-5ae2-3b91-d5ca",
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "848b-4763-224c-a66d", "hidden": false, "primary": true, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Hero", "id": "b9ca-0981-bb3a-166d", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Arox", "id": "1272-0a77-1876-788f", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Magic Items <= 6pts",
+            "id": "e302-3ad0-7a15-b4e2",
+            "hidden": false,
+            "import": true,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "sortIndex": 2,
+            "targetId": "e75a-cbeb-298b-78ea",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Spells <= 6pts",
+            "id": "9e62-3320-0bdf-715c",
+            "hidden": false,
+            "import": true,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "sortIndex": 1,
+            "targetId": "626f-4e1b-4c07-bb02",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Mystic of the Reborn",
+            "id": "3db7-318a-73b7-3243",
+            "hidden": false,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Each friendly unit within 10 cm of Mystic of the Reborn has a charge range of M + 6 cm + D6 (instead of M + 2D6 cm). A unit can never use the Mystic’s ability at the same time it uses a Command Group bonus allowing to roll 3D6 for the charge.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sun Seer",
+        "id": "7448-a74d-7d57-0830",
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "8042-c1f2-00ea-cdf4", "hidden": false, "primary": true, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Hero", "id": "74ae-f1c4-0fe7-b813", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Arox", "id": "3f86-9c5a-8f73-beb2", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Magic items",
+            "id": "5c09-2919-1546-e340",
+            "hidden": false,
+            "import": true,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "sortIndex": 2,
+            "targetId": "6af6-0fae-4634-bdf6",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Spells",
+            "id": "3056-cc70-ab83-1efb",
+            "hidden": false,
+            "import": true,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "sortIndex": 1,
+            "targetId": "ff1a-1e2a-e88c-753c",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Trygodrons",
+        "id": "94ea-6ac8-c835-de96",
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Rare Unit", "id": "c2ea-b444-b24f-4cdb", "hidden": false, "primary": true, "targetId": "4813-f768-c66b-e833"},
+          {"name": "Arox", "id": "1a7b-8deb-8f66-f595", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "infoLinks": [
+          {"name": "Immunity", "id": "5f73-d14d-afac-820d", "hidden": false, "targetId": "77c4-c412-b3ce-56e7", "type": "rule"},
+          {"name": "Creature", "id": "0237-d458-9aa4-32e5", "hidden": false, "targetId": "a55b-3121-3d83-4ad8", "type": "rule"},
+          {"name": "Tearing", "id": "33c0-804c-e308-bc53", "hidden": false, "targetId": "a8d5-086f-450a-9ee7", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Trygodrons",
+            "id": "89a5-7466-dfcf-86e4",
+            "hidden": false,
+            "import": true,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "8085-b969-3fd8-7996", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "18d0-94cc-ce97-50b7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 20}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Trygodrons",
+                "id": "70cb-b9bb-c149-d173",
+                "hidden": false,
+                "page": 85,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "15", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "2", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "5", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "4", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "3", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Trygodrons",
+            "id": "3bb5-3920-9631-d209",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "abdd-1690-48d0-e047", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "2d0c-4c9b-45a2-1852-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "2d0c-4c9b-45a2-1852-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Trygodrons", "id": "5464-eacf-5561-a610", "hidden": false, "targetId": "70cb-b9bb-c149-d173", "type": "profile"},
+              {"name": "Marauders", "id": "619a-ba00-ca05-d45d", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "89a5-7466-dfcf-86e4", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "2d0c-4c9b-45a2-1852-min", "type": "set", "value": 4},
+                  {"field": "2d0c-4c9b-45a2-1852-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desauros with Sun Monolith",
+        "id": "f861-20b9-f1ee-a76b",
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Rare Unit", "id": "7fd8-65b9-7a41-21c7", "hidden": false, "primary": true, "targetId": "4813-f768-c66b-e833"},
+          {"name": "Arox", "id": "cb59-7774-8375-5563", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 68}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [
+          {"name": "Desauros", "id": "fb28-eadb-7a58-e48d", "hidden": false, "targetId": "5147-f1a5-1d11-abb8", "type": "profile"},
+          {"name": "Fearless", "id": "2368-c0e1-a405-ee5e", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Primal Rampage", "id": "7c53-00e0-03cd-1294", "hidden": false, "targetId": "a4fa-4d41-9634-0342", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Sun Monolith",
+            "id": "d74a-ef9a-3a9e-a4b8",
+            "description": "Roll a D6 for each Wound Desauros lost in combat. Each score of 2 or less means that target enemy unit within 20 cm is dealt 2 Wounds.",
+            "hidden": false,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      },
+      {
+        "name": "Golden Guards",
+        "id": "c65d-84ee-96b5-9d53",
+        "hidden": false,
+        "import": true,
+        "page": 85,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Unique Unit", "id": "574b-66b4-9801-f388", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Arox", "id": "d69b-b116-7021-71cf", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"}
+        ],
+        "infoLinks": [
+          {"name": "Gold Armour (Save)", "id": "bf14-57d6-6540-1579", "hidden": false, "targetId": "7d7f-428a-82e6-3594", "type": "rule"},
+          {"name": "Poisonous Spit", "id": "7a99-b4a1-98fb-7924", "hidden": false, "targetId": "b613-5d82-33d0-0fb5", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Golden Guards",
+            "id": "d041-42ad-3de3-fbc9",
+            "hidden": false,
+            "import": true,
+            "page": 85,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "8083-7bfc-b70b-a1c8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "109d-c7b2-45f5-8754", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 19}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Golden Guards",
+                "id": "d514-ea53-70e0-fa1b",
+                "hidden": false,
+                "page": 85,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "7", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "4", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "4", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Golden Guards",
+            "id": "474c-31c9-d225-b417",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "3afb-d188-c9ae-0547", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "89e0-eac4-baae-5e3d-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "89e0-eac4-baae-5e3d-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Golden Guards", "id": "f706-2599-b8f1-0bec", "hidden": false, "targetId": "d514-ea53-70e0-fa1b", "type": "profile"},
+              {"name": "Marauders", "id": "b8b6-ffb8-795b-fb6f", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "d041-42ad-3de3-fbc9", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "89e0-eac4-baae-5e3d-min", "type": "set", "value": 4},
+                  {"field": "89e0-eac4-baae-5e3d-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Xan’toag",
+        "id": "a67a-3a64-b4a0-cf95",
+        "hidden": false,
+        "import": true,
+        "page": 143,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Legendary Hero", "id": "6c5a-13a4-0cca-c75f", "hidden": false, "primary": true, "targetId": "b8ea-5e96-acf3-4bca"},
+          {"name": "Arox", "id": "2682-d988-fdfc-802e", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"},
+          {"name": "Hero", "id": "a776-e137-183a-5a45", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Appendix", "id": "1a6c-0778-8150-80b3", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"}
+        ],
+        "constraints": [{"id": "b087-1052-c406-9e73", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 44}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "profiles": [
+          {
+            "name": "Ropuchon Hero",
+            "id": "b772-8360-c488-96c1",
+            "hidden": false,
+            "page": 143,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Xan’toag attached to a friendly unit of Ropuchons or Golden Guards grants them Frenzy (When charging, this unit doubles its Attacks (A) stat).",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          },
+          {
+            "name": "Trustees of the Club",
+            "id": "2179-569f-efc1-a5f6",
+            "hidden": false,
+            "page": 143,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Before the battle, replace one base from target friendly unit of Liagulians with the Trustees of the Club. This unit gains Fearless (This unit always passes a Cold Blood Test and a Panic Test) and Will to Fight (If this unit destroyed an enemy unit, it can regroup up to 10 cm instead of 5 cm.) until the end of the battle. If Xan’toag is attached to this unit, it has Strength 4 instead of 3.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          },
+          {
+            "name": "Armour of the Sun Cities",
+            "id": "54d3-4885-702c-3070",
+            "hidden": false,
+            "page": 143,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Xan’toag can be eliminated by the enemy from the game only on a score of 1. In addition, a friendly unit that does not have any save and has Xan’toag attached, may roll a D6 for each of up to 3 Wounds it has suffered. Each score of 3 or less means a cancelled Wound.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Dragon Spear",
+            "id": "d54f-943d-5c09-2f88",
+            "hidden": false,
+            "page": 143,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When attached to a friendly unit, Xan’toag grants it +8 attacks. If an enemy single model comes in contact with Xan’toag, it is immediately dealt D6 Wounds. If the enemy model survived, it can perform a test for eliminating Xan’toag.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Naulen",
+        "id": "1a56-bc02-7017-ff19",
+        "hidden": false,
+        "import": true,
+        "page": 144,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Unique Unit", "id": "0290-9394-b837-fe01", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Arox", "id": "4731-aef2-abd2-6c66", "hidden": false, "primary": false, "targetId": "e36e-5a5d-a1e6-02ba"},
+          {"name": "Appendix", "id": "1f01-2708-2383-8f34", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 102}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [{"name": "Fearless", "id": "fc66-ffc3-20f5-8a96", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Naulen",
+            "id": "271c-b1a6-1787-f80f",
+            "hidden": false,
+            "page": 144,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "2de0-9d39-bac9-d765",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "LD", "$text": "7", "typeId": "cf8f-1c29-2b6f-3031"},
+              {"name": "M", "$text": "15", "typeId": "879f-49c0-b3a8-c586"},
+              {"name": "WS", "$text": "4", "typeId": "716f-8261-c374-f462"},
+              {"name": "S", "$text": "5", "typeId": "65de-0c6b-9559-e9d4"},
+              {"name": "T", "$text": "6", "typeId": "c9bb-0a5f-7e53-c580"},
+              {"name": "A", "$text": "4", "typeId": "44b7-9a60-223f-8bd3"},
+              {"name": "W", "$text": "6", "typeId": "c862-16aa-6d51-e80c"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Smash",
+            "id": "e853-eeba-63a0-96d4",
+            "description": "When charging, instead of gaining a +1 bonus to Strength (S), the unit’s Strength (S) is doubled.",
+            "hidden": false,
+            "page": 144,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Forced Advance",
+            "id": "28db-721e-1fa9-c0fd",
+            "description": "A Naulen cannot regroup after defeating an enemy. Instead, it must roll 3D6 and move forward a distance equal to the result. If it encounters an enemy unit, it is treated as charging, and attacks must be resolved immediately. If it encounters a friendly unit, the Naulen stops 1 cm away from it. The friendly unit in the path takes 2 Wounds. If it reaches terrain or the edge of the table, it stops 5 cm away. If the Naulen does not encounter any units, it may turn to face any direction after completing its forced move.",
+            "hidden": false,
+            "page": 144,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Devotee",
+            "id": "266c-e0ec-c04b-1ad6",
+            "description": "Naulen is a single model, but it is allowed to pray.",
+            "hidden": false,
+            "page": 144,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Hot Blood",
+        "id": "b4f4-ea31-1618-e12e",
+        "description": "The Arox army may re-roll an Initiative Test.",
+        "hidden": false,
+        "page": 84,
+        "publicationId": "30f0-6ecb-d1bf-eb3e"
+      }
+    ]
+  }
+}

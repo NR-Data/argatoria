@@ -1,0 +1,795 @@
+{
+  "catalogue": {
+    "name": "Sorgax",
+    "id": "1a1c-6515-e810-1107",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 4,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [
+      {"name": "Banners", "id": "150d-8bcd-f804-cb0a", "targetId": "e6d3-3757-73e4-6ec4", "type": "catalogue"},
+      {"name": "Items", "id": "668c-7041-d41f-52d6", "targetId": "9fd1-abc6-119d-b5a5", "type": "catalogue"},
+      {"name": "Spells", "id": "4d8b-00ad-6660-8c11", "targetId": "9324-73b3-9935-4102", "type": "catalogue"},
+      {"name": "Units", "id": "84fd-8548-a0c7-0d62", "targetId": "5b32-fb65-846e-642a", "type": "catalogue"},
+      {"name": "Default Force Organization", "id": "f914-8110-dabb-3076", "targetId": "9521-bb0a-af4b-497a", "type": "catalogue"}
+    ],
+    "entryLinks": [
+      {
+        "name": "Tormentors",
+        "id": "f94c-e9d2-e982-4a8f",
+        "hidden": false,
+        "import": true,
+        "targetId": "dde3-7654-7a6d-69f9",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sorgax", "id": "e2e0-d63c-0765-c62f", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}]
+      },
+      {
+        "name": "Scourges",
+        "id": "f291-442c-728e-4b43",
+        "hidden": false,
+        "import": true,
+        "targetId": "7bc2-912a-468a-3ce5",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sorgax", "id": "7486-6600-7c14-a9ba", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}]
+      },
+      {
+        "name": "Repsolians",
+        "id": "9e51-f6f0-3b9f-2e37",
+        "hidden": false,
+        "import": true,
+        "targetId": "aa4f-19ab-9706-edd7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sorgax", "id": "e673-a157-f2cd-66e7", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}]
+      },
+      {
+        "name": "Slagors",
+        "id": "d794-4f8c-9c52-85fe",
+        "hidden": false,
+        "import": true,
+        "targetId": "4752-506a-07a2-4520",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sorgax", "id": "eec9-8c7a-520e-7540", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "d9a1-392b-4b08-5f04",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "remove", "value": "4813-f768-c66b-e833"}, {"field": "category", "type": "set-primary", "value": "7089-e041-3a8b-00af"}]
+          }
+        ]
+      },
+      {
+        "name": "Ropuchons",
+        "id": "5869-9331-01b5-03bd",
+        "hidden": false,
+        "import": true,
+        "targetId": "a17c-7081-3cb0-4d4c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sorgax", "id": "7820-ee99-7bb6-f8fe", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}],
+        "modifiers": [{"field": "name", "type": "set", "value": "The Fallen"}]
+      },
+      {
+        "name": "Forgon",
+        "id": "6552-75f0-ecc6-5017",
+        "hidden": false,
+        "import": true,
+        "targetId": "c004-08aa-ff87-37a5",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sorgax", "id": "d1fb-31bf-c634-bd43", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Abazatragon",
+        "id": "6b89-170a-e169-b0a7",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 87,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "General", "id": "7da0-95e0-74f1-fc83", "hidden": false, "primary": true, "targetId": "e196-2339-4bc0-2d4f"},
+          {"name": "Hero", "id": "5f35-af91-c66f-c718", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Sorgax", "id": "4b62-a565-6cd4-9654", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 30}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Artefacts",
+            "id": "7979-040d-6390-a454",
+            "hidden": false,
+            "import": true,
+            "page": 69,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "targetId": "6502-887c-b695-528f",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Abazatragon",
+            "id": "fe3c-eb23-a79e-96da",
+            "hidden": false,
+            "page": 87,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "a4ee-546b-71a6-4250",
+            "typeName": "General",
+            "characteristics": [{"name": "LD", "$text": "2", "typeId": "3e75-c7bc-9bab-8c5e"}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Heralds of Torment",
+            "id": "026e-2cf2-ae2e-bffe",
+            "description": "The Sorgax General may issue one additional free order per cycle if the opponent has suffered certain losses during the battle. Check how many Blood Points (BP) your opponent has lost so far and compare it with the table below to find out what score you need to get to successfully issue the free order.\n* from 6 BP – order on a score of 1\n* from 12 BP – order on a score of 2 or less\n* from 24 BP – order on a score of 3 or less",
+            "hidden": false,
+            "page": 86,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      },
+      {
+        "name": "Command Group",
+        "id": "c884-9147-5a32-e8c0",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 87,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Command Group", "id": "8ae7-0de7-db6f-9766", "hidden": false, "primary": true, "targetId": "ebd4-eb4c-38d6-ee11"},
+          {"name": "Hero", "id": "1bb3-fa38-dac8-f490", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Sorgax", "id": "894e-6ca4-24eb-10f5", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Magic Banners",
+            "id": "d711-3c07-4f49-0bc6",
+            "hidden": false,
+            "import": true,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "targetId": "a82d-5866-f907-b48a",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Champion of Night",
+        "id": "2819-68ec-90c0-2a0e",
+        "hidden": false,
+        "import": true,
+        "page": 87,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "c6fd-d3c3-9dc8-3862", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "78ed-f454-3dd1-afba", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Sorgax", "id": "d490-0ba9-f10e-4563", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "constraints": [{"id": "6654-f34b-78b9-f7ce", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 11}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "6654-f34b-78b9-f7ce",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Night",
+            "id": "b7d9-7b4e-c3f4-37f7",
+            "hidden": false,
+            "page": 87,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When Champion of Night is attached to a friendly unit engaged in combat, roll a D6 before the enemy attacks. A score of 3 or less means that the enemy gets -1 to S until the end of the cycle.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Death",
+        "id": "e497-9b44-e2e0-2cfd",
+        "hidden": false,
+        "import": true,
+        "page": 87,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "2869-dfe8-de60-55b6", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "bf2f-9940-5a8c-9195", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Sorgax", "id": "c6f3-0ee2-0882-096f", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "constraints": [{"id": "38db-8d6a-942d-58a0", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "38db-8d6a-942d-58a0",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Death",
+            "id": "2739-b727-958b-5f11",
+            "hidden": false,
+            "page": 87,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When Champion of Death is attached to a friendly unit engaged in combat, roll a D6 for each base the enemy unit lost. Each score of 2 or less means the enemy unit loses another base.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Wrath",
+        "id": "89e7-0866-fe0f-74fc",
+        "hidden": false,
+        "import": true,
+        "page": 87,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "b1cc-1636-4c44-d428", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "e721-71b8-7cce-2696", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Sorgax", "id": "7f53-4054-ec09-7ba0", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "constraints": [{"id": "8533-2c96-22c9-0c8e", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "8533-2c96-22c9-0c8e",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Wrath",
+            "id": "a4c6-b78c-d8d6-8569",
+            "hidden": false,
+            "page": 87,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Choose target friendly unit within 20 cm of Champion of Wrath and roll a D6 before that unit makes a charge. A score of 4 or less means that the chosen unit gains +1 to WS when charging.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tomb Priest",
+        "id": "44e0-08a0-8439-1363",
+        "hidden": false,
+        "import": true,
+        "page": 87,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "15dd-2cdb-12be-22ff", "hidden": false, "primary": true, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Hero", "id": "fa3e-fd6a-4c86-73d7", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Sorgax", "id": "2a75-a2f7-32da-9327", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {"name": "Spells <= 6pts", "id": "eb57-c246-201a-a5b9", "hidden": false, "import": true, "targetId": "626f-4e1b-4c07-bb02", "type": "selectionEntryGroup"},
+          {"name": "Magic Items <= 6pts", "id": "a7da-7163-dfdd-4037", "hidden": false, "import": true, "targetId": "e75a-cbeb-298b-78ea", "type": "selectionEntryGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Tomb Priest",
+            "id": "640a-357c-b4a3-d24c",
+            "hidden": false,
+            "page": 87,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [{"name": "Description", "$text": "Each friendly unit within 10 cm of Tomb Priest may add 3 cm to the charge range.", "typeId": "0061-13d8-7fda-179e"}]
+          }
+        ]
+      },
+      {
+        "name": "Guardian of the Underworld",
+        "id": "8deb-da6e-74b5-cecf",
+        "hidden": false,
+        "import": true,
+        "page": 87,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "bd7e-dfe3-7385-c612", "hidden": false, "primary": true, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Hero", "id": "4c5e-16b4-2a2f-4d74", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Sorgax", "id": "e96a-aefd-2f69-0086", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {"name": "Spells", "id": "4cab-6a29-f73d-28b6", "hidden": false, "import": true, "targetId": "ff1a-1e2a-e88c-753c", "type": "selectionEntryGroup"},
+          {"name": "Magic items", "id": "f704-2c36-70c9-fbcc", "hidden": false, "import": true, "targetId": "6af6-0fae-4634-bdf6", "type": "selectionEntryGroup"}
+        ]
+      },
+      {
+        "name": "Martyrs of Voro-dan",
+        "id": "672c-29c7-cce4-033e",
+        "hidden": false,
+        "import": true,
+        "page": 86,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Rare Unit", "id": "922d-5120-bde3-4546", "hidden": false, "primary": true, "targetId": "4813-f768-c66b-e833"},
+          {"name": "Sorgax", "id": "e226-d3ff-abc3-7da7", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "infoLinks": [
+          {"name": "Vigilant", "id": "11b7-fdd2-6cb7-ffb1", "hidden": false, "targetId": "51dd-354d-d29c-34bf", "type": "rule"},
+          {"name": "Enslaved", "id": "cb43-2082-69ac-731c", "hidden": false, "targetId": "341d-a83d-4e7a-c9df", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Martyrs of Voro-dan",
+            "id": "79b5-5d49-5464-979d",
+            "hidden": false,
+            "import": true,
+            "page": 86,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "bc95-4ed8-707c-3aee", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "6cf1-d5c8-6dcc-a7e2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 19}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Martyrs of Voro-dan",
+                "id": "16eb-fbc0-5cbe-379a",
+                "hidden": false,
+                "page": 86,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "4", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "5", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "4", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Martyrs of Voro-dan",
+            "id": "9024-6546-3d5b-486d",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "07a5-7e17-a41f-6242", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "2426-ed88-c243-3871-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "2426-ed88-c243-3871-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Martyrs of Voro-dan", "id": "4d90-4809-0725-3ce2", "hidden": false, "targetId": "16eb-fbc0-5cbe-379a", "type": "profile"},
+              {"name": "Marauders", "id": "42f2-b297-59c9-4131", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "79b5-5d49-5464-979d", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "2426-ed88-c243-3871-min", "type": "set", "value": 4},
+                  {"field": "2426-ed88-c243-3871-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desauros with Tomb Altar",
+        "id": "eef7-201c-ea38-8dd9",
+        "hidden": false,
+        "import": true,
+        "page": 86,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Unique Unit", "id": "53fc-f070-5fe4-6dcb", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Sorgax", "id": "288b-938e-cc12-b117", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 68}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [
+          {"name": "Desauros", "id": "21d1-cc77-28ff-936b", "hidden": false, "targetId": "5147-f1a5-1d11-abb8", "type": "profile"},
+          {"name": "Fearless", "id": "bbec-3dbd-0837-db9d", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Primal Rampage", "id": "3288-0dec-557c-6ee9", "hidden": false, "targetId": "a4fa-4d41-9634-0342", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Tomb Altar",
+            "id": "8db0-f166-0c4f-188c",
+            "description": "Desauros with Tomb Altar gains 1 Wound for each Wound it inflicts upon the enemy unit. Desauros may have a maximum of 12 Wounds.",
+            "hidden": false,
+            "page": 86,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      },
+      {
+        "name": "Crushers on Scalyvars",
+        "id": "6acd-ba24-d9fb-9b14",
+        "hidden": false,
+        "import": true,
+        "page": 86,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Unique Unit", "id": "2c16-7cc7-98bb-4c89", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Sorgax", "id": "7f19-055d-ae26-1d6b", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"}
+        ],
+        "infoLinks": [
+          {"name": "Battle Inspiration", "id": "151c-8f1c-e376-8397", "hidden": false, "targetId": "b8fd-5b15-901b-771c", "type": "rule"},
+          {"name": "Hammer Strike", "id": "1d37-603d-e30d-00a3", "hidden": false, "targetId": "ae68-4a4b-e028-ccc9", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Crushers on Scalyvars",
+            "id": "9a3b-ff0d-c684-f169",
+            "hidden": false,
+            "import": true,
+            "page": 86,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "1020-7465-f67d-8266", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "bae9-759a-8393-0fd0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 23}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Crushers on Scalyvars",
+                "id": "c60f-010e-c94d-b586",
+                "hidden": false,
+                "page": 86,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "15", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "4", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "4", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "4", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "3", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Crushers on Scalyvars",
+            "id": "b184-9d98-0d30-aa5e",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "539b-c3c3-b434-0a4e", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "aef5-810e-469e-952f-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "aef5-810e-469e-952f-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Crushers on Scalyvars", "id": "c9b1-d9f1-0c46-0173", "hidden": false, "targetId": "c60f-010e-c94d-b586", "type": "profile"},
+              {"name": "Marauders", "id": "de7c-4fdf-c9a4-1c9f", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "9a3b-ff0d-c684-f169", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "aef5-810e-469e-952f-min", "type": "set", "value": 4},
+                  {"field": "aef5-810e-469e-952f-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kor’quixos",
+        "id": "03ae-e34b-c1cd-4d81",
+        "hidden": false,
+        "import": true,
+        "page": 145,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Legendary Hero", "id": "1b19-fdbb-edd1-504a", "hidden": false, "primary": true, "targetId": "b8ea-5e96-acf3-4bca"},
+          {"name": "Sorgax", "id": "8534-a49c-40a0-e338", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"},
+          {"name": "Hero", "id": "9349-ee1f-35bb-53a6", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Appendix", "id": "3690-788b-1f1e-07f8", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"},
+          {"name": "Mage", "id": "b09d-d697-6ae3-5cc1", "hidden": false, "primary": false, "targetId": "ced7-cf0d-3b3f-c563"}
+        ],
+        "constraints": [{"id": "4840-d66a-76a9-ce0d", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 49}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Spells",
+            "id": "4858-4759-9641-3ca4",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "ff1a-1e2a-e88c-753c",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Magic items",
+            "id": "726e-c5f4-04e4-bc06",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "6af6-0fae-4634-bdf6",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Kor’quixos",
+            "id": "f8c7-b7c1-6657-08cb",
+            "hidden": false,
+            "page": 145,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The hero is communing with powerful magic, which not only affected his mind, but caused his body to become monstrous in size. Thanks to this, when attached to a friendly unit, he grants +8 attacks.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          },
+          {
+            "name": "Staff of Doom",
+            "id": "1457-3ab9-2c26-e5a1",
+            "hidden": false,
+            "page": 145,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If an enemy comes into base contact with Kor’quixos, it is immediately dealt D6 Wounds. In addition, once per battle, the staff’s power can be accumulated and used against enemies – roll a D6 for each enemy unit within 15 cm of Kor’quixos. A score of 3 or less means that the enemy unit loses an Action Die.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Thanox Crown",
+            "id": "9824-6519-7ca0-a8bd",
+            "hidden": false,
+            "page": 145,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Once per battle, Kor’quixos may choose any spell he does not have and cast it without taking a test. Dispel does not work against that spell.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Cyclopean Belt",
+            "id": "c30b-b13a-5ca3-5796",
+            "hidden": false,
+            "page": 145,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If the unit Kor’quixos is attached to was successfully issued an order on a score of 1, once in the cycle this rule is used, the unit may use Frenzy (When charging, this unit doubles its Attacks (A) stat).",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Grim Punisher",
+            "id": "b684-b5d2-c2fa-f482",
+            "hidden": false,
+            "page": 145,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The unit Kor’quixos is attached to may be forced to make a forceful move or charge. If the player chooses to do so, they may change the unit’s M stat to M 15 and roll a D6. A score of 4 or more means that one base in the unit must be removed due to enfeeblement.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vorgulians",
+        "id": "d720-3b3e-56b0-b960",
+        "hidden": false,
+        "import": true,
+        "page": 148,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Unique Unit", "id": "91ea-e81e-4b68-d5fd", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Sorgax", "id": "d01f-9840-0169-c0b8", "hidden": false, "primary": false, "targetId": "689d-c183-c62d-b3b6"},
+          {"name": "Appendix", "id": "0da2-4d10-27d1-d3ff", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"}
+        ],
+        "infoLinks": [{"name": "Agile Flight", "id": "a3ec-2878-9146-41ec", "hidden": false, "targetId": "ae73-be14-42e7-1290", "type": "rule"}],
+        "rules": [
+          {
+            "name": "Extremely Keen Hearing",
+            "id": "5a5e-b5bf-4c1a-463a",
+            "description": "This unit can be issued orders from any place on the battlefield. Additionally, if charged from the flank or rear (and not engaged in combat), it may immediately turn to face the attacker.",
+            "hidden": false,
+            "page": 148,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Self-reliant",
+            "id": "9d69-cb83-9e14-0e82",
+            "description": "No heroes can attach to this unit.",
+            "hidden": false,
+            "page": 148,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Vorgulians",
+            "id": "0434-588f-3c77-3c7f",
+            "hidden": false,
+            "import": true,
+            "page": 148,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "2515-0f53-6541-a257", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "8720-979f-df82-136f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 12}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Vorgulians",
+                "id": "9fa1-76a1-8242-f6bd",
+                "hidden": false,
+                "page": 148,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "30", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "3", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "2", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Vorgulians",
+            "id": "b086-9af6-0c05-2152",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "7e55-5eff-5ab1-ffe7", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "6e2a-7994-b4d9-fb53", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "68d3-da8b-112b-40b4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Vorgulians", "id": "2a93-a3c3-3164-59fe", "hidden": false, "targetId": "9fa1-76a1-8242-f6bd", "type": "profile"},
+              {"name": "Marauders", "id": "4e90-0ef1-a266-7e5f", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "0434-588f-3c77-3c7f", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "6e2a-7994-b4d9-fb53", "type": "set", "value": 4},
+                  {"field": "68d3-da8b-112b-40b4", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

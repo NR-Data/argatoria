@@ -1,0 +1,1640 @@
+{
+  "catalogue": {
+    "name": "Banners",
+    "id": "e6d3-3757-73e4-6ec4",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": true,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {
+        "name": "Banner of the Ancient Forest: Old Ones",
+        "id": "ad34-8c86-370d-3884",
+        "hidden": false,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "constraints": [
+          {
+            "id": "a8dc-e07b-2a28-8ac8",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "a8dc-e07b-2a28-8ac8",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "c19f-7ba0-ad85-3cea", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Magic Banner",
+        "id": "528b-7cf3-4106-313f",
+        "hidden": false,
+        "kind": "weapon",
+        "characteristicTypes": [{"name": "Description", "id": "469d-bf8e-c6f6-3d7e", "kind": "longText"}]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Banner of Glory",
+        "id": "b270-d42c-3720-ad3f",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "6e2e-6873-3728-6239",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 10}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Banner of Glory",
+            "id": "c4be-7476-1c7e-1d06",
+            "hidden": false,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The army with this banner always wins draws during Initiative Tests. If the opponent also has this rule, draws must be re-rolled.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Battle Banner",
+        "id": "3aa8-23d4-62b5-3807",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "d2d0-862e-d609-3f2c",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Battle Banner",
+            "id": "4d45-15e2-3441-683f",
+            "hidden": false,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [{"name": "Description", "$text": "The range of abilities of the Command Group with this banner is 10 cm.", "typeId": "469d-bf8e-c6f6-3d7e"}]
+          }
+        ]
+      },
+      {
+        "name": "Blessed Banner",
+        "id": "7afc-f537-6252-f2a2",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "30f8-dcb5-f4ab-5ccd",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 8}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Blessed Banner",
+            "id": "5e29-e2bc-a0f2-b074",
+            "hidden": false,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [{"name": "Description", "$text": "The army has one more prayer per cycle.", "typeId": "469d-bf8e-c6f6-3d7e"}]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Courage",
+        "id": "7499-cceb-1f5f-665f",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "94ab-aede-6238-0ad9",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 1}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Banner of Courage",
+            "id": "0195-5e8c-7049-b02b",
+            "hidden": false,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [{"name": "Description", "$text": "The unit with this Command Group attached has Fearless.", "typeId": "469d-bf8e-c6f6-3d7e"}]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Persistence",
+        "id": "b8fa-760e-073c-f1d7",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "f5f0-d7cf-383d-8242",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 2}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Banner of Persistence",
+            "id": "687d-3a22-c104-d22e",
+            "hidden": false,
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The unit with this Command Group attached can never lose charge or fight bonuses when it charges at a Horde or a unit that cancels these bonuses.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Prudence",
+        "id": "e592-31fb-80e5-d686",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "455d-5928-43d1-91db",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 1}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Banner of Prudence",
+            "id": "96eb-83f5-1c1d-39f2",
+            "hidden": false,
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "After a failed charge, the unit with this Command Group attached does not move towards the foe and cannot be turned by the opponent.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Destruction",
+        "id": "978c-8402-1233-355f",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "b3c0-a54e-c1b3-68d6",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 3}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Banner of Destruction",
+            "id": "af42-dbeb-b4cc-a15b",
+            "hidden": false,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "During combat, the unit with this Command Group attached does not allow the enemy unit to take any armour tests or other protection tests. In addition, the unit gets +4 attacks for attacking the foe from the side or the rear to the bonuses it already has.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Command",
+        "id": "27d3-73e4-9d39-b6ac",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "13ae-3b77-616e-741e",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 6}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Banner of Command",
+            "id": "765e-acd7-0578-27b3",
+            "hidden": false,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "After deploying the armies and terrain, it allows you to change the deployment of up to three units in your army, within your deployment zone.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Power",
+        "id": "fe35-781f-685f-cc97",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "7b9e-a625-22e5-a18a",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 4}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Banner of Power",
+            "id": "733d-0755-2633-f0c4",
+            "hidden": false,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "It allows target friendly Mage within 10 cm to re-roll a failed Magic Test. If the result of the re-roll is 6, the banner loses its power for the rest of the battle.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of the Bathed in Blood",
+        "id": "fcc3-ca02-d201-76fd",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "d0b2-d0e4-7d37-8e92",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "d0b2-d0e4-7d37-8e92",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "a9ce-3085-5e84-d8c0",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of the Bathed in Blood",
+            "id": "cef3-cc4d-0775-daa2",
+            "hidden": false,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The unit with this Command Group attached has Bloodshed (This unit may re-roll all failed scores in the Wound Test). If the unit with this Command Group attached has Bloodshed by default, it gets +2 to S.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of the Lords of Beasts",
+        "id": "52ea-a8af-bfa2-2b89",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "fd3f-1abd-3194-646d",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 12}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "fd3f-1abd-3194-646d",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "8e47-50e0-8500-9a3e",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of the Lords of Beasts",
+            "id": "fa3c-7a76-aee5-e297",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The unit with this Command Group attached has Momentum (When charging, this unit has an A stat increased by 1). If the unit with this Command Group attached has Momentum by default, it gets +1 to WS.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of the Heralds of Torment",
+        "id": "9715-9083-9b34-2bb2",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "37a3-16e7-5b61-484d",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "37a3-16e7-5b61-484d",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "689d-c183-c62d-b3b6", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of the Heralds of Torment",
+            "id": "b3fb-3bbf-2190-9930",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The unit with this Command Group attached has Iron Discipline (Orders issued to this unit can be re-rolled, and each score of 1 means a free order). If the unit with this Command Group attached has Iron Discipline by default, it gets Sneaky (This unit gets +2 attacks for attacking the enemy’s flank or rear).",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of the Wolf Brotherhood",
+        "id": "2a7f-ca0b-8ef1-b2b5",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "5663-6b17-781b-b665",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 20}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "5663-6b17-781b-b665",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "7759-6de2-d314-078c", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of the Wolf Brotherhood",
+            "id": "0350-192b-413f-a45e",
+            "hidden": false,
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The army with this banner fields Wolf Brothers as Basic Units instead of the Elite. Wilhars are fielded as Elite Units instead of the Unique and they have Frenzy (When charging, this unit doubles its Attacks (A) stat).",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of the Gods’ Slayers",
+        "id": "f241-2cb9-5ce1-8f48",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "7616-916b-01ba-7743",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 10}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "affects": "recursive",
+            "field": "7616-916b-01ba-7743",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "a9ce-3085-5e84-d8c0", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of the Gods’ Slayers",
+            "id": "cbb0-cdee-9b73-0dad",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The unit with this Command Group attached has Terrible Damage (Each score of 1 in the Wound Test deals an additional Wound). If the unit with this Command Group attached has Terrible Damage by default, it gets +3 to M.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of the Great Menagerie",
+        "id": "dad0-0ed7-b2ec-d3e8",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "e8bb-502d-cd9e-8138", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 6}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "e8bb-502d-cd9e-8138",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4f13-69c6-c113-95b8",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "34fc-0aaa-8ed7-84c3",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2139-b90b-706b-1410",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of the Great Menagerie",
+            "id": "a587-d75f-18be-33dc",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If a Command Group with this banner is attached to a friendly unit, it supports the unit with +5 attacks instead of +1.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of the Unbending",
+        "id": "ad5c-3e90-6c86-ac22",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "0f15-4149-9b32-9e63", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 12}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "0f15-4149-9b32-9e63",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "7759-6de2-d314-078c", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of the Unbending",
+            "id": "b292-20ea-1749-3b3f",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The unit with this Command Group attached has Fearless. In addition, if the unit with this Command Group attached has Focused Attack (When charging, this unit gets +1 to WS), it works at all times, not only when charging.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Baner of the Hotbloods",
+        "id": "e0b5-03ef-b8cf-6a61",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "7276-d7d9-e983-622c", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 10}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "7276-d7d9-e983-622c",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "e36e-5a5d-a1e6-02ba", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Baner of the Hotbloods",
+            "id": "8294-8a49-c2d6-a128",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The unit with this Command Group attached has Agile (This unit can always re-roll one D6 when moving or charging). If the unit with this Command Group attached has Agile by default, it can always re-roll one D6 when moving and up to two D6 when charging.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Goddess Ehidne",
+        "id": "bd56-8114-c730-8363",
+        "hidden": false,
+        "import": true,
+        "page": 76,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "1eec-ff0e-14a9-42ba", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 11}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "1eec-ff0e-14a9-42ba",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "4f13-69c6-c113-95b8", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of Goddess Ehidne",
+            "id": "dd53-e959-b506-2f6f",
+            "hidden": false,
+            "page": 76,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The army has one more prayer per cycle. In addition, the army is allowed to field 1 unit of Priestesses of Enslavement (Basic Unit).",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of God Nathel",
+        "id": "8d0d-5b53-b71e-440d",
+        "hidden": false,
+        "import": true,
+        "page": 77,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "e38c-afb1-cbde-c737", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "e38c-afb1-cbde-c737",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4f13-69c6-c113-95b8",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "34fc-0aaa-8ed7-84c3",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2139-b90b-706b-1410",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of God Nathel",
+            "id": "18e8-e859-ba56-ab20",
+            "hidden": false,
+            "page": 77,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Before the battle, place three D6 dice (in a different colour than the ones you normally use) in your deployment zone. Once per cycle, you can use one of the dice to re-roll one D6 result – obtained by your opponent or yourself. You and your opponent must accept the result of the re-roll (the Nathel’s will). In addition, the army is allowed to field 1 unit of the Deceived.\n\n\nThe Deceived.\nYou may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) from any army other than Sheol-morg, taking into account the standard limits and requirements for Basic and Elite Units in an army. The Marauders rule applies as normal. These are beings who succumbed to the deceptive whispers of Nathel and joined his great procession.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of God Seth",
+        "id": "a044-2b2c-b08a-1e2f",
+        "hidden": false,
+        "import": true,
+        "page": 77,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "1d70-6bf8-d839-52ae", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 12}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "1d70-6bf8-d839-52ae",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4f13-69c6-c113-95b8",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2139-b90b-706b-1410",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of God Seth",
+            "id": "8f71-6266-7602-581a",
+            "hidden": false,
+            "page": 77,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Enemy units within 30 cm of a Command Group with this banner must re-roll a successful Cold Blood Test. If a Command Group with this banner is attached to a friendly unit, it supports the unit with +3 attacks instead of +1. In addition, your army is allowed to field 1 unit of Ahsids (Basic Unit).",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of God Duur",
+        "id": "b963-4ac5-58c1-3698",
+        "hidden": false,
+        "import": true,
+        "page": 77,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "fa27-983c-032e-e95a", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 8}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "fa27-983c-032e-e95a",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4f13-69c6-c113-95b8",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "34fc-0aaa-8ed7-84c3",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2139-b90b-706b-1410",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of God Duur",
+            "id": "c8fc-126f-d786-3981",
+            "hidden": false,
+            "page": 77,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When the enemy unit is making a Wound Test against the unit with this Command Group attached, it may be dealt Wounds itself. For each 6 the enemy unit obtains in such Wound Test (after any re-rolls), it is dealt 1 Wound. In addition, if the enemy unit has any save, it must re-roll successful saving throws when fighting against the unit with this Command Group attached.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Death",
+        "id": "6bcc-4a1e-0e84-2db7",
+        "hidden": false,
+        "import": true,
+        "page": 77,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "de69-df86-dc2c-62f7", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 9}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "de69-df86-dc2c-62f7",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "34fc-0aaa-8ed7-84c3", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of Death",
+            "id": "1f0f-d26a-8b84-6537",
+            "hidden": false,
+            "page": 77,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The range of abilities of the Command Group with this banner is 10 cm. In addition, all enemy units within 20 cm of this Command Group must re-roll successful Panic Tests.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Resolve",
+        "id": "41f5-e9c3-5ca6-e0d4",
+        "hidden": false,
+        "import": true,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "e10b-ec53-279d-083e", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 7}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "profiles": [
+          {
+            "name": "Banner of Resolve",
+            "id": "c873-c875-441e-92a1",
+            "hidden": false,
+            "page": 74,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If you may activate only one unit in your turn, you may activate one additional (this means you can activate two units instead of one).",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of the Ancient Forest",
+        "id": "c19f-7ba0-ad85-3cea",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "6a1c-02a5-f91e-e425", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 10}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "6a1c-02a5-f91e-e425",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "8e47-50e0-8500-9a3e",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of the Ancient Forest",
+            "id": "9ec9-5de0-23cc-c604",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "In the army with this banner, Trefloqs must choose their species – Elm or Oak.\nIn addition, the army is allowed to field 1 unit of Old Ones (Oduns) – 19 pts/base.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Conquest",
+        "id": "62db-27e0-30c0-ed97",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "60b3-c5c8-ab48-3e64", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 12}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "60b3-c5c8-ab48-3e64",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "59da-0cc8-65e1-9196",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of Conquest",
+            "id": "29e4-aa48-f073-48b3",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "A friendly unit that is activated as first in the cycle always receives a bonus of +5 cm to move or charge.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Ugruk-hor",
+        "id": "0c17-c748-1ec7-9fed",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "c477-e037-4ee3-4153", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 10}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "c477-e037-4ee3-4153",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "59da-0cc8-65e1-9196",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of Ugruk-hor",
+            "id": "8de2-ff2f-cb65-4f7b",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Units in the army can add a rank of Marauders to the Horde that allowed to deploy them (such a Horde consists of 20 bases). Hordes consisting of exactly 20 bases may have orders issued to them by the General re-rolled.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of the Serpent",
+        "id": "d9a1-392b-4b08-5f04",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "0344-1382-1f34-391d", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "0344-1382-1f34-391d",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "689d-c183-c62d-b3b6", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of the Serpent",
+            "id": "6118-5bb5-9cad-aae2",
+            "hidden": false,
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The army carrying this banner fields Slagors as Basic Units instead of Rare Units. Additionally, empowered by the banner’s magic, Slagors enter a battle trance that allows them to re-roll their WS Test when charging.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner of Advance",
+        "id": "6b3f-9fc4-3a3e-ab07",
+        "hidden": false,
+        "import": true,
+        "page": 75,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "constraints": [{"id": "5fad-fa2f-6f3f-f713", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 8}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+        "modifiers": [
+          {
+            "field": "5fad-fa2f-6f3f-f713",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "e36e-5a5d-a1e6-02ba", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Banner of Advance",
+            "id": "6f61-ea77-d417-ce32",
+            "hidden": false,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "528b-7cf3-4106-313f",
+            "typeName": "Magic Banner",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Ability range of this banner is 20 cm. All friendly units within this range do not lose charge bonuses when charging at an enemy Horde. In addition, each friendly unit within this range gains a bonus of +D6 cm when regrouping.",
+                "typeId": "469d-bf8e-c6f6-3d7e"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Magic Banners",
+        "id": "a82d-5866-f907-b48a",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "constraints": [
+          {
+            "id": "fe74-3ecd-a6c0-c03d",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Banner of Glory",
+            "id": "562b-2ff8-e864-6800",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 8,
+            "targetId": "b270-d42c-3720-ad3f",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Battle Banner",
+            "id": "9ed2-d8db-37da-b210",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 27,
+            "targetId": "3aa8-23d4-62b5-3807",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Blessed Banner",
+            "id": "a1a5-cbaa-4d01-a81e",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 28,
+            "targetId": "7afc-f537-6252-f2a2",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Courage",
+            "id": "b5d2-3fc7-88a0-b277",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 5,
+            "targetId": "7499-cceb-1f5f-665f",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Persistence",
+            "id": "cab0-d9da-df37-6e28",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 13,
+            "targetId": "b8fa-760e-073c-f1d7",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Prudence",
+            "id": "136c-fe3e-d844-062f",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 15,
+            "targetId": "e592-31fb-80e5-d686",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Destruction",
+            "id": "1f50-2a9c-a4cf-15a4",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 7,
+            "targetId": "978c-8402-1233-355f",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Command",
+            "id": "2915-61f6-5b76-1d46",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "27d3-73e4-9d39-b6ac",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Power",
+            "id": "77dd-259c-c0ec-e10b",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 14,
+            "targetId": "fe35-781f-685f-cc97",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of the Bathed in Blood",
+            "id": "30b9-4fb9-f293-3184",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 18,
+            "targetId": "fcc3-ca02-d201-76fd",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of the Lords of Beasts",
+            "id": "7963-737a-d490-b9b9",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 22,
+            "targetId": "52ea-a8af-bfa2-2b89",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of the Heralds of Torment",
+            "id": "2b4f-7eb5-764f-9276",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 21,
+            "targetId": "9715-9083-9b34-2bb2",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of the Wolf Brotherhood",
+            "id": "a566-778f-587d-98d8",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 25,
+            "targetId": "2a7f-ca0b-8ef1-b2b5",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of the Gods’ Slayers",
+            "id": "aba6-55c3-707d-1894",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 19,
+            "targetId": "f241-2cb9-5ce1-8f48",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of the Great Menagerie",
+            "id": "0a46-d5f5-44e1-1c40",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 20,
+            "targetId": "dad0-0ed7-b2ec-d3e8",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of the Unbending",
+            "id": "468a-c72e-8bda-5a70",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 24,
+            "targetId": "ad5c-3e90-6c86-ac22",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Baner of the Hotbloods",
+            "id": "89f3-ce84-1a24-27e6",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "e0b5-03ef-b8cf-6a61",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Goddess Ehidne",
+            "id": "50bf-fb92-95ed-e075",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 12,
+            "targetId": "bd56-8114-c730-8363",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of God Nathel",
+            "id": "b69c-3e6a-2e4b-6711",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 10,
+            "targetId": "8d0d-5b53-b71e-440d",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of God Seth",
+            "id": "9786-2cb2-1f43-faeb",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 11,
+            "targetId": "a044-2b2c-b08a-1e2f",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of God Duur",
+            "id": "d780-3e6b-284e-8be4",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 9,
+            "targetId": "b963-4ac5-58c1-3698",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Death",
+            "id": "3354-37ca-6ff8-ee40",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 6,
+            "targetId": "6bcc-4a1e-0e84-2db7",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Resolve",
+            "id": "6add-78cc-03b1-d08c",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 16,
+            "targetId": "41f5-e9c3-5ca6-e0d4",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of the Ancient Forest",
+            "id": "d291-6909-781f-54b0",
+            "hidden": false,
+            "import": true,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "sortIndex": 17,
+            "targetId": "c19f-7ba0-ad85-3cea",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Conquest",
+            "id": "17d6-3a0e-65ac-69d0",
+            "hidden": false,
+            "import": true,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "sortIndex": 4,
+            "targetId": "62db-27e0-30c0-ed97",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Ugruk-hor",
+            "id": "56cf-61a3-503d-7720",
+            "hidden": false,
+            "import": true,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "sortIndex": 26,
+            "targetId": "0c17-c748-1ec7-9fed",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of the Serpent",
+            "id": "1372-3634-3666-d6c9",
+            "hidden": false,
+            "import": true,
+            "page": 75,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "sortIndex": 23,
+            "targetId": "d9a1-392b-4b08-5f04",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Banner of Advance",
+            "id": "0255-1183-1577-6ecd",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "6b3f-9fc4-3a3e-ab07",
+            "type": "selectionEntry"
+          }
+        ],
+        "modifiers": [
+          {
+            "affects": "recursive",
+            "field": "fe74-3ecd-a6c0-c03d",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
