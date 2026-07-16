@@ -1,0 +1,340 @@
+{
+  "catalogue": {
+    "name": "Sheol-morg: Lord of Sheol-morg",
+    "id": "f574-bbfd-2add-c0a3",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Sheol-morg: common", "id": "3758-fd10-755d-66e2", "importRootEntries": true, "targetId": "3c37-26cb-3246-fc2d", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Command Group",
+        "id": "b779-396b-8c9d-2372",
+        "hidden": false,
+        "import": true,
+        "targetId": "8628-e889-806c-329b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "0642-8082-f49e-0981", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Champion of Gehenna",
+        "id": "413f-d255-a803-d7e9",
+        "hidden": false,
+        "import": true,
+        "targetId": "76d6-c179-393e-0aa4",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "3bed-8255-f603-32b4", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Champion of Hordes",
+        "id": "302d-4f8b-af6d-107f",
+        "hidden": false,
+        "import": true,
+        "targetId": "7c9f-c971-5469-4b74",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "8f4d-0d01-78c6-2cf6", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Champion of the Dark Gods",
+        "id": "c2e5-67cc-5536-7f30",
+        "hidden": false,
+        "import": true,
+        "targetId": "bd52-5ff4-5096-b19d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "a350-d9d6-10bb-5a1b", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Curser",
+        "id": "ec05-35fe-d4bf-690d",
+        "hidden": false,
+        "import": true,
+        "targetId": "f4f8-e737-12f1-f494",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "3908-997d-0f44-0578", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Warlock",
+        "id": "35b9-826e-cf06-475c",
+        "hidden": false,
+        "import": true,
+        "targetId": "8eea-e7f4-fc9c-e914",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "5383-dea9-bab5-f140", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Ritual Guardians",
+        "id": "7e48-dca3-8760-6b73",
+        "defaultAmount": 2,
+        "hidden": false,
+        "import": true,
+        "targetId": "526a-dcd7-0acd-4e5b",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Basic Unit", "id": "69d4-2f45-339c-b38a", "hidden": false, "primary": true, "targetId": "7089-e041-3a8b-00af"},
+          {"name": "Sheol-morg Lord of Sheol-morg", "id": "bc2d-133d-5f38-2a68", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}
+        ]
+      },
+      {
+        "name": "Dark Fauns",
+        "id": "03aa-bf3d-16a5-50e3",
+        "hidden": false,
+        "import": true,
+        "targetId": "63e4-84cd-44d4-f39e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "8efa-27bb-bbc7-7442", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Horned Warriors",
+        "id": "8f18-a380-5a04-b8ac",
+        "hidden": false,
+        "import": true,
+        "targetId": "7e68-13bb-f148-1d2e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Elite Unit", "id": "ffe9-bba5-f75f-41e2", "hidden": false, "primary": true, "targetId": "e020-218e-a38a-c7c5"},
+          {"name": "Sheol-morg Lord of Sheol-morg", "id": "b77d-d4da-afc4-7a10", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}
+        ]
+      },
+      {
+        "name": "Truhlaks",
+        "id": "e580-c3b3-6c5b-af8a",
+        "hidden": false,
+        "import": true,
+        "targetId": "fe8b-bebf-15f2-666e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Elite Unit", "id": "0041-2219-2688-ed92", "hidden": false, "primary": true, "targetId": "e020-218e-a38a-c7c5"},
+          {"name": "Sheol-morg Lord of Sheol-morg", "id": "e7a5-deaf-67ba-2d48", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}
+        ]
+      },
+      {
+        "name": "Truhlaks on Fallen Ogars",
+        "id": "0284-7f38-7d7a-98a1",
+        "hidden": false,
+        "import": true,
+        "targetId": "ca96-718c-b8de-69eb",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "7572-1e4e-17de-bce5", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Minotaur",
+        "id": "3a2f-b320-b06c-f8e1",
+        "hidden": false,
+        "import": true,
+        "targetId": "8b88-0927-59f1-6dd8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "787e-6dfc-2881-c5e6", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Black Knights on Horgars",
+        "id": "fdd4-9889-1ac1-d914",
+        "hidden": false,
+        "import": true,
+        "targetId": "b94e-c308-d93f-1376",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "74a3-4da3-c4d5-2bbc", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Hybrids",
+        "id": "9575-b47c-5385-9d80",
+        "hidden": false,
+        "import": true,
+        "targetId": "4909-f0f4-7f17-cefe",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "8fc9-29cf-ad50-bb15", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Hydra",
+        "id": "9d1e-f697-49a2-26c8",
+        "hidden": false,
+        "import": true,
+        "targetId": "dc4c-ac3a-bbe6-2cec",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "7309-e05c-8aa1-6d2c", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      },
+      {
+        "name": "Ahsids",
+        "id": "aa4f-e8fc-a57d-8d44",
+        "hidden": false,
+        "import": true,
+        "targetId": "f554-1c2a-bc3a-624d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Sheol-morg Lord of Sheol-morg", "id": "cb3b-c78c-8527-0198", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Lord of Sheol-morg",
+        "id": "434c-2468-be5d-26f4",
+        "comment": "TODO Should Feear be part of General's rule?",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "General", "id": "6078-4bf5-1a2c-cc60", "hidden": false, "primary": true, "targetId": "e196-2339-4bc0-2d4f"},
+          {"name": "Hero", "id": "db84-ca45-bded-affc", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Sheol-morg Lord of Sheol-morg", "id": "38da-8bfc-31ce-2279", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 30}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [{"name": "Artefacts", "id": "17c7-90a1-7361-4e9b", "hidden": false, "import": true, "targetId": "6502-887c-b695-528f", "type": "selectionEntryGroup"}],
+        "profiles": [
+          {
+            "name": "Lord of Sheol-morg",
+            "id": "dc22-1da8-e80c-339b",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "a4ee-546b-71a6-4250",
+            "typeName": "General",
+            "characteristics": [{"name": "LD", "$text": "2", "typeId": "3e75-c7bc-9bab-8c5e"}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Ab... huul! Daaqul, salib!!!",
+            "id": "ac93-0227-2728-0779",
+            "description": "The army always fields Ritual Master (Mage).",
+            "hidden": false,
+            "page": 95,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ]
+      },
+      {
+        "name": "Myrnos",
+        "id": "52f7-b27c-3cd8-a099",
+        "hidden": false,
+        "import": true,
+        "page": 141,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Legendary Hero", "id": "1eb8-147f-8961-2f30", "hidden": false, "primary": true, "targetId": "b8ea-5e96-acf3-4bca"},
+          {"name": "Sheol-morg Lord of Sheol-morg", "id": "65a0-0168-c312-2b64", "hidden": false, "primary": false, "targetId": "2139-b90b-706b-1410"},
+          {"name": "Appendix", "id": "50b4-f65e-7746-d216", "hidden": false, "primary": false, "targetId": "3337-e6b7-f06f-9aec"},
+          {"name": "Hero", "id": "a3d3-cb55-3abe-ee23", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "constraints": [{"id": "f301-6481-73af-51a8", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 40}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "profiles": [
+          {
+            "name": "Myrnos",
+            "id": "2111-75ff-6502-8784",
+            "hidden": false,
+            "page": 141,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Driven by a whirlwind of madness, Myrnos always grants 5 attacks + 1 attack for each rank of the unit he is attached to.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          },
+          {
+            "name": "Hunger for Murder",
+            "id": "c3f2-d641-8fdd-2ec2",
+            "hidden": false,
+            "page": 141,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [{"name": "Description", "$text": "The regrouping range of the unit Myrnos is attached to is 3D6 cm instead of 5 cm.", "typeId": "0061-13d8-7fda-179e"}]
+          },
+          {
+            "name": "Azzantir, Axe of Malice",
+            "id": "d9f0-5630-b701-f6fd",
+            "hidden": false,
+            "page": 141,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If an enemy unit (but not single model) loses combat against a unit Myrnos is attached to, roll four D6s before the enemy takes a Cold Blood Test. For each score of 4 or less, Myrnos inflicts 1 additional Wound on the enemy unit. Any double of 6 means that the unit Myrnos is attached to loses 1 base.",
+                "typeId": "d8cb-c37d-4eab-001d"
+              }
+            ]
+          },
+          {
+            "name": "Servant’s Girdle",
+            "id": "1bb6-1398-8df9-5901",
+            "hidden": false,
+            "page": 141,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "88d9-934a-85e6-e7a3",
+            "typeName": "Item",
+            "characteristics": [{"name": "Description", "$text": "If Myrnos is eliminated from battle, he does not count as a Blood Point for the opponent.", "typeId": "d8cb-c37d-4eab-001d"}]
+          }
+        ]
+      },
+      {
+        "name": "Ritual Master",
+        "id": "0b09-e26e-843b-c135",
+        "defaultAmount": 1,
+        "hidden": false,
+        "import": true,
+        "page": 95,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "22aa-2442-2865-b5ae", "hidden": false, "primary": true, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Hero", "id": "91b9-ace8-4b4b-ece6", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "constraints": [
+          {"id": "4dbc-f409-e3d4-5963-min", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 1},
+          {"id": "4dbc-f409-e3d4-5963-max", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Spells",
+            "id": "1262-9aaa-cdb3-61ca",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "ff1a-1e2a-e88c-753c",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Magic items",
+            "id": "58d5-9665-60c7-81ef",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "6af6-0fae-4634-bdf6",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ab... huul! Daaqul, salib!!!",
+            "id": "dd9a-d559-6f17-9a33",
+            "hidden": false,
+            "page": 95,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Before the battle, Ritual Master performs a special ritual. Roll a D6 to check which bonuses the units will have during the battle.\n1–2 Ritual of Beast\nBasic and Elite Units in the army have their move and charge ranges increased by 2 cm.\n3–4 Ritual of Pain\nBasic and Elite Units in the army that have no save receive save. Each such unit may always roll a D6 for each Wound it is dealt. Each score of 1 means a cancelled Wound.\n5–6 Ritual of Fear\nBasic and Elite Units in the army have Fear. Fear. After a successful charge with this unit, the enemy unit (but not single model) must take a Panic Test for 1 base. If this unit is a Horde, the enemy must take a Panic Test for 2 bases instead.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
