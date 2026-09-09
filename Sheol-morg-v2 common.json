@@ -1,0 +1,1112 @@
+{
+  "catalogue": {
+    "name": "Sheol-morg: common",
+    "id": "3c37-26cb-3246-fc2d",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "sys-151e-f433-5ee7-6686",
+    "gameSystemRevision": 1,
+    "library": true,
+    "revision": 5,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [
+      {"name": "Banners", "id": "f342-dd7c-be6b-5a3b", "targetId": "e6d3-3757-73e4-6ec4", "type": "catalogue"},
+      {"name": "Items", "id": "0eb2-1f28-3495-8b6c", "targetId": "9fd1-abc6-119d-b5a5", "type": "catalogue"},
+      {"name": "Spells", "id": "66e5-9a4d-f6b9-54d5", "targetId": "9324-73b3-9935-4102", "type": "catalogue"},
+      {"name": "Units", "id": "d914-190a-664e-0151", "targetId": "5b32-fb65-846e-642a", "type": "catalogue"},
+      {"name": "Banner of God Nathel Units", "id": "10b2-c2ac-222f-6f05", "importRootEntries": true, "targetId": "9a20-8d65-b4d3-37ed", "type": "catalogue"}
+    ],
+    "forceEntries": [
+      {
+        "name": "Open",
+        "id": "c853-4826-c528-ee38",
+        "hidden": false,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "categoryLinks": [
+          {"name": "General", "id": "c95d-5fd9-96cc-63ca", "hidden": false, "page": 64, "publicationId": "30f0-6ecb-d1bf-eb3e", "targetId": "e196-2339-4bc0-2d4f"},
+          {"name": "Command Group", "id": "2dfa-490f-f8eb-1b48", "hidden": false, "targetId": "ebd4-eb4c-38d6-ee11"},
+          {"name": "Hero", "id": "103e-3b0a-beb3-57d9", "hidden": false, "targetId": "0b0b-5bbc-9d5e-9b0c"},
+          {"name": "Champion", "id": "2167-76e6-b99b-66d9", "hidden": false, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Mage", "id": "17f4-9c5d-e498-a6c6", "hidden": false, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Legendary Hero", "id": "4945-c6a6-acb5-cb86", "hidden": false, "targetId": "b8ea-5e96-acf3-4bca"},
+          {"name": "Basic Unit", "id": "3b63-e4c7-5e64-9821", "hidden": false, "targetId": "7089-e041-3a8b-00af"},
+          {"name": "Elite Unit", "id": "cb07-c17c-799e-86ce", "hidden": false, "targetId": "e020-218e-a38a-c7c5"},
+          {"name": "Rare Unit", "id": "9622-4ba1-15c5-0d9d", "hidden": false, "targetId": "4813-f768-c66b-e833"},
+          {"name": "Unique Unit", "id": "2ef3-12b0-e7e7-4670", "hidden": false, "targetId": "9972-b434-5f13-e94b"},
+          {"name": "Mercenary Unit", "id": "fb68-7e47-1863-d93e", "hidden": false, "targetId": "4eea-ffdb-6cfc-9aa0"},
+          {"name": "The Deceived", "id": "adec-1aa0-5c5e-e1f6", "hidden": false, "targetId": "3dea-37b3-34a2-f076"},
+          {
+            "name": "Options",
+            "id": "fcd9-3d29-6983-85ff",
+            "hidden": false,
+            "targetId": "cbbe-9aca-6aa9-f029",
+            "constraints": [
+              {
+                "id": "6a14-d569-e2c7-aae5-min",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "6a14-d569-e2c7-aae5-max",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {"name": "Unique Unit Without Limits", "id": "d8a3-3940-a2a1-a91d", "hidden": false, "targetId": "10d2-30d7-d100-62ec"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Command Group",
+        "id": "8628-e889-806c-329b",
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Command Group", "id": "35e5-473b-6184-bd78", "hidden": false, "primary": true, "targetId": "ebd4-eb4c-38d6-ee11"},
+          {"name": "Hero", "id": "fdfb-7ca7-0994-7013", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [{"name": "Magic Banners", "id": "80c8-67d9-4f79-04d5", "hidden": false, "import": true, "targetId": "a82d-5866-f907-b48a", "type": "selectionEntryGroup"}]
+      },
+      {
+        "name": "Champion of Gehenna",
+        "id": "76d6-c179-393e-0aa4",
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "7f51-b311-ef60-49ac", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "9ac1-f3c1-e8b9-0cf5", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "constraints": [{"id": "4519-fdb6-75a8-1a53", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "4519-fdb6-75a8-1a53",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Gehenna",
+            "id": "3cd3-8f62-efa0-7804",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When Champion of Gehenna is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means that one stat (except W) of the unit can be increased by 1 until the end of the cycle.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of Hordes",
+        "id": "7c9f-c971-5469-4b74",
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "fd24-f6a5-4a06-713e", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "8baf-d8a0-14f6-1ca6", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "constraints": [{"id": "19b9-29de-c771-1419", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 13}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "19b9-29de-c771-1419",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of Hordes",
+            "id": "2663-2bf4-ef32-8b25",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Roll a D6 if the unit with Champion of Hordes attached made a successful charge or has been charged. A score of 3 or less means the unit which has at least 12 bases may re-roll all failed scores in the Weapon Skill Test, and if the unit was not a Horde or it lost the Horde rule, it gains (regains) the Horde rule.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion of the Dark Gods",
+        "id": "bd52-5ff4-5096-b19d",
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Champion", "id": "f3cc-5427-a848-8846", "hidden": false, "primary": true, "targetId": "4f06-0f92-65f2-1c81"},
+          {"name": "Hero", "id": "f9fb-3004-4291-9870", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "constraints": [{"id": "afb1-57c2-0fac-3aef", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 16}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "modifiers": [
+          {
+            "field": "afb1-57c2-0fac-3aef",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "limit::78f2-651d-2f2e-98bf",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 1500
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Champion of the Dark Gods",
+            "id": "c481-2ea4-cffa-f638",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If Champion of the Dark Gods is attached to a friendly unit engaged in combat, he always adds +5 attacks instead of +4. In addition, you may roll a D6 before the enemy unit’s attacks. A score of 3 or less means the enemy must, according to your choice, re-roll all successful scores in the Weapon Skill Test or the Wound Test.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Curser",
+        "id": "f4f8-e737-12f1-f494",
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "428a-6037-5150-6f68", "hidden": false, "primary": true, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Hero", "id": "272e-4fb0-3cc2-0c49", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Spells <= 6pts",
+            "id": "4e7c-eea7-0299-6325",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "626f-4e1b-4c07-bb02",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Magic Items <= 6pts",
+            "id": "3b20-c03d-1fa5-a0b1",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "e75a-cbeb-298b-78ea",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Curser",
+            "id": "10fd-ab1e-9a28-8422",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [{"name": "Description", "$text": "All enemy units within 30 cm of Curser get -2 cm to the charge range.", "typeId": "0061-13d8-7fda-179e"}]
+          }
+        ]
+      },
+      {
+        "name": "Warlock",
+        "id": "8eea-e7f4-fc9c-e914",
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Mage", "id": "1724-c974-40f4-8ad3", "hidden": false, "primary": true, "targetId": "ced7-cf0d-3b3f-c563"},
+          {"name": "Hero", "id": "8e8f-c3be-1414-a2d6", "hidden": false, "primary": false, "targetId": "0b0b-5bbc-9d5e-9b0c"}
+        ],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 14}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Spells",
+            "id": "82b6-16d3-7d26-6ebe",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "ff1a-1e2a-e88c-753c",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Magic items",
+            "id": "db68-da80-358d-69d3",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "6af6-0fae-4634-bdf6",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Warlock",
+            "id": "f623-80d9-9670-519f",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "c120-4b08-0021-a1b1",
+            "typeName": "Ability",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "All friendly units within 20 cm of Warlock may re-roll a failed Prayer Test when praying for Fury.",
+                "typeId": "0061-13d8-7fda-179e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Fauns",
+        "id": "63e4-84cd-44d4-f39e",
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [{"name": "Elite Unit", "id": "ec53-1e15-1615-d80d", "hidden": false, "primary": true, "targetId": "e020-218e-a38a-c7c5"}],
+        "infoLinks": [
+          {"name": "Fierce", "id": "32e7-4a5a-f18b-4002", "hidden": false, "targetId": "02ab-0489-2565-7e89", "type": "rule"},
+          {"name": "Immunity", "id": "99b8-1011-cd65-1adf", "hidden": false, "targetId": "77c4-c412-b3ce-56e7", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Dark Fauns",
+            "id": "946e-df2e-da0f-b0b0",
+            "hidden": false,
+            "import": true,
+            "page": 96,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "d71d-d8e4-ca0e-50ec", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "50bf-61d2-6468-c4b2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 21}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Dark Fauns",
+                "id": "4698-cbe1-c724-db44",
+                "hidden": false,
+                "page": 96,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "4", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "4", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "3", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Dark Fauns",
+            "id": "90b4-34e5-0e55-52bc",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "0e73-04e9-ddc2-2751", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "3f57-0b85-c503-d0dc-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "3f57-0b85-c503-d0dc-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Dark Fauns", "id": "772a-bff7-9255-da91", "hidden": false, "targetId": "4698-cbe1-c724-db44", "type": "profile"},
+              {"name": "Marauders", "id": "9e76-2927-75c8-ccec", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "946e-df2e-da0f-b0b0", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "3f57-0b85-c503-d0dc-min", "type": "set", "value": 4},
+                  {"field": "3f57-0b85-c503-d0dc-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Horned Warriors",
+        "id": "7e68-13bb-f148-1d2e",
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "infoLinks": [
+          {"name": "Terrible Damage", "id": "605c-208b-176c-4da3", "hidden": false, "targetId": "85f5-0754-5d44-b980", "type": "rule"},
+          {"name": "Heavy Armour (Save)", "id": "82a0-9884-f734-09ba", "hidden": false, "targetId": "3ebd-e420-98f9-9aeb", "type": "rule"},
+          {
+            "name": "Too late for hope",
+            "id": "3c79-5dfc-30d0-869c",
+            "hidden": true,
+            "targetId": "9cb9-b6c4-e008-c0f7",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "4f13-69c6-c113-95b8",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Horned Warriors",
+            "id": "0b8c-a7a6-bdbe-0532",
+            "hidden": false,
+            "import": true,
+            "page": 96,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "6b52-2cd0-392a-ecb8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "036f-4f7e-c9f3-53c7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 15}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Horned Warriors",
+                "id": "865c-e714-db29-8983",
+                "hidden": false,
+                "page": 96,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "3", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "3", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Horned Warriors",
+            "id": "1a8c-21a7-ffa2-9d65",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "1157-0254-3aa5-5041", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "5d2c-6a02-fd37-8457-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "5d2c-6a02-fd37-8457-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Horned Warriors", "id": "7470-a716-043a-f117", "hidden": false, "targetId": "865c-e714-db29-8983", "type": "profile"},
+              {"name": "Marauders", "id": "e181-8d7f-2586-f471", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "0b8c-a7a6-bdbe-0532", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "5d2c-6a02-fd37-8457-min", "type": "set", "value": 4},
+                  {"field": "5d2c-6a02-fd37-8457-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Truhlaks",
+        "id": "fe8b-bebf-15f2-666e",
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "infoLinks": [
+          {"name": "Fear", "id": "8e7f-fae3-2007-df53", "hidden": false, "targetId": "d7d0-c3d0-bdd1-6cae", "type": "rule"},
+          {"name": "Fearless", "id": "3b97-0b4b-c1a1-1424", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Creature", "id": "0d29-9be6-4244-3331", "hidden": false, "targetId": "a55b-3121-3d83-4ad8", "type": "rule"},
+          {"name": "Enslaved", "id": "2d5e-80e2-ee08-555f", "hidden": false, "targetId": "341d-a83d-4e7a-c9df", "type": "rule"},
+          {"name": "Corpse Horde", "id": "c5d4-75e3-d67f-61a5", "hidden": false, "targetId": "8052-918d-4b65-e890", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Skeletons",
+            "id": "d5ff-5fd2-894c-f853",
+            "hidden": false,
+            "import": true,
+            "page": 96,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "505c-8eec-9b0a-0a91", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "6ebf-2df1-75b8-b65f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 7}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Skeletons",
+                "id": "3991-d6c4-9fd2-8776",
+                "hidden": false,
+                "page": 96,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "4", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "2", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "1", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Truhlaks",
+            "id": "3bbe-665f-3bd1-848d",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "06c5-341b-bfb0-2af6", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "c4bf-d9fe-321a-b317-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "c4bf-d9fe-321a-b317-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Skeletons", "id": "dc0e-32f0-b77c-936e", "hidden": false, "targetId": "3991-d6c4-9fd2-8776", "type": "profile"},
+              {"name": "Marauders", "id": "3f06-0202-16ad-b93c", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "d5ff-5fd2-894c-f853", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "c4bf-d9fe-321a-b317-min", "type": "set", "value": 4},
+                  {"field": "c4bf-d9fe-321a-b317-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ritual Guardians",
+        "id": "526a-dcd7-0acd-4e5b",
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "infoLinks": [
+          {"name": "Ancient Steel", "id": "1a24-638e-0c0d-3e02", "hidden": false, "targetId": "09c8-d311-1db3-97da", "type": "rule"},
+          {"name": "Baaaaaa!!!", "id": "3543-7553-d1e1-5e1d", "hidden": false, "targetId": "9a56-7f27-2cbf-6454", "type": "rule"},
+          {
+            "name": "Fanatical Loyalty",
+            "id": "32ac-84cd-0441-bb27",
+            "hidden": true,
+            "targetId": "9c8e-3ed3-b98f-19ea",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [{"childId": "2139-b90b-706b-1410", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Kozars",
+            "id": "b428-74d6-5894-e6e9",
+            "hidden": false,
+            "import": true,
+            "page": 96,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "6d53-443b-2065-3848", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "8a0b-f9f0-8d72-cde5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 13}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Kozars",
+                "id": "8c70-dc68-abfb-2052",
+                "hidden": false,
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "3", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "3", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Ritual Guardians",
+            "id": "d282-c300-b043-1296",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "b014-3440-345b-9e3b", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "4b4b-06ef-6eb7-c643-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "4b4b-06ef-6eb7-c643-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Kozars", "id": "889c-f717-0ddc-b7c1", "hidden": false, "targetId": "8c70-dc68-abfb-2052", "type": "profile"},
+              {"name": "Marauders", "id": "7864-b7dc-4400-a3b6", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "b428-74d6-5894-e6e9", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "4b4b-06ef-6eb7-c643-min", "type": "set", "value": 4},
+                  {"field": "4b4b-06ef-6eb7-c643-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Truhlaks on Fallen Ogars",
+        "id": "ca96-718c-b8de-69eb",
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [{"name": "Rare Unit", "id": "319f-c762-a5eb-0782", "hidden": false, "primary": true, "targetId": "4813-f768-c66b-e833"}],
+        "infoLinks": [
+          {"name": "Wild Speed", "id": "1752-bc3e-f706-7a6c", "hidden": false, "targetId": "7ac5-4cf6-8848-17ac", "type": "rule"},
+          {"name": "Fear", "id": "5e2b-6292-eb97-b761", "hidden": false, "targetId": "d7d0-c3d0-bdd1-6cae", "type": "rule"},
+          {"name": "Fearless", "id": "9f26-f956-cf4e-6882", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Creature", "id": "b3ac-c80a-1b70-9448", "hidden": false, "targetId": "a55b-3121-3d83-4ad8", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Truhlaks on Fallen Ogars",
+            "id": "f5ac-6dab-cc26-7caa",
+            "hidden": false,
+            "import": true,
+            "page": 96,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "8b1f-a5c9-64b4-e35f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "2b1a-bd4e-66bd-c53d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 19}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Truhlaks on Fallen Ogars",
+                "id": "975f-4c5f-6dcc-e44a",
+                "hidden": false,
+                "page": 96,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "15", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "3", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "3", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "3", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Truhlaks on Fallen Ogars",
+            "id": "70be-9df3-637a-c841",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "0dea-5797-f3a5-3a1a", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "cf24-c2f8-d824-6e16-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "cf24-c2f8-d824-6e16-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Truhlaks on Fallen Ogars", "id": "747e-b10b-1ddf-655a", "hidden": false, "targetId": "975f-4c5f-6dcc-e44a", "type": "profile"},
+              {"name": "Marauders", "id": "74d8-0ab2-a7f2-53e0", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "f5ac-6dab-cc26-7caa", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "cf24-c2f8-d824-6e16-min", "type": "set", "value": 4},
+                  {"field": "cf24-c2f8-d824-6e16-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Minotaur",
+        "id": "8b88-0927-59f1-6dd8",
+        "hidden": false,
+        "import": true,
+        "page": 96,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [{"name": "Rare Unit", "id": "6813-1d67-8180-1dc3", "hidden": false, "primary": true, "targetId": "4813-f768-c66b-e833"}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 52}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [
+          {"name": "Fearless", "id": "79bc-cbc7-0119-716d", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Amok", "id": "2744-e39e-6d9b-a952", "hidden": false, "targetId": "771b-02ba-84cd-e14f", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Minotaur",
+            "id": "b15c-f108-0623-0ebc",
+            "hidden": false,
+            "page": 96,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "2de0-9d39-bac9-d765",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+              {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+              {"name": "WS", "$text": "2", "typeId": "716f-8261-c374-f462"},
+              {"name": "S", "$text": "6", "typeId": "65de-0c6b-9559-e9d4"},
+              {"name": "T", "$text": "6", "typeId": "c9bb-0a5f-7e53-c580"},
+              {"name": "A", "$text": "5", "typeId": "44b7-9a60-223f-8bd3"},
+              {"name": "W", "$text": "7", "typeId": "c862-16aa-6d51-e80c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Black Knights on Horgars",
+        "id": "b94e-c308-d93f-1376",
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [{"name": "Unique Unit", "id": "a4bc-908d-6d23-2657", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"}],
+        "infoLinks": [
+          {"name": "Heavy Armour (Save)", "id": "9488-759c-b871-a47d", "hidden": false, "targetId": "3ebd-e420-98f9-9aeb", "type": "rule"},
+          {"name": "Fierce Assault", "id": "4f19-a00e-429b-58a7", "hidden": false, "targetId": "5e73-0a2b-89fd-4400", "type": "rule"},
+          {"name": "Fear", "id": "0469-a403-47fc-5d01", "hidden": false, "targetId": "d7d0-c3d0-bdd1-6cae", "type": "rule"},
+          {"name": "Faithful", "id": "acf5-c9da-b61a-94cf", "hidden": false, "targetId": "b40d-a883-f45e-9f68", "type": "rule"},
+          {"name": "Immunity", "id": "52a2-36e1-e1ef-7dbe", "hidden": false, "targetId": "77c4-c412-b3ce-56e7", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Black Knights on Horgars",
+            "id": "73a8-479f-f697-d053",
+            "hidden": false,
+            "import": true,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "2b79-5416-c1c7-0b5a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "fb57-f63d-bbb3-298d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 27}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Black Knights on Horgars",
+                "id": "ca5c-74a6-700d-e2a5",
+                "hidden": false,
+                "page": 97,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "6", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "15", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "4", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "4", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "4", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "3", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Black Knights on Horgars",
+            "id": "1e5a-a1e7-ccf3-0b76",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "0708-5f0c-7a9b-da90", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "38d9-6947-aadd-6e78-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "38d9-6947-aadd-6e78-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Black Knights on Horgars", "id": "3107-1a92-4780-e952", "hidden": false, "targetId": "ca5c-74a6-700d-e2a5", "type": "profile"},
+              {"name": "Marauders", "id": "62e3-db97-8511-4958", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "73a8-479f-f697-d053", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "38d9-6947-aadd-6e78-min", "type": "set", "value": 4},
+                  {"field": "38d9-6947-aadd-6e78-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hybrids",
+        "id": "4909-f0f4-7f17-cefe",
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [{"name": "Unique Unit", "id": "8319-047f-5961-4918", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"}],
+        "infoLinks": [
+          {"name": "Spasms", "id": "c3a3-ce11-e397-fdbd", "hidden": false, "targetId": "debb-f57e-4e62-f6e2", "type": "rule"},
+          {"name": "Fearless", "id": "f31c-aa2a-20f1-b912", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Creature", "id": "e5b1-b2d3-474f-b413", "hidden": false, "targetId": "a55b-3121-3d83-4ad8", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Hybrids",
+            "id": "9a3f-75d8-c3d2-f5d4",
+            "hidden": false,
+            "import": true,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "0cc8-f4da-1cf2-1c43", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "82e5-b3cf-8937-9553", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 17}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "profiles": [
+              {
+                "name": "Hybrids",
+                "id": "6f0b-3bfd-c3f6-a104",
+                "hidden": false,
+                "page": 97,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "typeId": "2de0-9d39-bac9-d765",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "LD", "$text": "5", "typeId": "cf8f-1c29-2b6f-3031"},
+                  {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+                  {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+                  {"name": "S", "$text": "5", "typeId": "65de-0c6b-9559-e9d4"},
+                  {"name": "T", "$text": "5", "typeId": "c9bb-0a5f-7e53-c580"},
+                  {"name": "A", "$text": "2", "typeId": "44b7-9a60-223f-8bd3"},
+                  {"name": "W", "$text": "2", "typeId": "c862-16aa-6d51-e80c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Hybrids",
+            "id": "09b5-5f58-5a7a-c4a0",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "84f0-69c6-b1fe-a846", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "134e-94bf-181a-fc0e-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "134e-94bf-181a-fc0e-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Hybrids", "id": "c8d2-2737-0990-560f", "hidden": false, "targetId": "6f0b-3bfd-c3f6-a104", "type": "profile"},
+              {"name": "Marauders", "id": "f1b3-1da8-2c3d-4760", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "9a3f-75d8-c3d2-f5d4", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "134e-94bf-181a-fc0e-min", "type": "set", "value": 4},
+                  {"field": "134e-94bf-181a-fc0e-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hydra",
+        "id": "dc4c-ac3a-bbe6-2cec",
+        "hidden": false,
+        "import": true,
+        "page": 97,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "model",
+        "categoryLinks": [{"name": "Unique Unit", "id": "c580-e10d-c44c-4d8c", "hidden": false, "primary": true, "targetId": "9972-b434-5f13-e94b"}],
+        "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 83}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+        "infoLinks": [
+          {"name": "Fearless", "id": "5bfc-c9ab-9ed9-4944", "hidden": false, "targetId": "94ec-74f8-3927-8a0a", "type": "rule"},
+          {"name": "Born in the Abyss", "id": "1fb8-6810-6c82-fbf8", "hidden": false, "targetId": "82c8-08a9-732c-1031", "type": "rule"},
+          {"name": "Dark Vomit", "id": "66c9-83a0-bd0f-6551", "hidden": false, "targetId": "508c-d887-a95b-6ea1", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Hydra",
+            "id": "40a3-6c9b-c811-37af",
+            "hidden": false,
+            "page": 97,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "typeId": "2de0-9d39-bac9-d765",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "LD", "$text": "2", "typeId": "cf8f-1c29-2b6f-3031"},
+              {"name": "M", "$text": "10", "typeId": "879f-49c0-b3a8-c586"},
+              {"name": "WS", "$text": "3", "typeId": "716f-8261-c374-f462"},
+              {"name": "S", "$text": "7", "typeId": "65de-0c6b-9559-e9d4"},
+              {"name": "T", "$text": "7", "typeId": "c9bb-0a5f-7e53-c580"},
+              {"name": "A", "$text": "7", "typeId": "44b7-9a60-223f-8bd3"},
+              {"name": "W", "$text": "8", "typeId": "c862-16aa-6d51-e80c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ahsids",
+        "id": "f554-1c2a-bc3a-624d",
+        "hidden": false,
+        "import": true,
+        "page": 77,
+        "publicationId": "30f0-6ecb-d1bf-eb3e",
+        "type": "unit",
+        "categoryLinks": [{"name": "Basic Unit", "id": "7c72-eeb3-3d98-dff1", "hidden": false, "primary": true, "targetId": "7089-e041-3a8b-00af"}],
+        "constraints": [{"id": "2195-74d6-ce66-71ca", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 0}],
+        "modifiers": [
+          {
+            "field": "2195-74d6-ce66-71ca",
+            "type": "set",
+            "value": 1,
+            "conditions": [{"childId": "a044-2b2c-b08a-1e2f", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Possession",
+            "id": "5250-5362-ed55-b918",
+            "description": "When charged by the Ahsids, the enemy unit (but not single model) must take a Cold Blood Test. If the enemy unit fails the test and has an Action Die, it gets -1 to WS until the end of the cycle. If the enemy unit fails the test and does not have an Action Die, it must take a Panic Test for 3 bases.",
+            "hidden": false,
+            "page": 77,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          },
+          {
+            "name": "Human Monsters",
+            "id": "54d9-017f-637f-7060",
+            "description": "As long as this unit has at least two full ranks, it has +1 to S.",
+            "hidden": false,
+            "page": 77,
+            "publicationId": "30f0-6ecb-d1bf-eb3e"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Barbarians",
+            "id": "fbbf-8c48-3cdb-dc2e",
+            "hidden": false,
+            "import": true,
+            "page": 77,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "constraints": [
+              {"id": "7807-1048-2e7f-7b7d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "e98e-08a2-0815-e171", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 16}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 13}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 1}],
+            "infoLinks": [
+              {
+                "name": "Barbarians",
+                "id": "a28a-3ed6-1448-5bd9",
+                "hidden": false,
+                "page": 77,
+                "publicationId": "30f0-6ecb-d1bf-eb3e",
+                "targetId": "bec9-1a93-ba58-5d60",
+                "type": "profile"
+              }
+            ]
+          },
+          {
+            "name": "Marauders: Ahsids",
+            "id": "2fcc-862c-1567-9abb",
+            "hidden": true,
+            "import": true,
+            "page": 82,
+            "publicationId": "30f0-6ecb-d1bf-eb3e",
+            "type": "model",
+            "categoryLinks": [{"name": "Marauders", "id": "8167-531a-22f0-d21f", "hidden": false, "primary": false, "targetId": "b66e-897e-2874-0011"}],
+            "constraints": [
+              {"id": "78cd-9f67-d78a-cb72-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "78cd-9f67-d78a-cb72-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}
+            ],
+            "costs": [{"name": "Points", "typeId": "78f2-651d-2f2e-98bf", "value": 0}, {"name": "Bases", "typeId": "4f83-a514-6b6a-5475", "value": 0}],
+            "infoLinks": [
+              {"name": "Barbarians", "id": "8d68-c653-ce9f-5a13", "hidden": false, "targetId": "bec9-1a93-ba58-5d60", "type": "profile"},
+              {"name": "Marauders", "id": "5f49-679a-fed4-a7b3", "hidden": false, "targetId": "ca33-aaa2-3aaa-7c33", "type": "rule"}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [{"childId": "fbbf-8c48-3cdb-dc2e", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 16}],
+                "modifiers": [
+                  {"field": "hidden", "type": "set", "value": false},
+                  {"field": "78cd-9f67-d78a-cb72-min", "type": "set", "value": 4},
+                  {"field": "78cd-9f67-d78a-cb72-max", "type": "set", "value": 4}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
