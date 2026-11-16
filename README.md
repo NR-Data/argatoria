@@ -1,46 +1,27 @@
-Argatoria Wargame
-=================
+# Argatoria (EN) data
 
-[![Latest release](https://img.shields.io/github/release/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/releases/latest)
-[![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/argatoria/latest.svg?style=flat-square)](https://github.com/BSData/argatoria/releases)
-[![Open bugs](https://img.shields.io/github/issues/BSData/argatoria/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/argatoria/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/graphs/contributors)
-[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/pulse/monthly)
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
+Army list data files for Argatoria (EN).
 
-## Important ##
+> **Community rehost.** These files were written by the community contributors listed below and were previously published at `github.com/BSData/argatoria`, which is no longer online. This copy keeps them available and open to updates.
+>
+> They are not made, maintained or endorsed by NewRecruit. Nobody here is affiliated with or endorsed by the publisher of Argatoria (EN). All game names and trademarks belong to their respective owners. You still need the official rules to play.
 
-Army composition rules work properly ONLY when you set a "Cost Limits" when creating a rooster!
+## Is this maintained?
 
-## I found a bug / I'd do something differently ##
+It is open for updates, not archived. It is kept up by whoever contributes to it, so check the commit history to see how current it is. Last data change before the rehost: 2026-09-09.
 
-* Drop me an email - you can find the address in the ReadMe file when you create a new army
-* [Open Issue directly][] (```New Issue```) - you need a GitHub account and then can track progress (get notifications on it!), comment (i.e. answer our questions) and help us better!
+## How to update it
 
-## I'd just like to contact you ##
+- **Pull request:** fork this repository, make your changes and open a pull request.
+- **Write access:** if you want to maintain this game, ask on the NewRecruit Discord: https://discord.gg/cCtqGbugwb
 
-Try Argatoria Discord and drop us a line on International #chat channel, you won't get an answer regarding these files on BattleScribe Discord
+## File format
 
-## Links ##
+The files are JSON, converted on 2026-11-16 from the original BattleScribe XML (`.cat`/`.gst`). The XML versions are in the git history before that commit.
 
-* [Spellcrow – Creators of Argatoria Wargame][Spellcrow]
-* [Spellcrow Community Group][Spellcrow Community Group]
-* [Argatoria Discord][Argatoria Discord]
-* [BattleScribe homepage][BattleScribe homepage]
-* [BattleScribe Data on Appspot][]
-* [Getting Started wiki][]
+## Authors
 
-[Spellcrow]: https://www.spellcrow.com/
-[Spellcrow Community Group]: https://www.facebook.com/groups/155087831991825/
-[Argatoria Discord]: https://discord.com/channels/1085186335234600980/
-[BattleScribe homepage]: https://battlescribe.net/
-[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
-[Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started
+From the git history of the data files:
 
-[Open Issue directly]: https://github.com/BSData/argatoria/issues
-
-## Additional info ##
-
-Support creators by buying minis and books through their website linked above
-
-©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.
+- codedoneright-eu
+- Mateusz Adamczyk
